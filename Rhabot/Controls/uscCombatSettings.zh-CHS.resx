@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkDoPanic.Text" xml:space="preserve">
+    <value>Do Panic</value>
+  </data>
+  <data name="chkDoPanic.ToolTip" xml:space="preserve">
+    <value>When checked, your bot will check for Panic conditions and act accordingly (checks for too many mobs attacking bot and for health to be too low in combat)</value>
+  </data>
+  <data name="chkSpamRandom.Text" xml:space="preserve">
+    <value>Cast Combat Spam Spells Randomly</value>
+  </data>
+  <data name="chkSpamRandom.ToolTip" xml:space="preserve">
+    <value>When checked, combat spam spells are cast ranodmly (not in the order you enter them here). This can make your bot appear more human, although many people prefer a certain casting sequence</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Combat Spells and Actions</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Heal Percent</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Healing Spell</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Protection Spell</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Healing Over Time</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Combat DOT Spells</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Post Combat Spells</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Mana Spam %</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Combat Wait Time (ms)</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Downtime %</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Panic Threshold</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>For each list of spells/actions, put each spell/action to perform on a new line. Leave blank if you don't have/want a spell to cast. Rank is not needed.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Pre Combat Buff Spells</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Stop Attempts to Run Away Spell</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Combat Spam Spells</value>
+  </data>
+  <data name="lblPullSpell.Text" xml:space="preserve">
+    <value>Pull Spell</value>
+  </data>
+  <data name="txtCombatDOT.ToolTip" xml:space="preserve">
+    <value>List of DOT spells to cast during combat. These spells are cast once per attacker</value>
+  </data>
+  <data name="txtCombatSpam.ToolTip" xml:space="preserve">
+    <value>List of spells to cast during combat. This list is repeated continuously until combat is finished.</value>
+  </data>
+  <data name="txtCombatWait.ToolTip" xml:space="preserve">
+    <value>Time, in milliseconds, to wait before restarting combat loop. 0 for no wait. If you are a caster, like a mage or warlock, you might want to set the time lower. For tanks, such as warriors, you might want to set the time higher. 1000 = 1 second</value>
+  </data>
+  <data name="txtDowntime.ToolTip" xml:space="preserve">
+    <value>Percent at which mana or health must be before 'downtime' is used. Downtime causes the character to sit. Toon will eat/drink if food/water is available.</value>
+  </data>
+  <data name="txtHealingOverTime.ToolTip" xml:space="preserve">
+    <value>Set to the name of a healing over time spell (or healing stream totem).  Used when more than one mob attacks</value>
+  </data>
+  <data name="txtHealingSpell.ToolTip" xml:space="preserve">
+    <value>Spell to cast to heal yourself during combat</value>
+  </data>
+  <data name="txtHealPct.ToolTip" xml:space="preserve">
+    <value>Your toon will try to heal itself when health is at this percent</value>
+  </data>
+  <data name="txtManaSpam.ToolTip" xml:space="preserve">
+    <value>Use the spam spell list until mana reaches this percent</value>
+  </data>
+  <data name="txtPanicThreshold.ToolTip" xml:space="preserve">
+    <value>Run in panic when the number of attacking mobs is &gt;= this number</value>
+  </data>
+  <data name="txtPostCombatSpells.ToolTip" xml:space="preserve">
+    <value>List of spells to cast after combat is finished (before downtime and looting)</value>
+  </data>
+  <data name="txtPreCombatBuff.ToolTip" xml:space="preserve">
+    <value>List of spells to cast to buff your toon or otherwise prepare it before combat (before pulling)</value>
+  </data>
+  <data name="txtProtectionSpell.ToolTip" xml:space="preserve">
+    <value>Spell/action to use at the beginning of combat to protect yourself. Stoneskin Totem or Powerword Shield for example</value>
+  </data>
+  <data name="txtPullSpell.ToolTip" xml:space="preserve">
+    <value>Spell/action to use for pulling.</value>
+  </data>
+  <data name="txtStopRunAwayAttempt.ToolTip" xml:space="preserve">
+    <value>Spell to cast when a mob is attempting to run away from you</value>
+  </data>
+</root>

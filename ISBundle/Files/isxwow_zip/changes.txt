@@ -1,0 +1,1158 @@
+adadada 20071229
+* Added FollowAnyone command.  This allows you to auto-follow anyone ... friends, enemies, npcs, etc.
+
+adadada 2007128
+* Modified Me.Jumping slightly so that it will only be true if you're also not falling.
+* Added Me.Airborn which is true anytime you're airborn e.g. jumping, falling, knocked into the air by a knockback mob, etc.
+
+adadada 20071227
+* Fixed Me.Jumping and Me.Falling.
+
+crowley 20071221
+* Fixed gameobject.Usable and fishing bobbers
+* Fixed object:RightClick
+* Added string item.Placement (Bank,Inventory,Bags (equipped bags),Worn,Buyback,Unknown)
+* Added item.CollectCount
+
+adadada 20071214
+* Fixed wowpress sitorstand so it doesn't cause lua errors any more.
+
+adadada 20071209
+* Modified Item.Enchantments and Item.Enchantment so it now picks up all enchantments on the items properly.
+* Deprecated Item.RandomPropertyEnchantments and Item.RandomPropertyEnchantment.  You can get all of that through Item.Enchantment now.
+* Turned on ISXWoW tracking features.  Please note that this disables the new WoW 2.3.0 tracking features.  Still working on making them compatible.
+
+adadada 20071126
+* Added Unit.IsProfessionTrainer.  Please note that the profession trainer will be flagged as such if the player can use them for that profession.
+* Added Unit.Fleeing.  This returns TRUE when a unit is fleeing.  Haven't tried it on units that are feared yet.
+* Changed how Unit.Skinnable is calculated.  There shouldn't be any change in functionality, just less work to maintain it.
+
+crowley 20071115
+* WoW 2.3.0
+* unit.QuestStatus is now object.QuestStatus
+
+crowley 20071024
+* Added itemstats.Unique
+
+adadada 20070902
+* Added Unit.StandingStill, Unit.MovingForward, Unit.MovingBackward, Unit.StrafingLeft, Unit.StrafingRight, 
+  Unit.TurningLeft, and Unit.TurningRight.  Please note that this appears to be based on the character animation 
+  e.g. if you're standing still but on a moving zeplin then Me.StandingStill == TRUE.
+
+adadada 20070901
+* Added Item.RandomPropertyEnchantment[].  This is populated with the names of the item modifications from item 
+  suffixes e.g.  Gypsy Tunic of the Eagle is +2 Intellect and +2 Stamina ... so RandomPropertyEnchantment[1] == 
+  "+2 Intellect" and RandomPropertyEnchantment[2] == "+2 Stamina".
+* Added Item.RandomPropertyEnchantments.  This is a count of the number of enchantments applied by the item suffix.
+
+crowley 20070821
+* Added activeplayer.BindLocation
+* Added wowarea type, Area TLO
+* Added item.Soulbound
+
+crowley 20070711 - ISXWoW 2.1.3
+
+adadada 20070719
+* Added Unit.MovementRate - The current movement rate of the unit.  Note that this isn't the speed of the unit, only 
+  what speed they could be moving at.  For example, if the unit is stuck running into a wall then their movement rate 
+  is still the same as when they're running across open ground.
+
+adadada 20070701
+* Added Unit.Jumping - Indicates whether or not a unit is jumping.
+* Added Unit.Falling - Indicates whether or not a unit is falling.
+* Added Movement.Stuck_IgnoreJumps - This is the same as Movement.Stuck except that it's not reset by jumping.
+
+adadada 20070628
+* Added GameObject.Minable - Indicates whether or not a game object can be mined.
+
+adadada 20070627
+* Added Me.SkillMax[] - This will tell you your current max skill level for a skill.
+
+Crowley 20070619 - ISXWoW 2.1.2
+* Added itemstats activeplayer.Ammo (equip with Item:Use)
+
+Crowley 20070530 - ISXWoW 2.1.0-2
+* Fixed for late 2.1.0 patch
+* Fixed spell by name and rank
+
+adadada 20070528
+* Fixed -equiptype.  It was returning false positives.
+* Fixed -itemclass.  It was returning false positives.
+
+Crowley 20070526 - ISXWoW 2.1.0-1
+
+adadada 20070525
+* Added ISXwoW.LineOfSight( from_X, from_Y, from_Z, to_X, to_Y, to_Z ).  This allows you approximately determine if there's a line of sight between any 2 points.
+
+adadada 20070517
+* Added Object[-disabled].  This object search flag is valid for container and item searches and is true for all items/containers with Object.Disabled = TRUE.
+* Added Unit.InCombat. This functions exactly the same as Unit.Aggro but has a more intuitive name (Unit.Aggro actually indicates that the unit is in combat ... it returns true even if the unit is fleeing or stunned).
+* Added Unit[-incombat].  This functions exactly the same as Unit[-aggro] but has a more intuitive name.
+
+adadada 20070504
+* Added activeplayer.LineOfSightToPosition[X,Y,Z].  This returns a bool and allows you to determine if you have line of sight to an arbitrary point. 
+
+adadada 20070502
+* Modified Me.Altitude to be slightly more accurate around ledges.
+* Fixed a bug in ISXWoW.IsPathObstructedOCD that was causing false negatives.
+
+Crowley 20070501
+* Added Me.Quest[name]
+* Fixed disconnect crashes
+
+adadada 20070422
+* Optimized the code for ISXWoW.IsPathObstructedOCD should be approximately 50% faster.
+
+adadada 20070419
+* Modified ISXWoW.IsPathObstructedOCD so that it returns the point of obstruction or NULL.
+
+Crowley 20070418
+* Fixed Me.Equip[Wrists] for compatibility
+* Added to itemstats
+  MaxDamage[# 1-5]
+  MinDamage[# 1-5]
+  DamageType[# 1-5]
+  DPS[# 1-5]
+  MaxDamage - total
+  MinDamage - total
+  DPS - total
+* Added to item
+  FullName - includes random property name
+
+adadada 20070409
+* Fixed Me.Equip[Wrists] to be Me.Equip[Wrist] so it matches up with what's returned by ItemStats.EquipType.
+* Me.Height should be correctly returning the characters height.
+
+adadada 20070406
+* Fixed -usable for items.  ${Object[-usable]} should now function properly.  Previously it was always returning true.
+* Added -itemclass to the object search for items.  Usage is: -itemclass <blah> or -itemclass,<blah> 
+	where <blah> is anything returned by Item.Stats.Class i.e. Consumable, Armor, Weapon, etc.
+
+adadada 20070405
+* Added -equiptype to the object search for items.  Usage is: -equiptype <blah> or -equiptype,<blah> 
+	where <blah> is anything returned by Item.Stats.EquipType i.e. Feet, Back, Weapon (2H), etc.
+
+Crowley 20070403 - ISXWoW 2.0.12-1
+
+adadada 20070327
+* Removed annoying messages from ISXWoW.IsPathObstructedOCD.
+
+Crowley 20070326
+* Fixed quest object. activeplayer.Quest retrieves a wowquest object
+* Added to quest
+  AreaID
+  Elite
+  Dungeon
+  RewardMoney
+  RewardItems
+  RewardItem[#]
+  RewardItemCount[#]
+  RewardItemChoices
+  RewardItemChoice[#]
+  RewardItemChoiceCount[#]
+  RequiredMoney
+  RequiredSlaughters
+  RequiredSlaughter[#]
+  RequiredSlaughterCount[#]
+  CurrentSlaughterCount[#]
+  RequiredItems
+  RequiredItem[#]
+  RequiredItemCount[#]
+  TimeRemaining
+  PreviousQuestID
+  NextQuestID
+  PreviousQuest
+  NextQuest  
+* Added unit.NeedSlaughterCount
+
+adadada 20070323
+*Added activeplayer.FocusTarget.
+
+Crowley 20070320
+* Added item.Openable
+* Added -openable -notopenable for items
+* Added item.Spell[#] 1 through 5
+* Added item.SpellType[#] 1 through 5 (Use,Equip,Chance on hit)
+* Fixed bug with spell.Description
+
+Crowley 20070319
+* Fixed itemstats inheritance spam from item 
+* Added itemstats.EquipType (Chest, Finger, etc)
+
+Crowley 20070315
+* Fixed an IsPathObstructed false positive and false negative
+* Fixed WoWEcho command
+
+Crowley 20070306 - ISXWoW 2.0.10-1
+* Added activeplayer.InteractTarget (trade target, merchant, etc)
+* Added unit.Title (Banker, First Aid Trainer, etc)
+* Added -title to unit search. Next parameter is unit title to match
+* Removed all class trainer, tradeskill trainer search functionality, since it was not
+  working anyway
+* Added -trainer
+* Added unit.IsTrainer
+* Unit title now appears in object listing commands
+* spell.Description is now parsed. Instead of "Restores $s1 mana." the real value will be
+  given. 
+  ex. ${Item[minor healing potion].Spell.Description}
+* Added to itemstats
+  ItemLevel
+  MinLevel
+  BuyPrice
+  SellPrice
+  Armor
+  Delay
+  Set
+  SetID
+  StartsQuest
+  AttackPower
+  Health
+  Agility
+  Strength
+  Intellect
+  Spirit
+  Stamina
+  HolyResist
+  FireResist
+  NatureResist
+  FrostResist
+  ShadowResist
+  ArcaneResist
+
+Crowley 20070302 - ISXWoW 2.0.8-2
+* Added unit.Altitude
+* Fixed "face" spins
+* Added movement timing with millisecond resolution. Using the movement object or move command,
+  a parameter indicating the number of milliseconds may follow the parameter indicating the
+  movement direction to reverse the command (stop or go)
+  ex. move forward 30
+  or  Movement:Go[forward,30]
+  For your protection, any value less than 20ms will be changed to 20ms.
+
+adadada 20070226
+* Added face -timed.  This allows you to specify a time in milliseconds over which to execute the turn.
+  Face <-stop> | [-fast | -timed <milliseconds>] <[-heading <heading>] | [<X> <Y>]>
+
+Crowley 20070225
+* activeplayer type now implements container, which fixes object persistence
+  with bag 0
+* Added event WoW:Lua Reset()
+
+adadada 20070225
+* Added Unit.BoundingRadius - This should give you the bounding radius for collision purposes. Not 
+  sure if it's entirely accurate though.
+
+adadada 20070223
+* Fixed the following search criteria so that they can be used without
+  specifying -gameobjects:
+  -door, -button, -questgiver, -chest, -Binder, -generic, -trap, -chair, 
+  -spellfocus, -Text, -Goober, -Transport, -AreaDamage, -Camera, -WorldObj, 
+  -MapObjTransport, -DuelArbiter, -FishingNode, -Ritual, -Mailbox, -AuctionHouse, 
+  -spellcaster, -meetingstone, -flagstand, -fishinghole, -flagdrop, -minigame
+
+Crowley 20070220
+* Fixed object persistence for isxwow, group, minimaptrack and movement
+
+Crowley 20070215 - ISXWoW 2.0.8
+
+Crowley 20070213 - ISXWoW 2.0.7
+* Removed "FoodWater" filter that incorrectly filtered many quest-related
+  objects from minimap tracking
+* Fixed guidlist.Object crash
+* Added internal frame locking for special .NET APIs
+
+adadada 20070212
+* Added channelled spells to Unit.Casting
+
+Crowley 20070131 - ISXWoW 2.0.6-2
+* ISXDK 29f
+
+adadada 20070129
+* Fixed Unit.FactionGroup
+* Fixed Unit.CreatureType
+* Added Unit.Attackable
+* Added Player or Unit[-attackable]
+* Added Player or Unit[-notattackable]
+* Added Unit[-horde]
+* Added Unit[-alliance]
+* Added Unit[-nofaction]
+
+Crowley 20070126
+* Fixed item search crashing during login process
+
+Crowley 20070124
+* Fixed object.Custom. object.Custom is a collection of strings.
+
+Crowley 20070123 - ISXWoW 2.0.6-1
+* Implemented object persistence for the following types:
+  * wowdb
+  * spell
+  * item,unit,player,activeplayer,gameobject,dynamicobject,corpse,container
+  * isxwow
+  * group
+  * minimaptrack
+  * movement
+* Added UnitOrPlayer[object search]
+
+Crowley 20070119
+* Added additional character races
+
+adadada 20070119 
+* Fixed Object[-nonpvp]
+* Added ISXWoW.IsPathObstructedOCD[]x1,y1,z1,x2,y2,z2]
+
+Crowley 20070115 - ISXWoW 2.0.5-1
+* Fixed action:Use
+
+Crowley 20070112 - ISXWoW 2.0.4-1
+* Updated for the patch
+
+Crowley 20070111
+* Added action spell.Action
+* Added action activeplayer.Action[-spellid,#]
+
+Crowley 20070110
+* Fixed lua injection issue that would cause ISXWoWData is nil errors
+* Added event WoW:Lua(string code). Called before every Lua execution from ISXWoW including
+  ISXWoW.NET, LavishScript, and internally. When a lot of UI memory is used this will help
+  find ways to use less Lua calls.
+  Example:
+    atom LuaObserver(string code)
+    {
+  	  echo WoWScript executing ${code}
+    }
+    function main()
+    {
+      LavishScript:RegisterEvent[WoW:Lua]
+      Event[WoW:Lua]:AttachAtom[LuaObserver]
+      while 1
+       waitframe
+    }
+  
+
+Crowley 20070109 - ISXWoW 2.0.3-2
+* Lots of patch bug fixes, keep reporting any problems
+
+Crowley 20070109 - ISXWoW 2.0.3-1
+* WoWScript no longer treats single empty string results the same as nil
+
+Crowley 20070107 - ISXWoW 2.0.1-9
+* Added bool WoWScript[-index,index:string object,lua]
+* Fixed WoWScript bugs
+* Fixed buff.Spell
+
+Crowley 20070104 - ISXWoW 2.0.1-8
+* Added uint activeplayer.Spells - number of spells in player spellbook
+* Added uint activeplayer.Spells[-pet] - number of spells in pet spellbook
+* Added spell Spell[-book,#] - Spell by spellbook index (1 through activeplayer.Spells)
+* Added spell Spell[-pet,#] - Pet spell, by spellbook index
+* Fixed spell type related crashes
+* Fixed buff:Remove
+
+Crowley 20061228 - ISXWoW 2.0.1-7
+* Added string spell.Mechanic
+* Added string spell.Effect ("Restores $/5;s1 health per second.")
+* Added string spell.Description ("Restores $o1 health over $d.  Must remain seated while eating.")
+* Added string itemstats.Text
+* Added uint itemstats.MaxStackCount
+* Added string itemstats.Skill
+* Added string itemstats.SkillLevel
+* Added -skill <name> for items
+* Many locale fixes
+* Fixed isxwow:ClickTerrain
+* Added isxwow:Face -- an advanced replacement for the face command
+* Fixed isxwow.ClickedTerrainLocation
+* Replaced the IsPathObstructed algorithm. The old algorithm used 5 collision tests between you
+  and the target at varying height, using the slope of the 5 tests like sonar to check for 
+  obstructions, and 20 additional checks for the world Z to find cliffs. The new algorithm steps 
+  toward the target with 4 collision tests per step and also uses a small width. This also
+  enables IsPathObstructed to see over hills. Size of step depends on the distance to the target.
+  The new algorithm is also much slower because of additional checks.
+* Added point3f isxwow.IsPathObstructed -- gives approximate location of obstacle and allows 
+  additional configuration
+* Fixed unit.Swimming
+
+Crowley 20061216
+* Fixed action.Usable cooldown check
+
+Crowley 20061214 ISXWoW 2.0.1-6
+* Fixed -tappedbyme
+* Added -untappedbyme
+* Fixed item locked checking
+
+Crowley 20061210 - ISXWoW 2.0.1-5
+* fixed crashes introduced in 2.0.1-4
+
+Crowley 20061210 - ISXWoW 2.0.1-4
+* unit.Buff crashes fixed
+* Me.Casting fixed
+* Group crashes fixed
+* Spell[Name,rank] fixed
+* Added object.Next
+
+Crowley 20061209 - ISXWoW 2.0.1-3
+* Me.Corpse fixed
+
+Crowley 20061209 - ISXWoW 2.0.1-2
+* Lua protection is disabled again. This fixes WoWPress and other functionality
+
+Crowley 20061209 - ISXWoW 2.0.1-1
+* Updated for WoW 2.0.1
+* action.Usable now accepts a GUID parameter for range checking, defaulting to the current target
+* added uint spell.Rank
+* added string isxwow.Version -- currently 2.0.1-1. Left side of - is WoW version, right side is
+  ISXWoW release number for the WoW version
+* Added bootstrapped API libraries ISXWoW.WoWDB and ISXWoW.Objects
+* ISXWoW.NET.dll is now included in the ISXWoW installer distribution
+
+Crowley 20061026
+* bool item.Locked
+* bool item.Soulbound
+* -locked and -unlocked now work with items and containers
+* Fixed WoWScript[lua,0] such that nils are NULLs
+
+Crowley 20061015
+* Update for WoW 1.12.2
+
+Crowley 20061009
+* Attempted fix for non-English text
+* Fixed spell.Mana and spell.Power
+* Added ISXWoW:ClickTerrain[x,y,z]
+
+Crowley 20060926
+* Update for WoW 1.12.1
+
+maytricksmath 20060925
+* add -pvp -nonpvp -soulbound -notsoulbound -packs
+* IsPathObstructed now look for hole
+* item search flags now apply to container
+* fix face spin
+* add face -stop
+
+maytricksmath 20060804
+* add movement Movement
+* fix action:Use
+* add event "WoW:Object Added"(objectref Obj)
+* add event "WoW:Object Removed"(objectref Obj)
+* add object.Avoid
+* add object.Custom
+* add -avoid, -notavoid, -willhelp <guid>, -origin <x,y,z>
+* guidlist.Object now use real object type
+* fix -inventory, -bank
+
+maytricksmath 20060711
+* wow 1.11.2
+* fix item search
+
+maytricksmath 20060629
+* wow 1.11.1
+* add action.Active
+* add isxwow.ZoneText
+* add isxwow.RealZoneText
+* add isxwow.SubZoneText
+* add isxwow.MinimapZoneText
+
+maytricksmath 20060621b
+* patch fixes
+
+maytricksmath 20060621
+* update wow 1.11.0
+* add activeplayer.Key[#]
+
+maytricksmath 20060617
+* fix face crash 4 tehtsuo?
+
+maytricksmath 20060613
+* fix activeplayer.Target (bootyjuice)
+
+maytricksmath 20060612
+* add activeplayer.Target (bootyjuice)
+* fix Face miscalc (bootyjuice)
+* real fix face/target bug
+* add game obj types flag stand, fishing hole, flag drop, mini game
+* add -flagstand, -fishinghole, -flagdrop, -minigame
+* add track fishinghole (default off)
+* add track flagdrop (default on)
+* add minimaptrack.GameObject_FishingHole
+* add minimaptrack.GameObject_FlagDrop
+* fix -nearest use with ${Object} ${Unit} ${Player} ${GameObject}
+
+maytricksmath 20060608
+* fix face/target bug
+* add unit.Swimming
+* add -swimming -notswimming search
+
+maytricksmath 20060524
+* fix activeplayer.Action (bootyjuice)
+  Me.Action[heal] = heal
+  Me.Action[heali] = healing potion
+
+maytricksmath 20060516
+* fix objectref.Object
+* fix objectref.GUID
+* fix activeplayer.Action
+* add isxwow:ManualTurn[yaw rate,pitch rate]
+
+maytricksmath 20060426
+* fix isxwow.CollisionTest
+* add unit.IsPathObstructed[to x,to y,to z,within,from x,from y,from z]
+
+maytricksmath 20060418
+* add object:ClickTerrain
+* add isxwow.ClickedTerrainLocation
+* add point3f isxwow.CollisionTest[x,y,z,x,y,z]
+* fix login crash
+* add unit.Height
+* add object.LineOfSight
+* add -dynamicobjects search
+* add -lineofsight search
+* add -classtrainer search
+* add -tradeskilltrainer search
+* add object.Location
+* add unit.IsPathObstructed[x,y,z,within]
+* add dynamicobject type
+  unit Caster
+  spell Spell
+  float Radius
+* Object tlo now give real object type
+* objectref.Object now give real object type
+* Minimap track now use atom ISXWoW_CanTrack first
+  This=wow object
+  return 1=red 2=green 3=yellow 4=blue 0=no blip
+* add unit.CanGossip, IsClassTrainer, IsMerchant, IsTaxiMaster,	IsTradeskillTrainer, IsSpiritHealer,
+  IsInnkeeper, IsBanker, IsAuctioneer, IsStableMaster, CanRepair
+* add activeplayer.Talent[name]
+   
+maytricksmath 20060404
+* fix unit quest info
+* fix unit.Casting
+* fix unit.AttackingUnit
+* add map type
+  int map.ID
+  string map.Name
+* add Map TLO
+  map Map[#]
+  map Map   current map
+
+maytricksmath 20060329
+* fix for wow 1.10
+
+maytricksmath 20060319
+* fix action.Usable spam
+* fix action:Use
+
+maytricksmath 20060214
+* afk timer update
+* add isxwow.TimeToAFK
+* add isxwow.TimeToAFKLogout
+* add isxwow.IdleTime
+* add isxwow:ResetIdle
+
+maytricksmath 20060202
+* fix Turn command remove
+* add objectref data type
+* fix afk timer offset
+* fix client db count
+
+maytricksmath 20060109
+* isxwow now require isxwarden load isxwarden not isxwow
+* isxwarden keep isxwow safe from warden thx lax 4 help. when not safe isxwarden make
+  message and stop wow
+
+maytricksmath 20060106
+* fix activeplayer.CurrentHPs
+* fix action.Usable
+
+maytricksmath 20060105
+* fix lua inject crash "Invalid function pointer"
+
+maytricksmath 20060104
+* fix for wow 1.9.0
+
+maytricksmath 20051211b
+* antiafk removed instead all action perform set input timer
+
+maytricksmath 20051211
+* add network wowspam
+* add lavish script events 4 wow events parameters eventid eventname then event parameter
+  example:
+   atom OnChannelMessage(int EventID, string EventName, string Message, string From, string Something, string Channel)
+   {
+       echo ${Channel} <${From}> ${Message}
+   }
+   
+   function main()
+   {      
+      LavishScript:RegisterEvent[CHAT_MSG_CHANNEL]
+      Event[CHAT_MSG_CHANNEL]:AttachAtom[OnChannelMessage]
+   
+      while 1
+      {
+         waitframe
+      }
+   }
+   
+   function atexit()
+   {
+      Event[CHAT_MSG_CHANNEL]:DetachAtom[OnChannelMessage]
+   }
+* add lavish script events 4 packets name "Send:opname" & "Recv:opname" like "Send:MSG_MOVE_JUMP" list in
+  Net.h parameters opcode opname, This=message (binary)
+  example:
+   atom OnSitChanged(int opcode, string opname)
+   {
+      if ${This.Byte[1]}
+         echo I SIT
+      else
+         echo I STAND
+   }
+   
+   function main()
+   {   
+      LavishScript:RegisterEvent[Send:MSG_SIT]
+      Event[Send:MSG_SIT]:AttachAtom[OnSitChanged]
+   
+      while 1
+      {
+         waitframe
+      }
+   }
+   
+   function atexit()
+   {
+      Event[Send:MSG_SIT]:DetachAtom[OnSitChanged]
+   }  
+
+fippy 20051210
+* Made Radar read font colour and size from XML
+* Reduced blipsize to 8 from 12
+* Removed auto blip size scaling.
+* Fixed all depreciated functions
+* Made some changes for VS 2005 compatability
+* Add some Event checking in order to remove any UI dependencies.
+	activeplayer.InCombat now gets set according to the event the wow ui uses rather than read from the UI itself.
+	activeplayer.Casting now gets set according to the event the wow ui uses rather than read from the UI itself.
+* Added activeplayer.HoldingBreath becomes true when the Breath guage is displayed.
+* Added activeplayer.AutoFollowing becomes true if you are autofollowing somebody.
+
+maytricksmath 20051206
+* wow 1.8.4
+
+maytricksmath 20051117
+* fix server name space end
+* fix action usable range
+
+maytricksmath 20051115
+* wow 1.8.3
+
+maytricksmath 20051114b
+* mouse ok while face
+* work for both 1.8.1 and 1.8.2
+
+maytricksmath 20051114
+* redone face natural like mouse
+* face fast not instant nemore just fast
+
+maytricksmath 20051026
+* fix item inherit
+
+maytricksmath 20051025d
+* fix face
+
+maytricksmath 20051025b
+* add WoWDB tlo (WoW_Addict)
+
+maytricksmath 20051025
+* fix lua gc
+* fix -zfilter
+* face now face fast auto if facing close direction
+* face fast now safe not spam
+* headings now smooth
+* add high stealth
+* fix timing for canloot and other
+* fix -targetingme
+* add -not
+* add activeplayer.GlobalCooldown
+* add item.RandomName (msmith)
+* add item.PctDurability
+* add activeplayer.DurabilityLoss
+* add activeplayer.PctDurability
+* action.Usable now check range
+* fix inherit for isxdk
+* fix for utf 8 thx lax
+
+maytricksmath 20051013
+* remove sum more lua
+* add -door -button -questgiver -chest -binder -generic -trap -chair -spellfocus
+      -text -goober -transport -areadamage -camera -worldobj -mapobjtransport
+      -duelarbiter -fishingnode -ritual -mailbox -auctionhouse -spellcaster
+      -meetingstone
+* add -nocritters -beast -dragonkin -demon -elemental -giant -undead -humanoid 
+      -critter -mechanical
+* add -targetingme -stealth
+* add -zfilter #
+* add universl unit.CurrentPower unit.MaxPower unit.PctPower unit.Power
+* add isxwow.RealmName
+* seperate player local coordinate
+* add action.Usable
+* add unit.Stealth
+* add object.Distance[guid]
+* -friendly -nonfriendly -hostile -nonhostile now work player
+* radar 2 (pvp) now default -nonfriendly
+* script work background without lock foreground
+
+maytricksmath 20051011b
+* fix spell
+
+maytricksmath 20051011
+* fix buff.Application
+* -flying -notflying -mounted -unmounted now work players
+
+maytricksmath 20051008
+* revert -aggro
+* fix .Casting
+
+maytricksmath 20051007
+* add for item -worn -bank -inventory -buyback
+* add unit.AttackingUnit
+* -aggro now ATTACKING ME only
+* add action type {ID,Type,Name,FullID,Slot,AutoRepeat,Cooldown}
+* add activeplayer.Action[# or name]
+* add activeplayer.AutoRepeat
+* fix cooldowns
+* fix castspell -list
+* fix backword pet spell player spell
+
+maytricksmath 20051006
+* add unit.Faction
+* fix unit.IsTotem
+* remove sum lua
+* fix local client
+
+jackalo 20051006
+* finished implementing 'Turn'
+** Can be used with or without -fast
+
+jackalo 20051005
+* added 'Turn' command
+
+bootyjuice 20050928
+* added Spell.DispelType
+* Modified WoWDB to properly display string columns
+* Added ISXWoW.AntiAfk as per WoW_Addicts code
+* Modified Spell.Cooldown to use only times provided by WoW, just for you sparr
+
+maytricksmath 20050914
+* fix # chat
+* add TLO Track
+* add minimaptrack type 
+
+maytricksmath 20050913c
+* fix data alignmint
+
+maytricksmath 20050913b
+* fix data alignmint
+
+maytricksmath 20050913
+* WoW 1.7
+* ISXDK 20
+* fix unit.Casting exists
+* fix Spell[#] exists
+* spell stuff work with pet
+
+maytricksmath 20050909
+* add unit.Mount
+* add unit.CreatureType
+* add unit.Flying
+* add -flying, -notflying, -mounted, -notmounted
+* default radars -notflying
+* group.Member no longer use GetPartyMember
+* fix language spells
+* add buff.Harmful
+* add buff.Passive
+* add buff.Helpful
+
+maytricksmath 20050903
+* ISXDK 18a
+* fix unit.PctMana, unit.PctRage, unit.PctEnery, unit.PctHappiness
+* add activeplayer.ComboPoints
+* fix player inherit
+* add unit.Sitting
+* add gameobject.Locked ONLY TRUE IF SKILL 2 LOW OR NOT HAVE ITEM
+* add -unlocked, -locked for gameobjects
+* add unit.Casting GIVE SPELL!
+
+maytricksmath 20050820
+* ISXDK 16a
+* add enchantment type
+* add item.Enchantment[#]
+* add item.Enchantment[name]
+* add item.Enchantments
+* add spell.Cooldown 0 if ready
+* add unit.Owner - totems and pets!!!
+* add unit.Mine - totems and pets!!!
+* add -owner, -notowner for units
+
+maytricksmath 20050811
+* add memory protect service
+
+maytricksmath 20050801
+* fix face when turn left
+* fix missing SpellTarget
+* fix spell.CastTime
+* fix spell.RecoveryTime
+* fix unit.Classification
+* add Translate command when enable all language readable
+* new radar from forum
+* fix buff:Remove
+* add buff:Index
+* change AntiAFK
+* add -lootable
+* add -nofaction
+
+maytricksmath 20050714a
+* fix item use
+* enable lot of disabled script function
+* wowpress for movement, action button work
+* add object:RightClick
+
+maytricksmath 20050714
+* fix looting
+* add lootwindow.Quality
+* lootwindow.Rarity now use colors. 1=junk (BobTest)
+* add itemstats.Rarity
+* add IdealBlips to radar
+* fix spell.Mana
+* fix spell.Power
+* -usable now apply to items
+* -rare now apply to items
+* add -junk, -common, -uncommon, -epic, -legendary, -artifact, -rarity #-#
+* fix objects display for items
+* fix itemstats.SubType
+* add buff:Remove
+
+maytricksmath 20050713a
+* fix face (slow)
+
+maytricksmath 20050713
+* fix unit.PctHappiness, unit.CurrentHappiness, unit.MaxHappiness
+* fix spell crash
+* fix target crash
+* add Move command. wowpress movement no longer work
+
+maytricksmath 20050712
+* fix for patch 1.6.0
+* fix unit:IsDead
+* fix object:Heading
+* fix error message call global nil value
+
+maytricksmath 20050708c
+* add player.Ghost
+* add activeplayer.Corpse
+* fix sqrt compile error
+
+maytricksmath 20050708
+* add -merchant, -nonmerchant, -repair, -auctioneer, -innkeeper, -banker, -griffonmaster
+* add unit.Pet
+* add wowradar ISUI
+* start chat with # to do is command from wow
+* enable LootSlot Lua
+* lootall cmd now use LootSlot
+* add lootwindow type
+* add LootWindow TLO
+* item:Use work for equipped items
+* add item.Slot
+* add item:PickUp
+* add cursoritem type
+* add CursorItem TLO
+* add spell:Cast
+* Spell TLO with no rank now give highest level of spell
+* CastSpell cmd now accept spell id
+* add unit.Target
+
+maytricksmath 20050630
+* fix missing Objects command did not mean to remove it
+
+maytricksmath 20050629
+* fix wowscript stuffs
+
+maytricksmath 20050628
+* fix crash problem loading isxwow at startup
+
+maytricksmath 20050626
+* remove Objects -keep
+* guidlist type variables work
+* add guidlist:Search[search]
+* add guidlist:Clear
+* -alive in object search now not overwrite -health
+
+maytricksmath 20050614
+* fix for patch
+
+maytricksmath 20050607
+* fix activeplayer.CurrentRage
+* fix activeplayer.MaxRage
+
+maytricksmath 20050524
+* add search options -range # and -range #-#
+
+maytricksmath 20050521
+* add on|off switch to Track
+* add command Skills
+* add activeplayer.Skill[ID]
+* add activeplayer.Skill[name]
+* track herb and mine now auto depending on herbalism and mining
+
+maytricksmath 20050519
+* fix isxwow-ingame (bob_the_builder)
+
+maytricksmath 20050518
+* fix object search option -nearest
+* add object search options -aggro, -nonaggro
+* add unit.Aggro
+* add unit:SpellTarget
+* add command SpellTarget
+* fix activeplayer.Casting
+* activeplayer.Dead
+* add unit.CanCooperate[guid]
+
+maytricksmath 20050516
+* remove redundant -headingfast use face -fast -heading
+* add object:FaceFast
+* add object search options for players:
+  -alliance
+  -horde
+* add data types
+  itemstats
+  quest
+* item inherits itemstats
+* add activeplayer.Quest[#]
+
+maytricksmath 20050514
+* add track filters
+  FoodWater (default off)
+  Quest (default on)
+  - QuestAvailable (default on) - not including trivial
+  - QuestSoon (default off)
+  - QuestComplete (default on)
+  - QuestIncomplete (default off)
+* add unit.CreatureType
+* add unit.FactionGroup
+  Alliance,Horde
+* add unit.Guild
+* add unit.GuildRank
+* add unit.PVP
+* add unit.QuestStatus 
+  NONE,COMPLETE,INCOMPLETE,INCOMPLETE-REPEATABLE,AVAILABLE-NOW,AVAILABLE-LATER,AVAILABLE-REPEATABLE
+* add unit:Assist
+* add player:Follow
+* add object search options for units:
+  -quest (all quest statuses)
+  -questavailable
+  -questcomplete
+  -questincomplete
+
+maytricksmath 20050513
+* antiafk command (oid)
+* logout command (oid)
+* activeplayer.WillCollide[degrees,x,y,radius] (oid + fippy)
+* activeplayer.InCombat (fippy)
+* activeplayer.FilledInventorySlots
+* activeplayer.EmptyInventorySlots
+* activeplayer.TotalInventorySlots
+* container.FilledSlots
+* container.EmptySlots
+* spell.Duration
+* spell.Level
+* spell.Mana
+* spell.Power
+* spell.CastTime
+* spell.RecoveryTime
+* Spell TLO
+  spell Spell[name] - known spells and abilities only
+  spell Spell[name,rank] - known spells and abilities only
+  spell Spell[ID]
+* add WoWSpam command to spam chat log or WoW script events to console
+* add WoW script event triggers, work like
+  [Event:8:UPDATE_SELECTED_CHARACTER](3)
+  and for ones without parameters
+  [Event:7:CHARACTER_LIST_UPDATE]
+  parameters are seperated with commas
+  
+  suggested usage:
+  AddTrigger MyTrigger "[Event:8:UPDATE_SELECTED_CHARACTER](@params@)"
+  function MyTrigger(string Line, string Parameters)
+  {
+  ; ones with commas:
+    echo ${Arg[2,${Parameters}]}
+  ; ones with only one parameter:
+    echo ${Parameters}
+  }
+* add WoWEvents command to list availible wow script events there are diff events
+  at login and in game
+* add language definitions in ISXWoW.h uncomment your language you may have to fix
+  the .h file for it i only did french and english
+
+maytricksmath 20050505
+* add command LootAll takes no params (dev_ill)
+* fix chatlog bug (fippy)
+* add autoexec ISXWoW-ingame.iss and .ice (fippy)
+* add autoexec ISXWoW-autoexec.iss and .ice
+* update for wow 1.4.2 build 4375
+
+maytricksmath 20050504
+* add spell type
+* add buff type
+* add unit.Buff[#]
+* castspell command now
+  CastSpell <name> [rank]
+
+maytricksmath 20050503b
+* fix for patch
+* fix skinning stuff
+* WoW version detection
+
+maytricksmath 20050503
+* fix warning in WoWClasses.cpp
+
+oid 20050502-d
+* Fixed a screw up I made in CMD_Face
+
+maytricksmath 20050502
+* fix wording of oid
+* fixed enums
+* add happiness stuffs to unit type
+* items work in use command
+* item:Use now works
+* add command:
+  CastSpell <name>
+* add lua functions to WoW:
+  ISData(string) - get's data result like ${Me}
+  ISCommand(string) - execute command
+* add unit.Skinnable
+* add -skinnable to object search
+* fix -tapped in object search
+
+oid 20050502-b
+* added "face -heading" and "face -headingfast"
+* changed -fast to do a quick turnkey press, will not interfere with movement, and does not change the heading
+
+oid 20050502
+* added a quick movement keypress to face -fast to update heading to server, Fippy's code.
+
+oid 20050430
+* added object.Distance
+* fixed ${Item[Name].Bag.Item[n]} for container 0
+* re-added Coinage and RestExp members
+
+maytricksmath 20050422
+* happy friday here is update for patch
+
+maytricksmath 20050404
+* triggers work for chat but its what goes in the chatlog_player.txt isxwow 
+   makes just without a timestamp
+  log looks like: "[timestamp][18][LocalDefense - wherever] YOU_LEFT"
+  trigger would be: "[18][LocalDefense - @WHERE@] YOU_LEFT"
+  the [18] part is the message type number like [14] is chat on a /# channel and
+   [27] is you hitting something you just have to figure it out from the log file
+* add -fast to Face command
+* add container type
+* add some item fields
+* add activeplayer.Bag
+* add Item tlo
+* activeplayer.Equip dont do bags now, use activeplayer.Bag
+* added activeplayer.Equip[slot name] uses these names
+     "head",        "neck",     "shoulders",    "shirt",    "chest",    "waist",	
+     "legs",        "feet",     "wrists",       "hands",    "finger1",  "finger2",	
+     "trinket1",    "trinket2", "back",         "mainhand", "offhand",  "ranged",
+     "tabard"
+* fixed field lists (use dumpfields to generate enums each patch)
+* add item alias "objects -items"
+
+maytricksmath 20050327
+* add Group tlo and group data type
+* add unit.Tapped, unit.TappedByMe
+* add -tapped, -untapped to search
+
+maytricksmath 20050322
+* fix for patch
+
+maytricksmath 20050311
+* fixed Objects tlo that was not added oops
+* fixed GUIDList datatype that was also not added oops again
+
+maytricksmath 20050308
+* -keep for Objects command for persistent searches
+* -alive for search, does same as -health 1
+* guidlist type and Objects tlo
+  ${Objects.Count} ${Objects.GUID[#]} ${Objects.Object[#]}
+* vs6 fixes
+* unit.ReactionLevel
+* -hostile, -nonhostile, -neutral, -friendly, -nonfriendly for searching
+* unit reaction display in unit list
+
+maytricksmath 20050223
+* unit members Dead Lootable CanLoot
+* search option -canloot
+
+maytricksmath 20050222c
+* updated field enums for patch
+
+don'tdoit and Oid 20050222b
+* updated for today's patch
+
+maytricksmath 20050222
+* fixed corpse stuff
+* target command
+* GetGUIDFromName hooked to take guids and not just specific words like player or target
+
+maytricksmath 20050219
+* fixed for new isxdk
+* unit classifications
+* lots of datatype members
+* WoWMouseTo command like normal mouseto but for WoW UI that is backwards for Y
+
+don'tdoit 20050215
+* updated for 20050215 WoW patch
+* removed via comments the AddTextEmoteMessage detour/trampoline, since the patch borked it.
+
+maytricksmath 20050211
+* fixed WoWScript TLO
+
+maytricksmath 20050207
+* fixed for new isxdk
+* fixed wowscript command
+
+maytricksmath 20050131
+* WoWEcho command
+* WoWScript command
+* WoWPoint command
+* updated face command
+* WillCollide[x,y,radius] and others added to activeplayer
+* Facing added to isxwow type
+* string WoWScript[code] or WoWScript[code,#] TLO
+
+maytricksmath 20050123
+* fixed crash in clientdb
+* track colors
+* using now memory service
+* Use command
+
+maytricksmath 20050109
+* chat stuff
+* gamestate
+* WoWPress command
+* face command
+* changed nodelay so that it is automatically done when entering game
+
+maytricksmath 20050108
+* fixed object names. Game Objects were Dynamic before but that was wrong
+* nodelay alias executes "script QUEST_FADING_ENABLE = nil", this turns off quest
+  fading in so quests are instant
+* added some datatype members
+* added object field enumerations
+* added class functions to grab specific fields from objects
+* added function access to ConsoleExecute and ConsoleWrite
+* WoW console now filters to the IS console
+* WoWConsole command executes a WoW console command
+* started playing with mapfilter kind of stuff for the minimap

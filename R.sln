@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Snippets", "Code Snippets", "{77A05126-02C5-49AE-A83E-6148F6B2182C}"
+	ProjectSection(FolderStartupServices) = postProject
+		{B4F97281-0DBD-4835-9ED8-7DFB966E87FF} = {B4F97281-0DBD-4835-9ED8-7DFB966E87FF}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auctions", "Auctions", "{8262A14B-63D3-4740-B785-C39D381EABEA}"
+	ProjectSection(SolutionItems) = preProject
+		CodeSnippets\Auctions\clsAuction.cs = CodeSnippets\Auctions\clsAuction.cs
+		CodeSnippets\Auctions\clsAuctionItem.cs = CodeSnippets\Auctions\clsAuctionItem.cs
+	EndProjectSection
+	ProjectSection(FolderStartupServices) = postProject
+		{B4F97281-0DBD-4835-9ED8-7DFB966E87FF} = {B4F97281-0DBD-4835-9ED8-7DFB966E87FF}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quests", "Quests", "{AB08E94A-8BB2-4C5D-9252-9F0D98BD774E}"
+	ProjectSection(SolutionItems) = preProject
+		CodeSnippets\Quests\Form1.cs = CodeSnippets\Quests\Form1.cs
+		CodeSnippets\Quests\Form1.designer.cs = CodeSnippets\Quests\Form1.designer.cs
+		CodeSnippets\Quests\Form1.resx = CodeSnippets\Quests\Form1.resx
+	EndProjectSection
+	ProjectSection(FolderStartupServices) = postProject
+		{B4F97281-0DBD-4835-9ED8-7DFB966E87FF} = {B4F97281-0DBD-4835-9ED8-7DFB966E87FF}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{38788F4D-3B5F-4937-A4A8-A1F3E0C238E4}"
+	ProjectSection(SolutionItems) = preProject
+		CodeSnippets\Tutorials\Beta Invite.txt = CodeSnippets\Tutorials\Beta Invite.txt
+		CodeSnippets\Tutorials\clsLogin.cs = CodeSnippets\Tutorials\clsLogin.cs
+		CodeSnippets\Tutorials\Issues.txt = CodeSnippets\Tutorials\Issues.txt
+		CodeSnippets\Tutorials\TextFile1.txt = CodeSnippets\Tutorials\TextFile1.txt
+	EndProjectSection
+	ProjectSection(FolderStartupServices) = postProject
+		{B4F97281-0DBD-4835-9ED8-7DFB966E87FF} = {B4F97281-0DBD-4835-9ED8-7DFB966E87FF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhabot", "Rhabot\Rhabot.csproj", "{9E20ACE4-CD78-4A3B-9BCD-B7755D81C615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISXCombat", "ISXCombat\ISXCombat.csproj", "{0C586B53-167B-44D9-8CC9-BAAA70CF3E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISXRhabotGlobal", "ISXRhabotGlobal\ISXRhabotGlobal.csproj", "{A5B27D4A-C5D4-4DAB-8AF6-E04994164E8B}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = ISXCombat\\ISXCombat.csproj
+		SccProjectName0 = \u0022$/C#\u0020Projects/2008/Projects/Rhabot/ISXCombat\u0022,\u0020CNBAAAAA
+		SccLocalPath0 = ISXCombat
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName1 = ISXRhabotGlobal\\ISXRhabotGlobal.csproj
+		SccProjectName1 = \u0022$/C#\u0020Projects/2008/Projects/Rhabot/ISXRhabotGlobal\u0022,\u0020KNBAAAAA
+		SccLocalPath1 = ISXRhabotGlobal
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName2 = Rhabot\\Rhabot.csproj
+		SccProjectName2 = \u0022$/C#\u0020Projects/2008/Projects/Rhabot/Rhabot\u0022,\u0020SNBAAAAA
+		SccLocalPath2 = Rhabot
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E20ACE4-CD78-4A3B-9BCD-B7755D81C615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E20ACE4-CD78-4A3B-9BCD-B7755D81C615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E20ACE4-CD78-4A3B-9BCD-B7755D81C615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E20ACE4-CD78-4A3B-9BCD-B7755D81C615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C586B53-167B-44D9-8CC9-BAAA70CF3E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C586B53-167B-44D9-8CC9-BAAA70CF3E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C586B53-167B-44D9-8CC9-BAAA70CF3E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C586B53-167B-44D9-8CC9-BAAA70CF3E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B27D4A-C5D4-4DAB-8AF6-E04994164E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B27D4A-C5D4-4DAB-8AF6-E04994164E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B27D4A-C5D4-4DAB-8AF6-E04994164E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B27D4A-C5D4-4DAB-8AF6-E04994164E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8262A14B-63D3-4740-B785-C39D381EABEA} = {77A05126-02C5-49AE-A83E-6148F6B2182C}
+		{AB08E94A-8BB2-4C5D-9252-9F0D98BD774E} = {77A05126-02C5-49AE-A83E-6148F6B2182C}
+		{38788F4D-3B5F-4937-A4A8-A1F3E0C238E4} = {77A05126-02C5-49AE-A83E-6148F6B2182C}
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+EndGlobal

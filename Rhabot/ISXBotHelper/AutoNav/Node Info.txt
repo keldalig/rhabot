@@ -1,0 +1,58 @@
+When in Main block, process each node individually
+Process sub blocks after the parent node has been processed (for example, go to vendor before buying)
+If Main block complete finishes (with no Condition), then raise an error and stone home
+run each node/block in MoveThroughBlock
+If a block has 
+
+Unless a fight option exists in the block, target search should be 20 yards of character's location only,
+to prevent aggro
+
+
+- Main Block
+	- go to vendor X in Y city
+		- Purchase X of Y item
+	- go to Flightmaster X in Y city
+		- take flight X to Y
+	- go to Trainer X in city Y
+	- take boat X to Y
+	- run rhabot path (run a specific path name from the level path file)
+	- go to innkeeper X in city Y
+		- make this inn your home
+	- stone home		
+	- go to repair vendor X in city Y
+		- Purchase X of Y item
+	- go to mailbox in city X (mails items automatically)
+	- speak to person X at Y
+		- choose gossip option X
+	- go to questgiver X in Y city
+		- pick up Quest X (after at Questgiver)
+		- turn in Quest X (after at Questgiver)
+	- go to XYZ
+		- use item X (in bag)
+		- pickup object X at Y
+		- path is flyable
+	- Fish XYZ  (or find fishing node?)
+		- until X time expired  (X = minutes)
+		- OR until X of Y item in bag
+
+- Sub Block
+	- fight mobs in zone X (fights mobs in your zone that are within level range)
+	- fight mobs in zone X named Y (fights named mobs only)
+	- fight elite mobs in zone X (fights elite mobs)
+	- fight elite mobs in zone X named Y (fights elite mobs with this name)
+	- hunt for herbs in region X
+	- hunt for mines in region X
+	- hunt for chests in region X
+	- pickup object X at Y (main block, also)
+	- this path can be flown (use the flight face/move)			
+	- return to vendor when X item is Y quantity (restarts block if activated) (must have purchase X of Y)
+		- Purchase X of Y item
+	- use item X
+	- go to XYZ
+
+- Conditions (all AND's must be met, or any OR)
+	- continue until character is level X (exclusive)
+	- continue until bags full (or)
+	- continue until durability at X percent (or)
+	- continue until X of Y item in bag (and)
+	- continue until X of Y mob killed (and)

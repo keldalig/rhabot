@@ -1,0 +1,111 @@
+Add notes to AN gui
+
+On corpse run, after running graveyard path, does not pick up hunt start path, but tries to run directly to corpse point
+
+reset free accounts when autonav beta is ready
+
+Wang told me this...  encoding="GB2312"   not  UTF-8   Maybe this will help fix the garbling of Chinese.
+
+Scheduler - http://www.isxwow.net/forums/viewtopic.php?f=42&t=2006&hilit=&sid=8e1b2a093e4397fb956123b0ece17d53&view=unread#unread
+
+
+(warlock) http://forum.rhabot.com/Default.aspx?g=posts&t=55
+
+(warlock) need an option in the class area to specifiy to use Health Funnel to heal pet and what level to start to heal
+
+(warlock) On the combat tab the program is not advancing past the Pull Spell box. I put Shadow Bolt in that box and had several things in the combat spam box. All that would happen is it started spaming shadow bolt. So I changed it to imoliate in the pull box and shadow bolt in the combat spam and all that was done in combat was imoliate over and over again and never threw one shadow bolt. I know you are getting sick of all my posts but I just want to let you know what i'm seeing.
+
+Quests - http://www.wowplotter.com/
+
+
+AutoNav
+	- get list of loot from strep's db (and which mobs they drop off)
+	- for private use only (me, strep?)
+		- add to autonav, Farm for Item X
+
+
+
+Chinese Characters are Garbled . 
+
+
+BG Bot
+
+
+Chinese
+	new mysite pages for UBG
+	
+
+	InnerSpace profile (plus batch file), to run IS, WoW, Rhabot
+		- http://www.isxwow.net/forums/viewtopic.php?f=15&t=1963&hilit=&view=unread#unread
+		
+		
+
+
+To add after new nav system
+	- Trainer (code snippets)
+	- AH bot (code snippets
+		- http://www.isxwow.net/forums/ucp.php?i=pm&mode=view&f=0&p=1242
+	- Flight/Boat paths
+		- http://www.isxwow.net/forums/viewtopic.php?f=23&t=602&hilit
+
+	
+
+
+	For Beta 2:
+		move Start/Stop functions to a public class. If we call Stop, it should raise the event AND close the float form
+			- needs to use invoke to close form
+		ability to logout and back in
+		SushiBot - run to mailbox when bags full, then return to water (for autonav only)
+		
+		Allow the users to list "always attack" mob names, and "always ignore" mob
+			names in a list, allowing for wildcards ( or make the user use RegEx, except then
+			you'll have to support that on the forums - or just tell them you don't support
+			RegEx and they need to debug their own RegEx ).
+			So, I may have the app configured to not attack mobs under level 30, but if I have
+			"*snapjaw" on my "always attack" list, and a level 24 "Rabid Snapjaw" paths near, I'll still attack it.  
+			Same for the ignore list.  
+		
+		party bot
+			
+		Pre-built Quests, 1-70
+			- http://www.isxwow.net/forums/ucp.php?i=pm&mode=view&f=0&p=2228
+
+		autonav - check TODO's
+		autonav - top level items
+
+		AH Bot
+			- on price compare, let user determine date range
+			- remove all items
+			- remove items older than X days
+			- scan and save
+				- save individual price (not full stack price)
+			- sell items in bag
+				- let user set markup price (X% of avg, can be less than 0)
+			- run to mailbox
+				- get all items
+			- run from mailbox to auctioneer
+			- do keep alive (moveforward/backward so we don't afk)
+			- buy items that meet criteria
+				- all of name (set by user, can have multiple instances)
+				- all with sell profit of X% (all items that can be resold at x% or more profit)
+				- monopoly (get all of an item, mark up to X% or X price)
+				- make sure to convert saved individual price to the stack price being considered
+				
+		Party Bot
+		
+		BG Bot
+		
+		
+
+BUILD NOTES:
+	- Set to RELEASE mode
+	- CHECK ALL TODO'S
+	- CHECK ALL BETA'S
+	- Update clsSettings.BotVersion version number
+	- Update AssemblyInfo.cs (ALL projects) version
+	- Update version number in rhabot_service.web.config
+	- Update version number in Setup. Accept changing patch guid
+	- comment create new account in login form
+		- mark ISXCreateUser as NONE for Build Action
+	- BUILD in Release Mode
+	- OBFUSCATE ****

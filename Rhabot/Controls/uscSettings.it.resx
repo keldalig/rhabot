@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkChatter.Text" xml:space="preserve">
+    <value>Chatter AI</value>
+  </data>
+  <data name="chkChatter.ToolTip" xml:space="preserve">
+    <value>Segna questo per usare il bot Chatter (risponde ai whispers e say)</value>
+  </data>
+  <data name="chkDeclineDuel.Text" xml:space="preserve">
+    <value>Declina inviti ai duel</value>
+  </data>
+  <data name="chkDeclineDuel.ToolTip" xml:space="preserve">
+    <value>Settaggio globale - Quando segnato declina automaticamente i duelli</value>
+  </data>
+  <data name="chkDeclineGroup.Text" xml:space="preserve">
+    <value>Declina inviti a gruppi</value>
+  </data>
+  <data name="chkDeclineGroup.ToolTip" xml:space="preserve">
+    <value>Settaggio globale - Quando segnato declina automaticamente inviti a gruppi</value>
+  </data>
+  <data name="chkDeclineGuild.Text" xml:space="preserve">
+    <value>Declina inviti a gilde</value>
+  </data>
+  <data name="chkDeclineGuild.ToolTip" xml:space="preserve">
+    <value>Settaggio globale - Quando segnato declina automaticamente inviti a gilde</value>
+  </data>
+  <data name="chkFlower.Text" xml:space="preserve">
+    <value>Herbalism</value>
+  </data>
+  <data name="chkHumanCheck.Text" xml:space="preserve">
+    <value>Human Check</value>
+  </data>
+  <data name="chkHumanCheck.ToolTip" xml:space="preserve">
+    <value>Human checking.Quando un giocatore è incontrato più di una volta dopo 5 minuti,il tuo personaggio farà una emote automatica</value>
+  </data>
+  <data name="chkLogoutStuck.Text" xml:space="preserve">
+    <value>Logout se "stuck"</value>
+  </data>
+  <data name="chkLogoutStuck.ToolTip" xml:space="preserve">
+    <value>Global Setting - Slogga se rimarrete incastrati cercando prima di usare la stone</value>
+  </data>
+  <data name="chkMiner.Text" xml:space="preserve">
+    <value>Minatore</value>
+  </data>
+  <data name="chkRogue.Text" xml:space="preserve">
+    <value>Rogue</value>
+  </data>
+  <data name="chkSearchChest.Text" xml:space="preserve">
+    <value>Trova Chest</value>
+  </data>
+  <data name="chkSkinner.Text" xml:space="preserve">
+    <value>Skinner</value>
+  </data>
+  <data name="chkTargetElites.Text" xml:space="preserve">
+    <value>Uccidi Elite</value>
+  </data>
+  <data name="chkTargetElites.ToolTip" xml:space="preserve">
+    <value>Segna per targettare mob elite</value>
+  </data>
+  <data name="chkUnattended.Text" xml:space="preserve">
+    <value>Non presidiato</value>
+  </data>
+  <data name="chkUnattended.ToolTip" xml:space="preserve">
+    <value>Se segnate questa opzione andrete in modalità non presidiata.Il cambiamento sarà istantaneo senza cliccare sul pulsante applica</value>
+  </data>
+  <data name="cmdApplySettings.Text" xml:space="preserve">
+    <value>Applica settaggi</value>
+  </data>
+  <data name="cmdApplySettings.ToolTip" xml:space="preserve">
+    <value>Applica i settaggi nella sezione settaggi di Rhabot.I settaggi sono salvati su disco</value>
+  </data>
+  <data name="cmdBrowseChatter.Text" xml:space="preserve">
+    <value>Cerca Script AI</value>
+  </data>
+  <data name="grpBotControl.Text" xml:space="preserve">
+    <value>Settaggi Rhabot</value>
+  </data>
+  <data name="grpChatter.Text" xml:space="preserve">
+    <value>Chatter AI</value>
+  </data>
+  <data name="grpDecline.Text" xml:space="preserve">
+    <value>Declina - Settaggi Globali</value>
+  </data>
+  <data name="grpSearch.Text" xml:space="preserve">
+    <value>Settaggi Ricerca</value>
+  </data>
+  <data name="grpStuck.Text" xml:space="preserve">
+    <value>Stuck Settings - Settaggi Globali</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Low Attack</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Livello inizio</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Livello fine</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>High Attack</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Range ricerca</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Stuck Timeout (in secondi)</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Range Target</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Slogga dopo X minuti:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Percentuale durability</value>
+  </data>
+  <data name="txtDurability.ToolTip" xml:space="preserve">
+    <value>Quando uno o più item raggiungono questa percentuale di durability Rhabot andrà verso il repair/vendor</value>
+  </data>
+  <data name="txtEndLevel.ToolTip" xml:space="preserve">
+    <value>Livello finale per questi settaggi.</value>
+  </data>
+  <data name="txtHighAttack.ToolTip" xml:space="preserve">
+    <value>Numero di livelli sopra il vostro da attaccare.Se ad esempio siete lvl 20 e settate 5 il vostro personaggio attaccherà i mob fino al lvl 25</value>
+  </data>
+  <data name="txtLogoutTime.ToolTip" xml:space="preserve">
+    <value>Usa la stone automaticamente e slogga dopo X minuti</value>
+  </data>
+  <data name="txtLowAttack.ToolTip" xml:space="preserve">
+    <value>Numero di livelli sotto il vostro da attaccare.Se ad esempio siete lvl 20 e settate 5 il vostro personaggio attaccherà i mob dal lvl 15</value>
+  </data>
+  <data name="txtSearchRange.ToolTip" xml:space="preserve">
+    <value>Numero di yard fuori dal path per cercare mob/erbe/chest</value>
+  </data>
+  <data name="txtStartLevel.ToolTip" xml:space="preserve">
+    <value>Livello di start per questi settaggi.</value>
+  </data>
+  <data name="txtStuckTimeout.ToolTip" xml:space="preserve">
+    <value>Settaggi globali - Tempo in secondi per lo stuck check.Tempo in secondi che il vostro personaggio passa incastrato prima di dare errore.</value>
+  </data>
+  <data name="txtTargetRange.ToolTip" xml:space="preserve">
+    <value>Distanza in yard dal mob per iniziare il pull</value>
+  </data>
+</root>

@@ -1,0 +1,37 @@
+10/1/2008 9:56:59 AM  -  Rhabot version: 167
+
+10/1/2008 9:56:59 AM  -  Loading Rhabot Global Settings from: F:\Visual C#.NET 2005\Projects\Rhabot\Rhabot\bin\Release\RSettings.xml
+
+10/1/2008 9:57:31 AM  -  Login: Logging into Rhabot
+
+10/1/2008 9:57:51 AM  -  Login: Rhabot login failed
+
+10/1/2008 9:58:38 AM  -  Login: Logging into Rhabot
+
+10/1/2008 9:58:57 AM  -  Login: Your free trial of Rhabot has expired. You will need to purchase a subscription to have access to all of Rhabot's features. You will now be logged in as a standard free user.
+
+10/1/2008 9:58:57 AM  -  Saving Rhabot Global Settings to: F:\Visual C#.NET 2005\Projects\Rhabot\Rhabot\bin\Release\RSettings.xml
+
+10/1/2008 9:58:57 AM  -  Login: Rhabot login successful
+
+10/1/2008 9:58:58 AM  -  GUIDUpdate: Disconnected from server. Shutting down
+
+10/1/2008 9:59:00 AM  -  ERROR - PopGeneralPathList 
+				System.NullReferenceException: Object reference not set to an instance of an object.
+   at Rhabot.uscMain.PopGeneralPathList() in F:\Visual C#.NET 2005\Projects\Rhabot\Rhabot\Controls\uscMain.cs:line 660
+
+10/1/2008 9:59:00 AM  -  ERROR - uscMain 
+				System.NullReferenceException: Object reference not set to an instance of an object.
+   at Rhabot.uscMain.PopSettingsList() in F:\Visual C#.NET 2005\Projects\Rhabot\Rhabot\Controls\uscMain.cs:line 152
+
+10/1/2008 9:59:01 AM  -  ERROR - GUIDUpdate 
+				System.Exception: Rhabot is shutting down because it could not validate your login with the Rhabot server. Please try logging into Rhabot again.
+
+10/1/2008 9:59:01 AM  -  Stop: Script Stop: True
+
+10/1/2008 9:59:04 AM  -  Stop: Script Stop: True
+
+10/1/2008 9:59:04 AM  -  AbortThreads: Killing Thread 'Show Error Display'. Thread Count = 2
+
+10/1/2008 9:59:04 AM  -  KillThread: Killing thread 'Show Error Display'
+

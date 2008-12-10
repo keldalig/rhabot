@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<profile>
+  <section name="VS_Toolbox">
+    <entry name="installvstoolbox">False</entry>
+  </section>
+  <section name="DB Install">
+    <entry name="dbinstall">False</entry>
+  </section>
+  <section name="VS.NET 2005 Addin">
+    <entry name="installaddin">False</entry>
+  </section>
+  <section name="File Associations">
+    <entry name="ConfigureAssociations">False</entry>
+  </section>
+  <section name="Run_Files">
+	<entry name="File1">%TargetDir%\Installer\Files\lavish.innerspace.exe</entry>
+    <entry name="File2">%TargetDir%\Installer\Files\isxwow.exe</entry>
+  </section>
+</profile>

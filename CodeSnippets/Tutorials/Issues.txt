@@ -1,0 +1,5 @@
+[b]Vista Directory Security[/b]
+[list][*]the Rhabot folder needs to be accessible by all users.[/list][list][*]Vista Home (maybe other versions also) prevents IS from accessing the new folder[/list][list][*] enable access to all users[list][*] right click folder[/list][list][*] left click properties[/list][list][*] click on Security tab[/list][list][*] click "Edit" button[/list][list][*] if "Everyone" is not in the list, click "Add" button[list][*] type "Everyone"[/list][list][*] click "Check Names"[/list][list][*] click "OK"[/list][/list][list][*] select "Everyone" from the list[/list][list][*] check "Allow" for the row "Full Control" (in the bottom list)[/list][list][*] click Apply[/list][list][*] click YES[/list][list][*] click OK[/list][list][*] click OK[/list][/list][list][*] More information: http://west-wind.com/WebLog/posts/4981.aspx[/list][/list]
+
+[b]Vista (Home) Run As Issue[/b]
+[list][*]Rhabot must run as administrator (because it connects to the Rhabot server)[/list][list][*]Follow these steps from Microsoft to set Rhabot.exe to run as Admin[list][*]http://support.microsoft.com/kb/931362[/list][/list]

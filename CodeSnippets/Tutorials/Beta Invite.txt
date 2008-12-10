@@ -1,0 +1,75 @@
+Hello. I am releasing Rhabot in a closed beta and I would like to invite you participate. Participating in the beta allows you to have access to the full version of Rhabot, for no charge, once Rhabot is released.
+
+
+[b]Please keep these things in mind:[/b]
+
+[list][*]Please do not share your username/password with anyone.[/list][list][*][u]This version of Rhabot has bugs.[/u] This is why I need your help. I've done as much as I can as quick as I can, but I know there are bugs still to be found.[/list][list][*]If you agree to test Rhabot, please use a separate account. I don't want to be responsible for you loosing a good account.[/list][list][*]Please send me progress reports of your testing. In order to have the full access once Rhabot is released, I'm asking all beta testers to send me at least 3 reports of their testing progress. Even a simple "Everything works great" is fine.[/list][list][*]When you encounter an error, screenshots and log files are my best friend. Please provide as much detail as possible if you have problems, so I can diagnose and fix it as quickly as possible.[/list]
+
+Also, please note that, currently, Rhabot does not change it's settings when your level changes. You will need to do this manually. I should have this working by next week. However, the talent tree does work when you level.
+
+
+[b]Error Logging[/b]
+I have set Rhabot to save a copy of errors to the Rhabot server. However, there are times when the errors can not be saved to the server. Because of this, it is important that I have a copy of the log files.
+
+Rhabot creates a folder in the installation directory called Logs. Every time you run Rhabot, a new log file is created. The files are called "Rhabot Date - Time.log", where Date is today's date, and Time is the time Rhabot was started. If you sort this folder by name, the newest log should be at the bottom of the list.
+
+
+[b]Debug Listener[/b]
+I'm including a program I wrote for debugging. I call it the Debug Listener. There are some events/actions that I do not put in the standard log file, but I will output for debugging. You can run the debug listener to get a more detailed list of events/actions that Rhabot is performing.
+
+[u]Please do not release the debug listener to anyone.[/u] This is for testing purposes only.
+
+To run the debug listener, click Start > Programs > Rhabot > Debug Listener. It runs [u]outside[/u] of WoW. It is an always-on-top window, so it will not be covered up by WoW or Rhabot. You can, however, minimize whenever you want.
+
+
+[b]MSN Chat[/b]
+Rhabot comes with MSN chat control. If you have two MSN accounts (one for Rhabot, and one for yourself), you can effectively monitor and control Rhabot remotely. 
+
+In order to set this up correctly, you will first need to log in to each account in MSN messenger. Add the other account as a friend. You must do this for both accounts (they must both be in the other's friend list, and must be able to see each other as online).
+
+Run Rhabot, load your settings file. Click the Communications tab, enter your Rhabot MSN username/password and click Save. [u]IMPORTANT[/u]: You must click save! When you are ready for Rhabot to connect to MSN, check the "Use MSN" checkbox. This will connect Rhabot to MSN.
+
+To control Rhabot, you need to log in via MSN messenger. NOTE: You can not log in via Trillian. Trillian does not broadcast it's online pressence correctly and Rhabot will not communicate with you.
+
+After you log in, Rhabot should see you are online within a few seconds. It will start a conversation with you, stating the version of Rhabot and the character name/class/level of the current toon. It will also send a long list of commands.
+
+All commands must start with "/". Commands are not case-sensitive.
+
+To see the list of available commands, type "/help"
+
+
+[b]Download[/b]
+You can download the beta of Rhabot at: http://www.merlinaisoft.com/rhabot/rhabot_beta.exe 
+
+It will default to install to "%Program Files%\InnerSpace\.NET Programs". 
+
+
+[b]Running Rhabot[/b]
+To run Rhabot, open your IS console (after your toon is loaded). Type (without quotes): "dotnet rhabot rhabot\rhabt"
+
+I have had some problems running rhabot using this command, though. I've been told it should work, but on both my XP and Vista machines, I get an error that "%Program Files%\World of Warcraft\Rhabot\Rhabot.exe" could not be found. If you have this error, change how you load Rhabot by typing: dotnet rhabot "path_to_rhabot\rhabot.exe", where path_to_rhabot is the full path to Rhabot (default is "c:\program files\innerspace\.NET programs\rhabot\rhabot.exe".
+
+
+[b]Routines[/b]
+Rhabot comes with a prebuilt, flexible combat routine. I built it around a shaman, but it should work for all classes. However, it does not have support for pets.
+
+I created a skeleton routine to make it easy for you: http://www.isxwow.net/forums/viewtopic.php?f=15&t=1002&p=8991&#p8991[/quote]
+
+
+[b]Logging In[/b]
+Rhabot requires a login for beta and subscription users. 
+
+When I have posted an update to Rhabot, you will receive a message after login asking if you want to download the latest version. If you click Yes, Rhabot will automatically download the new version for you. But, you must run the install yourself.
+
+Your login is:
+username: 
+password: 
+
+You can change your password at: http://www.merlinaisoft.com/rhabot/ChangePassword.aspx
+
+[b]Email[/b]
+You can reach me by email at: rhabot@merlinaisoft.com.
+
+
+Thank you,
+spry981

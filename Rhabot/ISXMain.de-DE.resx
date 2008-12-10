@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="loggingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Logging</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="mnuActionPlanManage.Text" xml:space="preserve">
+    <value>Action Plan Management</value>
+  </data>
+  <data name="mnuAutoBuff.Text" xml:space="preserve">
+    <value>AutoBuff</value>
+  </data>
+  <data name="mnuAutoEquip.Text" xml:space="preserve">
+    <value>Auto Equip</value>
+  </data>
+  <data name="mnuAutoNav.Text" xml:space="preserve">
+    <value>AutoNav</value>
+  </data>
+  <data name="mnuChangeLog.Text" xml:space="preserve">
+    <value>Rhabot Change Log</value>
+  </data>
+  <data name="mnuCharStatus.Text" xml:space="preserve">
+    <value>Character Status</value>
+  </data>
+  <data name="mnuCharStatus.ToolTipText" xml:space="preserve">
+    <value>See your character status screen</value>
+  </data>
+  <data name="mnuChatLog.Text" xml:space="preserve">
+    <value>Chat Log</value>
+  </data>
+  <data name="mnuChatter.Text" xml:space="preserve">
+    <value>Chatter</value>
+  </data>
+  <data name="mnuCombatClass.Text" xml:space="preserve">
+    <value>Combat Class</value>
+  </data>
+  <data name="mnuCombatSettings.Text" xml:space="preserve">
+    <value>Combat Settings</value>
+  </data>
+  <data name="mnuCommunication.Text" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="mnuHealBot.Text" xml:space="preserve">
+    <value>HealBot</value>
+  </data>
+  <data name="mnuInventory.Text" xml:space="preserve">
+    <value>Inventory Management</value>
+  </data>
+  <data name="mnuLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="mnuMain.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="mnuNewIndivPath.Text" xml:space="preserve">
+    <value>New Individual Path</value>
+  </data>
+  <data name="mnuPanels.Text" xml:space="preserve">
+    <value>Panels</value>
+  </data>
+  <data name="mnuPathMng.Text" xml:space="preserve">
+    <value>Path Management</value>
+  </data>
+  <data name="mnuSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="mnuSettingsUploadWiz.Text" xml:space="preserve">
+    <value>Settings Upload Wizard</value>
+  </data>
+  <data name="mnuSettingsUploadWiz.ToolTipText" xml:space="preserve">
+    <value>Uploads Path and Settings Files to the Rhabot Server</value>
+  </data>
+  <data name="mnuTalents.Text" xml:space="preserve">
+    <value>Talents</value>
+  </data>
+  <data name="mnuUploadLastFiveLogs.Text" xml:space="preserve">
+    <value>Upload Last 5 Logs for inspection</value>
+  </data>
+  <data name="mnuUploadLastFiveLogs.ToolTipText" xml:space="preserve">
+    <value>Uploads the last five log files for inspection by the Rhabot team. This should only be used if you encounter a serious error or someone from the Rhabot team asks you to upload the log files.</value>
+  </data>
+  <data name="mnuWebsite.Text" xml:space="preserve">
+    <value>Rhabot Website</value>
+  </data>
+  <data name="pathsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="rhabotDocumentationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rhabot Documentation</value>
+  </data>
+  <data name="rhabotExpireToolStripMenuItem.Text" xml:space="preserve">
+    <value>Subscription Renews On</value>
+  </data>
+  <data name="rhabotQuickStartToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rhabot Quick Start</value>
+  </data>
+  <data name="rhabotVersionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rhabot Version</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="tabAutoBuff.Text" xml:space="preserve">
+    <value>AutoBuff</value>
+  </data>
+  <data name="tabAutoEquip.Text" xml:space="preserve">
+    <value>Auto Equip</value>
+  </data>
+  <data name="tabAutoNav.Text" xml:space="preserve">
+    <value>Auto Navigation</value>
+  </data>
+  <data name="tabChatLog.Text" xml:space="preserve">
+    <value>Chat Log</value>
+  </data>
+  <data name="tabChatter.Text" xml:space="preserve">
+    <value>Chatter</value>
+  </data>
+  <data name="tabCombatClass.Text" xml:space="preserve">
+    <value>Combat Class</value>
+  </data>
+  <data name="tabCombatSettings.Text" xml:space="preserve">
+    <value>Combat Settings</value>
+  </data>
+  <data name="tabCommunication.Text" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="tabHealBot.Text" xml:space="preserve">
+    <value>HealBot Settings</value>
+  </data>
+  <data name="tabInventory.Text" xml:space="preserve">
+    <value>Inventory Management</value>
+  </data>
+  <data name="tabLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="tabMain.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="tabPath.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="tabSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="tabSettigns.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="tabTalents.Text" xml:space="preserve">
+    <value>Talents</value>
+  </data>
+</root>

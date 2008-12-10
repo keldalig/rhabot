@@ -1,0 +1,71 @@
+http://www.ismods.com/wiki/index.php/ISXWoW:Object_Search
+
+-gameobjects = finds objects. I believe you must use this for finding chests, herbs, mines (and maybe even hostile units)
+
+-chest = find chests
+
+-usable = find things that are usable by you
+
+-unlocked = find chests that are not locked
+
+-nearest = find the nearest items (??)
+
+-range X-Y = find objects within X and Y yards(?) from you
+
+-mine = find mines
+
+-herb = find herbs
+
+-units = find units (NPC's, hostile mobs', etc)
+
+-levels X-Y = find units/objects from level X to level Y
+
+-nopets = do not find pets (I think this ONLY means controllable pets, not decorative pets)
+
+-nocritters = do not find critters (who wants to attack a bunny, anyway?)
+
+-noelite = do not find elites
+
+-alive = find only living units
+
+-untapped = find only units that no one is targeting
+
+-nonfriendly = find hostile units
+
+-lineofsight = find things you can directly see (not blocked by walls/trees)
+
+-players = find players
+
+-targetingme = find units targeting me
+
+-aggro = find units that have me in their aggro list (they are trying to kill me)
+
+-origin X-Y = find objects centered around X,Y (instead of being centered around you)
+
+-guid GUID = find objects with the matching GUID
+
+-notflying = I THINK this applies only to players who are not mounted on flying mounts
+
+-notifying = ??
+
+-pvp = find pvp flagged players (MIGHT also find opposing non-flagged players if they can be attacked, like on pvp servers)
+
+-inventory = find items in bags / bank (send item name as second param to find specific item)
+
+-food = find food
+
+-drink = find drink
+
+-uncommon = uncommon items
+
+-common = common items
+
+-rare = rare items
+
+-epic = epic items
+
+-poor = poor items
+
+-notsoulbound = items not soulbound
+
+-soulbound = items that are soulbound

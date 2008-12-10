@@ -1,0 +1,548 @@
+166
+	- For AutoNav, added checking for bags full and low durability
+	- Fixed an issue for hunters when calling pets - error code: [string "Lua-7732"]:1: unexpected symbol near '/'
+	- AutoNav production release
+	- Add Quest support for AutoNav (BETA)
+
+165
+	- made looting less restrictive. will attempt to loot all mobs you have killed
+	- fixed logging messages to be more descriptive
+	- added "Sharpened Fishing Hooks" to SushiBot
+	- added drinking "Captain Rumsey's Lager" to SushiBot
+
+162
+	- added Darkwood Fishing Pole to SushiBot
+
+160
+	- fixed an issue where default profiles were raising an error on bot start
+	- released AutoNav combat beta
+	
+159
+	- updated ApplyWeaponBuff (mostly used for Shamans and Rogues) to use the LUA API to check if a buff already exists on the weapon
+	- fixed an issue where, during looting, if the toon gained aggro, the lootable corpse would not be re-looted. 
+	- change max value for Low Attack and High Attack on settings panel to be 69. You can now target mobs up to 69 levels below/above your current level
+	- added ability to delete paths. Go the Paths panel. In the list of available paths, check the path(s) you want to delete, then click the "Deleted Checked Paths" button
+	- added check for holding breath during movement and combat. If holding breath, attempts three jumps, which should help keep us near the water's surface
+	- added Debuff Poison/Curse/Disease to class combat panel. added checking for (and removal of) debuffs during combat
+	- fixed an issue which was causing some free users to loose their unique id
+	- added the ability to remotely monitor the status of your toon(s). Go to the Settings panel, check "Character Status", then go to http://char.rhabot.com to see the status. Info is updated every 60 seconds
+	- added accepting the confirmation dialog when AutoEquip attempts to equip a non-souldbound BOE item
+	- added "Test" button to communications panel. clicking this button sends a test email to all emails in your communication list
+	- added checkbox to Settings panel "Email on Death". Checking this will send an email (and MSN message) to everyone in your communication list when the toon dies
+	- fixed an issue where AutoBuff was not saving properly
+	- added checking for (and targeting) hostile mobs around object (chest/mine/herb) before looting
+	- when doing corpse run, added check if the last used path runs near the graveyard, to use the last path instead of running the graveyard path. This should shorten corpse runs, and make your toon appear more human
+	- added healing in post combat (spells/bandages, no potions)
+
+158
+	- for Druid combat, added removing of shapeshift buff (Cat, Bear, etc) before casting heal. After heal is cast, shapeshift is reapplied
+	- added attempting a Jump, if stuck. Most obstacles which cause a toon to get stuck can be jumped over. The jump appears more natural. If the jump fails to get the toon unstuck, the standard stuck routine begins
+	- updated collision testing to be more accurate when finding a collision
+	- added Priest combat routine (Priests were previously using the generic routine)
+	- added Default Profiles for: Druid, Warlock, Shaman, Mage, and Shadow Priest
+	- updated "Run General Path" to not initiate combat. RGP now will only enter combat on aggro
+	- updated Inventory Manager to not remove the colored checkbox checks before Save is clicked
+	- fixed issue where bot would not mine/herb/loot chests under certain circumstances
+
+157
+	- added "Seth's Graphite Fishing Pole" to sushibot
+	- updated the main panel to show the "Refresh Paths" button when "General Path Run" bot is selected
+	- fixed an error when saving hunter feed list
+	- updated path note fields to allow enter and tabs
+	- fixed an issue with looting where a unit which dies outside the loot search range would not be looted
+
+156
+	- added Drain Life to warlock combat routine
+	- added list of class spells in combat settings panel. You can now drag and drop from the list to each field on the panel
+	- fixed an issue where toon would ignore agro while running to chests/flowers/mines
+	- added checking for talent "Dark Pact" for warlocks, during combat. If the talent exists and mana is needed, "Dark Pact" will be cast
+	- added ability to Disable rendering and background rendering. These are options are on the bottom of the Settings panel
+	- fixed an issue where saving settings in a panel for a level range could overwrite settings of others panels in the same level range
+	- added Notes for Path Groups (allows you create a note for a group of paths)
+	- added Notes for Profile settings (allows you create a note for your profile settings)
+	- added sharing of profiles (all profiles are unshared by default)
+	- added sharing of paths (all paths are unshared by default)
+	- fixed an issue that was preventing "Run General Path" from loading the path correctly. "Run General Path" will now load a list of all paths which are not bot specific (ie, will not load Hunt, StartHunt, Mailbox). will load list of paths which you create using the "General Path" button
+
+154/155
+	- Added Glider Path Import
+	- fixed an issue for free accounts which was preventing loading profiles on second login
+	- fixed an issue on Chatter which prevented saving new chat templates
+
+153
+	- fixed issues on the rhabot server which were preventing logins
+	- updated isxwow/isxwarden references to 2.4.1
+
+151
+	- fixed error when trying to send email/msn message and the message is null
+	- added list of Paths (sorted by group) to the Paths tab. This allows you to see the list of paths you have already made
+	- updated distance for recording paths to better account for mounts and flying mounts
+	- updated speed of running path loop to monitor for closer points
+	- updated hunter combat to check if the pet is targetting our current target. if so, sends the pet to attack.
+	- updated AutoEquip to check if both items do not have the specified stat to compare items' armor instead
+	- updated pathing to handle shorter distance between points (for better accuracy)
+	- fix bug in running the return part (reverse) of a path. Returning on a path was setting the wrong point for start. Paths now run correctly in both directions
+
+
+148
+	- updated AutoBuff to force a stop (and hold) while buffs and heals are cast
+	- updated how paths are saved to the server. this change add better integrity checking and allows paths to have more features added to them in future.
+	- updated how global settings are saved to the server. this updates provides a faster and more secure method of loading and saving global settings and adds more integrity checking
+	- fixed an issue where free users were not able to load newly created settings
+	- fixed path not found errors
+
+146
+	- fixed create new settings error (new setting names were not being saved)
+
+145
+	- upgraded Rhabot to .NET Framework 3.5
+
+144
+	- Added Italian language files
+	- AutoNav Combat Bot - updated to build a new path after every level
+	- AutoNav Combat Bot - fixed corpse run routine
+	
+
+143
+	- AutoNav Combat Bot - Public Beta Released
+	- disabled settings upload wizard from display on Rhabot launch, for new users. This is only for existing Rhabot users who have not yet converted to the new Rhabot settings format
+	- updated obstacle avoidance to build longer/better paths around objects
+
+141
+	- removed the debug tool used on the Hunter combat routine.
+	- fixed wandering from path issue
+	- updated and enabled IPO
+	
+139
+	- fixed new path wizard error (trying to find non-existant settings file)
+
+138
+	- disabled IPO in move through path until I can find the problem.
+	- moved path/settings storage location to be on the rhabot server. this allows your paths and settings to follow you on each computer you login from
+	- fixed problem where the warlock routine box was not displaying on the combat routines panel
+
+137
+	- fixed IPO not pausing when user clicked Pause
+	- fixed issue where character would not release from body on death, in certain situations
+	- updated to allow 5 concurrent connections, instead of 5 wow accounts
+	- added warlock routine
+	- fixed corpse run and release issues
+
+136
+	- fixed a divide by zero error on the MonsterDead event. This error would occur sometimes when you first login to Rhabot with a new (level 0) character
+	- updated looting to handle frame locks better
+	- added a random delay before executing a Group/Guild/Duel decline
+	- added extra "dead check" to each combat routine's spam/dot cycle. The spam/dot cycle will now exit if the unit or the character is dead
+	- updated IPO to skip to next point on the path if can't build a path to the current point after 10 seconds
+	- updated IPO to have better precision on building paths. After days of testing, this seems to be working very reliably now
+	- updated combat - when target is closer than 3.5 yards, character backs up.
+	- update WoWBot path import to properly import paths that are out of sequence
+	- added Hunter combat routine
+	- added Reviving and Feeding of Hunter pets
+	- updated MountUp for Shamans, to test for Ghost Wolf buff before trying to reapply Ghost Wolf Buff
+	
+
+135
+	- AutoNav test #2 released to beta testers
+	- fixed IPO stuck problem. I created a 5 second timer. If a path is not found, the bot will move to a random nearby location and try once more (again for 5 seconds). If nothing is found, STUCK is returned.
+
+134
+	- rebuilt with correct version of isxwow.net.dll
+	
+133
+	- fix an issue with WoWBot path importer, on certain edited wowbot paths (usually done with WoWPather)
+	- updated the target search to fail back to targetting hostiles after a vendor run. This was leaving the target to only search for hostiles (red's) and not unfriendlies (yellow & red)
+	- added new menu item to the Help menu: "Upload Last 5 Logs". Uploads the last five logs to the Rhabot server. This should only be used if someone on the Rhabot team asks you to upload your logs or you have a serious error.
+	- updated IPO (again). The problem that some people have experienced is that occassionally the bot will stop while processing an IPO. I found that this happens when too many possible points have been found in the dynamic path generator. I have limited the number of points that can be considered by the path generator.
+	
+132
+	- updated mage routine to only conjure food/water when no conjured food/water exists in bag
+	- add hooking of "You are facing the wrong way" event. When event is raised, Rhabot will face the unit and back up 10 yards (the combat routine will then move to the proper combat distance)
+	- added new spell to combat settings: "Stop Attempting to Run Away". This spell will be cast whenever the mob tries to run away from you in fear
+	- updated IPO fix to try to move to another location before giving up on IPO
+	- Added new menu to Help - "Rhabot Change Log"  (Loads the change log / version info for Rhabot)
+	- AutoNav Closed Beta 1 released
+	
+	
+131
+	- updated vendor run to return to vendor more quickly. Rhabot will still target mobs on the return path, though
+	- fixed problem with vendor run where rhabot would sometimes say it could not find the hunt path
+	- updated downtime routine to only eat if health is low, and only drink if mana is low. would previously eat and drink if either was low
+	- fixed a localization error on Combat Only routine. This was an incorrect id for the english/neutral language
+	- updated Dismount function to handle frame locks better
+	- improved bot start speed
+	- improved bot shutdown speed
+	- improved combat and movement frame locking. this should help improve fps
+	- added remember of last user login name
+	- added new menu to Help - "Subscription Renews on ". Displays if you are a subscriber; gives you the date the subscription will renew
+	- fixed an IPO error where rhabot will occassionally find a mob, mark the path as IPO, then do nothing. Rhabot should now continue moving past the mob
+
+130
+	- login bug fix
+
+127
+	- update Warrior Charge routine to not move close to unit before charging
+	- updated dismount function to not force a stop move command unless we are actually dismounting
+	- updated spell power cost function to better handle mixed power types (such as druids in shapeshift form)
+	- updated spell power cost function to return the proper value for rogues
+	- updated druid routine: added checkbox "Change to bear on multi aggro". changes to bear/direbear when mobs > 1
+	- removed explore searching and mapping
+	- added Mage routine
+
+126
+	- added a user validation system, which allows me to validate users before certain actions (such as loading autonav) are performed.
+
+
+125
+	- updated explore mapping to correct an issue where invalid items can sometimes be processed
+	- fixed the issue where classes without a class combat routine would default to using the shaman routine
+	- added Druid combat routine
+
+
+124
+	- added: Auto Equip Upgrade. You can now set up a list of rules that your character will use to decide if an item should be automatically equipped. Executes after looting, before disenchanting, and before vendoring
+	- fixed issue where paladin and warrior combat routines were trying to run the shaman routine
+	- fixed issue where non-mana users were reporting an incorrect cost for spells
+	- updated durability percent to load correctly from saved settings
+
+123
+	- changed how the explore files and setting files load/save. Know, you only need to have ONE folder of Rhabot. You can run multiple instances of Rhabot from the same folder.
+	- update warrior combat routine to save warrior settings correctly
+	- rhabot website moved to http://www.rhabot.com
+	- update general combat routine to use Wands. Wands will begin shooting after your mana percent is below the Mana Spam percent specified in combat settings
+	- fixed FindPath error. All new users since July 1 have been reset, so you can retry Rhabot without the error
+	
+	- Paladin Routine created
+		- casts 'Divine Shield' before doing panic run
+		- casts 'Hammer of Justice' when a monster is casting a spell
+		- casts Seal 1 > Judgement > Seal 2 on monster (when monster does not have Seal 1 buff)
+		- casts 'Consecrate' and 'Avenger's Shield' on aggro (if you check it in settings)
+		- In Combat Settings, you need to specify
+			- Heal Spell
+			- Heal Over Time Spell
+			- Buffs (aura, blessings, and holy shield go here)
+			- DOT's and Spam Spells will probably be empty
+
+122
+	- Improved IsPathObstructed function to build a path around the obstacle using a modified form of A* (A Star)
+	- updated WoWBot path import to sort the path points in the correct direction (was previously sorting in reverse direction)
+	- updated durability settings saving
+	- changed the frequency of facing when moving through a path
+	- updated CastSpell for characters that have Rage. Seems isxwow returns Rage * 10 (http://www.isxwow.net/forums/viewtopic.php?f=17&t=830&hilit=)
+	- added a check to heal the toon after a panic run is successfully completed
+	- added menus (with shortcuts) for all panels
+	- added a Chat Response thread. This will prevent the screen freezes that occurred when Chatter was responding to a message
+	- updated Chatter AI to pause X milliseconds (millisecond = 1000th of a second) before sending a response. X = num_characters_in_reply * 300. If X < 5000, X = 5000 (or 5 seconds). This should make Chatter AI more human like, so the responses aren't sent faster than a person can type
+
+120
+	- added obstacle avoidance and stuck check to smaller movement functions
+	- update panic and bugged runs to check for obstacles and stuck
+	- updated DrinkBestHealingPotion, DrinkBestManaPotion, and UseBestBandage to use frames better
+	- fixed chatter issues. chatter should be working normal now
+	- update Human Check to always emote once per 5 minutes per player. it had previously emoted more than once if a player left your search area and returned within 5 minutes
+	- updated downtime food routine to NOT eat if you already have Well Fed buff
+	- created a new path wizard - "Invidivual Path". This lets you create one path and save it to a separate file (you choose file location).
+	- created a new bot - "Run Individual Path". This bot lets you run the path you created called "Invidivual Path". This lets you create paths joining regions (for example, the run from Wetlands to Iron Forge). This bot only handles aggro; it does not search for mobs; it does not search for game objects (herbs/mines/etc).
+	- added a function to delete log files that are 15 days old or more
+	- updated ISXCombat template and Shaman template
+	- warrior combat routine completed
+	- adbar removed from main window
+	- I had to change how the ads display, as some ads weren't loading correctly or linking correctly in the adbar. For now, ads will open in a new browser window (whatever your default browser is). This will happen every 30 minutes. [b][u]This is only for the free, non-demo accounts of Rhabot[/u][/b]
+	- updated facepointex to use a better locking strategy. Should reduce frame locking when the turn is large
+	
+119
+	- created new thread to monitor if we are moving/stopped. This is a workaround until WoWMovement.Moving is fixed.
+	- updated obstacle avoidance
+	- updated stuck check
+	- update login to handle for failed login during the DDOS attack. If login fails, you will be given a free user access (free user with demo access). Once the DDOS attack stops, this will be changed, so that you have a limited free user account instead of demo account
+	- increased explore mapping pulse wait time to 1 minute
+	- added Shaman combat routine
+
+118
+	- updated HealBot to target unit at the start of the first loop. This should resolve some errors people were having with targetting
+	- updated the floating control panel to close when scripts force a stop
+	- updated chatter. this should be a lot faster and responsive
+	- updated herb/chest/mine collision test. 
+	- updated explore map searching to use less CPU
+
+117
+	- changed SitOrStand code to use the new SitStandOrDescendStart
+	- tab pages locked until a settings file has been loaded
+	- inventory management: locked buttons until items are transferred from bag list to item list
+	- inventory management: added code to prevent duplicates from appearing in item list and save list
+	- add button to the new path wizard to return you to the start of the path. Does NOT handle mobs or combat
+	- updated search functions to use frame locking more efficiently (thanx Lax and Junior/Rabies)
+	- updated SushiBot to better use frame locking
+	- updated HealBot to better use frame locking
+	- updated generic combat routine to better use frame locking
+	- update combat routine to move to TargetRange + 5 before callig external combat routine
+	- added a disconnect monitor. Sends error email if you are in Unattended mode.
+	- MoveThroughPath - added a check that if we are too far from the path, to stop search and return to path
+	- MoveThroughPath - updated combat target search to acquire a new target if we are too far away from the last acquired target
+	- rewrote vendor run function to make better use of existing paths
+	- rewrote graveyard run functions to make better use of existing paths (NEEDS TESTING)
+	- update external combat template and dranei routine to make better use of frame locks
+	- updated combat target search to find non-friendly mobs also
+	- updated external combat to not exit function until all aggro is killed also
+	- updated talent thread to wait 2 minutes before applying talents when a character levels. The talent thread was trying to apply talents before WoW had updated the talent tree info
+	- updated NPC explore search so it will use less resources when in major cities
+	- updated chat log panel to better process communication events
+
+116
+	- updated ISXCombat. moved helper functions to a separate partial class. These functions will not usually need editing
+	- updated apply talent event on character level
+	- updated upload of map file. the map file was occasionally maintaining a lock that was preventing upload
+
+115
+	- updated CorpsePoint to use the point provided by isxwow.net.dll (had not been provided in a previous release of isxwow.net.dll)
+	- updated Logout After X Minutes
+	- added when mailing items, stacks will only mail if 85% or more of the stack exists
+	- updated inventory management bag list to not show multiple stacks of the same item
+	- added Account Name / Character Name to all error emails that are sent to you in Unattended mode (helpful for multi-account botters)
+	- updated external combat template (and shaman routine) to use the new spell cast time delay
+	- update inventory management - mule name is now loading correctly
+
+114
+	- fixed an error when the main form closed (occurred rarely)
+	- updated search functions to not reduce frame rate as much
+	- update SushiBot to cast pole buffs at correct level
+	- SushiBot available for general testers
+	- added character's name to the form caption on the Rhabot main form and the Rhabot Control Panel
+	- changed path point precision (when saving a path) to 18 yards (instead of 10). This helps when mounted
+	- added timestamp to debug messages
+	- stuck counter reset after combat finishes (was occasionally raising stuck event because of combat)
+	- updated CastSpell to use the spell global cooldown
+	- updated CastSpell to use the PowerType/Cost functions provided by Loop
+	- added "Force Quit"  to the Rhabot main panel. NOTE: only use as a last resort to shutdown Rhabot!
+	- changed the Bag list in inventory management to be multi-select (use Shift or Control to select more than one item at a time)
+	- added new tab to Inventory Management - Open. List of items to open (such as shells, lockboxes, etc)
+	- added opening listed items to combat loot and sushibot loot functions
+	- updated skinning to wait for loot window to close before trying to skin. 
+	- remove skinning check if the unit is skinnable. isxwow.net.dll always returns false. will add this back when isxwow.net.dll is corrected
+	- moved AutoBuff save location to Rhabot global save file instead of level specific file
+	- added a free 5 day trial of Rhabot (after beta is completed). The 5 day trial will give users the full experience of Rhabot (except for Greynav features)
+	- updated external combat routine & template
+	- WoWBot Path Importer available to everyone
+	- SushiBot availabe to everyone
+
+113
+	- updates inventory panel to verify character is valid before popping the bag list
+	- renamed "Mail/Sell/Delete Items" to be "Inventory Management"	
+	- fixed error in healbot where it would not start (warning read: "HealBot exiting due to script stop")
+	- added a "Keep" list to the inventory management panel
+	- fixed Dismount function to properly remove ghost wolf buff and other other mount buffs
+	- updated FindMount to check for mounts from other factions
+	- fixed marking mob as bugged in generic combat routine
+	- added a check in CastSpell to face the target if the target is not our toon
+	- added: after combat, will search 20 yard radius of our toon. If no hostile mobs found, will loot then do downtime. If hostile found, will do downtime first, then will loot
+	- updated CastSpell to check for Rage on Warrior and Energy on Rogues before marking the spell uncastable
+	- added MSN notification when Rhabot stops and/or shuts down
+	- update MoveThroughPath to be less CPU intensive
+	- fixed an error in MoveThroughPath that can sometimes occur at the end of a path
+	- fixed thread error on shutdown (race condition with closing threads)
+	- updated Dismount for flying mounts to press X to land instead of changing pitch and moving forward (pressing X released in WoW 2.1)
+	- added checking for Line of Sight before casting spell
+	- moved all wow event hooks to a single class to centralize wow event hooking
+	- added post combat spells (see Combat Settings tab). Spells are cast when all combat is finished and before looting/downtime. (NOTE: this only applies if you use the built in combat routine)
+	- updated skinning function to check for casting instead of using a timer
+	- updated bag search for items to also check for item enchant names
+	- update external combat routine
+	
+	- added WoWBot Path importer (testing by private beta testers)
+	- added SushiBot (testing by private beta testers) (thanx to Undrgrnd59 for fishing code)
+	
+
+110&111
+	- added label to control panel to show last log/debug message
+	- fixed an issue where stopping the main rhabot bot would prevent the bot from restarting
+	- cleaned up code that uses Frame.Lock to be more efficient with locking
+	- cleaned up path navigation to be more efficient
+	- added combat downtime to be saved/loaded from settings file
+	- monitor thread (displays xp/gold earned, location, etc) set to run always, not just when script is run
+	- added Quest handling (accept, complete, etc). Code by Undrgrnd59 (thank you).
+	- updated combat routine to not loose focus on target when casting beneficial spells (you MUST have Auto Self Cast turned on in WoW)
+	- updated search functions to not return items that are not valid (! IsValid)
+	- added global settings SavePathPrecision & PathPrecision to be saved in Rhabot globals file. No GUI exists to adjust, you can only adjust via the XML file. Sets the precision (spacing) between path points when creating paths and navigation paths
+	- updated face function to be more fluid
+	- changed marking a unit as bugged during combat to test bugged stat within a 7 second range (was previously checking 2 seconds).
+	- updated time played label to show time in 00:00:00 format
+
+109
+	- Updated DrinkBestHealingPotion / DrinkBestManaPotion with latest potions list
+	- mapping of units released to beta testers (for dynamic path generation)
+	- added bot version to help menu and error reporting
+	- changed global settings from saving in the registry to saving in an xml file. IS does not have permission to edit the registry
+	- added saving of "Run Explore Thread" setting to global xml file. The setting will be remembered at next run
+	- create app to merge maps from users. This map will be used to generate paths (in addition to GreyNav)
+	- added a label to the main panel with the last line in the log being displayed
+	- added improved obstacle checking and avoidance when moving through a path
+	- fixed bug where rhabot occassionally looses Attack status while in combat
+	- added new search criteria for the explore thread (finds objects for creating dynamic paths)
+	- added Out of Party HealBot
+	- fixed a bug in GetNearestPoint to actually return the nearest point
+	- updated item level notification (sends an email/msn message when your character levels and one or more equipped items' level are less than 70% of your level)
+	- added checkbox setting to automatically begin combat on new hostile/nonfriendly targets
+	- streamlined default combat routine
+	- updated UseBestBandage to use the new bandages from BC
+	- fixed an error with GetItemCooldown
+	- fixed bug where a test for script pause occurred inside a frame lock
+
+1.1
+	- added searching for and storing location of mobs/herbs/chests/mines/npc's/mailboxes/etc. This information will be saved on the Rhabot server every 30 minutes. When information is available, this will be used to create dynamic paths
+	- added floating, always-on-top, control panel to allow you to pause/stop rhabot without having the full rhabot window open.
+	- fixed loot bug. Looting was not getting the last item in the loot window
+	- added checkbox to enable verbose logging (on the Log panel) (check to have more details logged).
+	- fixed combat target selection to not target critters
+	- added Quick Start Guide, help menu, and prompt to view guide when you first run Rhabot
+	- added checking of existing buffs for Petrified/Stunned/Silenced effects before casting spells
+	- fixed hearthstone bug
+	- added MoveToTarget in clsPath. Moves the character to within X yards of unit. Used in pulling and other combat functions
+	- added Level Start/End range boxes on all forms that have level specific settings. This lets you create settings for multiple levels at a time.
+	- add dropdown on Rhabot main to let you select which type of bot to run. Rhabot will come with different types of bots that can run (with paths, dynamic pathing, combat only, party bot, etc)
+	- added Combat Only bot. This bot monitors when you enter combat, and fights for you. It will perform a cooldown afterward, but will NOT loot. It will also run away if the unit is bugged or if too many units attack at once
+	- updated Combat routine to continually face target and keep within 5 yards of target
+	- update main rhabot routine to handle combat and panic runs better
+	- added Lock picking. Picks and loots lockboxes when visiting the vendor (if IsRogue is checked in settings tab).
+
+1.0
+	- added search panel. You can type your own search string to find objects.
+	- moved exception handling to a new thread to improve performance
+	- added a thread pool for easier/safer shutdown. 
+	- added checkbox for Random Spam Spells on the combat settings panel. Checking this will allow your toon to randomly cast spam spells.
+	- added panel to the mail/sell/delete list to include Auto Disenchant. You can now setup a list of items/colors to automatically disenchant. Disenchant happens after looting and before openning vendor window
+	- added Flying path support. Checking the path as flyable will cause the entire path to be flown
+
+0.14
+	- added checking for full bags and returning to vendor when full. Does NOT check quivers, soulstone bags, and other special bags.
+	- updated gui to remember last settings folder
+	- general code cleanup
+	- added tracking to main panel: Gold earned, Gold per hour, XP per hour (resets when leveled), Total XP earned (resets when leveled), Total time played
+	- added sending email if Rhabot is in unattended mode and an error is encountered. You can email the error to multiple addresses
+	- updated vendor gossip function to handle most (if not all) vendor gossip messages
+	- GUI panel for MSN and email settings.
+	- completed email class. User will be emailed if Rhabot receives an error AND rhabot is in unattended mode
+	- added GUI panel for Chatter (A.I. chatbot) 	
+	- Chatter (A.I. chatbot) completed and fully functional
+	- added zone/subzone display to the tracking panel
+	- added Phase 1 Slope Testing (tests only one point. Phase 2 will test slope between two points)
+	- added images by xxxrapidxxx (thank you)
+	- Rhabot login completed
+	- added mailing/selling/deleting items by color
+	- added GUI for Mail / Sell / Delete items. 
+	
+
+0.13
+	- added MSN command to return inventory list (returns Item name, bag number, and slot number
+	- added list of items to buy from vendor
+	- added buying of items from vendor each visit. Buys 1 of each item. If you need to buy more, add the item multiple times to the list
+	- added GlobalSettings.xml to the root settings folder. This file holds global settings, such as Talent tree
+	- move ItemSell.xml to the root settings folder
+	- added Talent training (by Undrgrnd59). You can save a talent tree and talents will be applied when you level
+	- updated where/how settings files are saved
+	- added ability to store a Path file for more than one level. You can now set a level range when creating a path file
+	- updates hostile target search to return the nearest, highest unit with the fewest mobs nearby
+	- added login code for paid users. GUI not yet implemented
+	- added checking for Stunned / Silenced buff before casting spell
+	- updated HumanCheck to perform an emote when player comes back into search range after being gone for 10 seconds or more AND the player has been previously seen within 5 minutes
+	- added Auto Buffing on non-party players (by Undrgnd59). When activated, non-party players will receive healing and buffs. When buffed, your toon will also emote to the buffed player
+	- added deleting junk items after looting (junk items are setting in the settings panel)
+
+
+0.12
+	- added setting to MoveThroughPath to disable searching for targets. Only handles aggro. Useful for corpse runs or advance to hunting path
+	- updated Face function to be more fluid in turning. Face will stop the bot needing to turn more than 30 degrees (returns true if stopped)
+	- added searching herbs/mines/chests for surrounding mobs before looting. If the item has mobs above the High attack range, the item will not be looted
+	- before an herb/mine/chest search returns true, Rhabot tests the herb/mine/chest is not on a slope that can not be reached.
+	- added ability to create templates of Rhabot settings.
+	- added property for a path to be Mountable (ie, this is not a fight path, so we can mount up). Example: pre-hunting path
+	- added MSN command to logout after X seconds
+	- added MSN command to pause/unpause/stop rhabot script
+	- updated food/drink usage to not use an item list, but to instead search for best usable items.
+	- added function to check for an item's cooldown
+	- added drinking healing/mana potions
+	- added ability to use bandages
+	- added drinking of healing potion if in panic mode and health is <= 15%
+	- in Downtime, will try to use a bandage if no food is found
+	- update GetBagItems to use the new inventory search
+	- Rhabot can mail items from backup
+	- cleaned up deleting junk items
+	
+
+0.11
+	- fixed bugs in logging and clsChat
+	- updated stuck function to randomly choose direction and backup time
+	- added stone home command to msn
+	- added HookErrorEvents to msn. Rhabot generated errors will be sent over MSN if hooked
+	- added Start function to clsSettings (call after everything has been loaded). Does NOT run the bot, just initiliazes everything
+	- added CharacterLevel event to clsEvent
+	- added HumanCheck routine. Checks for nearby players every 1 second. Sends emotes if player seen again after 5 minutes.
+	- updated looting to use the new UI class. Handles errors and aggro
+	- settings to auto decline: guild, group, duel invites
+	- added logging out after X time. The bot will try to stone home, then log out
+	- added checking after each combat cycle of player's equipment's durability. If below the set threshhold, the durability event is raised
+	- added SendToAll functions to send messsage to all MSN, SMS, and Email clients
+	- When character level event is hooked, we now also check the equipped item's level and notify via SMS/MSN/email if the item needs to be upgraded (item level is <= 25% of our new level)
+	- Added Stop and Pause to scripts. Both affect combat, downtime, moving through paths, and looting
+
+0.1
+	- fixed bugs in clsSearch
+	- added searching for surrounding units
+	- added code to MoveThroughPath to check for surrounding units before looting chest/herb/mine
+	- fixed bug with logging crashing sometimes
+	- added debugger support (streams log messages and other message to a debugger)
+	- added clsBlacklist to hold blacklisted items
+	- changed how hostile units are blacklisted to use the new clsBlacklist class
+	- added blacklist support for chests/herbs/mines
+	- added LootGameObject to clsPath. Loots chests/herbs/mines. Will move to the object if we are not near it
+	- changed CorpsePoint in clsGhost to be a property instead of variable. Uses the GetMember<> to find your corpse point
+	- Rhabot GUI launches in a new thread (needs testing)
+	- MSN Chat bot completed. commands can be sent to bot via MSN. Send "/help" for a list of commands
+	- Chatter bot sub-project started. Currently, will only listen and log suggested responses
+
+
+0.06 - Final
+	- added hooking of private and say chats
+	- added setting/clearing AFK/DND messages
+	- added sending chat on various channels
+	- removed signing of projects. compiled code needs to go to the ".NET Programs" folder
+	
+
+0.05
+	- added ClearLog to clsLogging. Empties the log file.
+	- updated pathing (some movements were not being frame locked)
+	- added release from body
+	- added corpse run and resurrection (clsGhost) (needs testing)
+	- fixed issue where toon was not facing unit he/she is attacking
+	- fixed issue in sample app where navigate path was using an incorrect starting point
+	- added AddToLogFormatted in clsLogging. This works similar to StringBuild.AppendFormat
+	- added generic search function Search to clsSearch. Pass the search string, it will return list of units
+	- updated MoveThroughPath in clsPath to handle getting stuck
+	- fixed bug in MoveThroughPath that was preventing advancing path nodes
+	- added Panic options to combat (new settings in clsSettings). Combat will exit if panic conditions are met
+	- added GetBagItems to clsCharacter, which returns a list of the items found in all bags on the character.
+	- added class clsMount which allows mounting and dismounting. Will automatically find the best available mount
+	- added list of items to sell at vendor to clsSettings (ItemSellList<>)
+	- added list of items that can be deleted (clsSettings.ItemJunkList<>)
+	- added finding vendor (clsVendor)
+	- added selling and repairing at vendor (clsVendor)
+	- added deleting junk items (clsVendor)
+	
+
+
+0.04
+	- updated looting/skinning to handle errors better.
+	- added IsDead to clsCharacter class
+	- added combat totem to settings and combat (for shamans)
+	- added casting Healing Over Time spell if more than one mob attacks during combat
+	- added path making code to the main application (ISXBotn)
+	- added clsEvent class. holds events raised by the helper classes
+	- fixed minor logging error
+	- updated MoveToPoint to better handle obstacles
+	- changed CastSpell to check if spell is usable. Will return false if spell can not be cast
+	- created log display window. Use clsSettings.ShowLogWindow to toggle display of window
+	- changed how logging works so the log messages are queued and written to disk once per second
+	- added Shutdown function to clsSettings. Call this to gracefully shutdown the bot helper
+	- create clsSearch for search function wrappers
+	- added MoveThroughPath to clsPath. Moves the unit through a path, searching for hostiles, mines, herbs, chests
+	- added IsRogue to clsSettings. Setting this true will enable rogue features (such as searching for locked chests)
+	- added Search_Chest to clsSettings. Setting this true will search for chests (false will not search for chests)

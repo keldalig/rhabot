@@ -1,0 +1,1423 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ISXRhabotGlobal</name>
+    </assembly>
+    <members>
+        <member name="T:ISXBotHelper.PathListInfo">
+            <summary>
+            A full path list
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.PathListInfo.PathList">
+            <summary>
+            The list of points to traverse
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.PathListInfo.ConnectsTo">
+            <summary>
+            List of path names this path can connect to (connects at element 0 of both paths)
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.#ctor">
+            <summary>
+            Initializes a new instance of the PathListInfo class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.List{ISXBotHelper.PathListInfo.PathPoint},System.Collections.Generic.List{System.String})">
+            <summary>
+            Initializes a new instance of the PathListInfo class.
+            </summary>
+            <param name="pathList"></param>
+            <param name="connectsTo"></param>
+            <param name="pathName"></param>
+            <param name="canMount"></param>
+            <param name="canFly"></param>
+            <param name="canSwim"></param>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.List{ISXBotHelper.AutoNav.clsPathPoint})">
+            <summary>
+            Initializes a new instance of the PathListInfo class.
+            </summary>
+            <param name="pathName"></param>
+            <param name="canMount"></param>
+            <param name="canFly"></param>
+            <param name="canSwim"></param>
+            <param name="AutoNavPointList"></param>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.GetNextPoint">
+            <summary>
+            Returns the next point in the path, or null if no point found
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.GetPreviousPoint">
+            <summary>
+            Returns the previous point in the path, or null if no point found
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.GetPoint">
+            <summary>
+            Returns the point referred to by CurrentStep
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.ReversePath(System.Int32)">
+            <summary>
+            Reverses the path and resets current point to 0
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.RevertToPathForward(System.Int32)">
+            <summary>
+            If the path is not reversed, nothing happens. If the
+            path is reversed: 1) re-reverse path, 2) reset currentstep to your current location
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.SetCurrentStep(System.Int32)">
+            <summary>
+            Sets CurrentStep to the point nearest to your location. Returns false on failure
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.Clone">
+            <summary>
+            Clones this path
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ISXBotHelper.PathListInfo.CurrentStep">
+            <summary>
+            The current step of the path or -1 for no step
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.PathListInfo.PathName">
+            <summary>
+            The name of this path
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.PathListInfo.CanMount">
+            <summary>
+            True if we can cast MountUp on this path
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.PathListInfo.CanFly">
+            <summary>
+            True if the path uses a flying mount
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.PathListInfo.CanSwim">
+            <summary>
+            True if the path is underwater
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.PathListInfo.PathReversed">
+            <summary>
+            True if the path is reveresed
+            </summary>
+        </member>
+        <member name="T:ISXBotHelper.PathListInfo.PathPoint">
+            <summary>
+            Represents a point on the path
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.#ctor">
+            <summary>
+            Initializes a new instance of the PathPoint class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the PathPoint class.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.#ctor(LavishScriptAPI.Point3f)">
+            <summary>
+            Initializes a new instance of the PathPoint class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.#ctor(ISXBotHelper.AutoNav.clsPathPoint)">
+            <summary>
+            Initializes a new instance of the PathPoint class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.Distance(ISXBotHelper.PathListInfo.PathPoint)">
+            <summary>
+            Returns the distance to the compare point
+            </summary>
+            <param name="ComparePoint"></param>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.DistanceZ(ISXBotHelper.PathListInfo.PathPoint)">
+            <summary>
+            Returns the X,Y,Z distance to the compare point
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.SamePoint(ISXBotHelper.PathListInfo.PathPoint)">
+            <summary>
+            Returns true if the points are the same
+            </summary>
+            <param name="TestPoint">the point to compare</param>
+        </member>
+        <member name="M:ISXBotHelper.PathListInfo.PathPoint.ToAutoNavPoint">
+            <summary>
+            Converts the current point to an AutoNav point
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsPathPoint.#ctor">
+            <summary>
+            Initializes a new instance of the PathPoint class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsPathPoint.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the PathPoint class.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsPathPoint.#ctor(LavishScriptAPI.Point3f)">
+            <summary>
+            Initializes a new instance of the PathPoint class.
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.NodeType">
+            <summary>
+            The node type
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.Quantity">
+            <summary>
+            How many of this item to kill/loot
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.DestinationPoint">
+            <summary>
+            Destination point (vendor location, mailbox location, etc)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.DestName">
+            <summary>
+            Destination/Quest/Item name (if not using DestPoint)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ZoneName">
+            <summary>
+            Zone Name - REQUIRED for sub blocks
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.PathCanFly">
+            <summary>
+            True when this portion of the path uses a flying mount
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsBlockListItem.#ctor">
+            <summary>
+            Initializes a new instance of the clsBlockListItem class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsBlockListItem.#ctor(ISXBotHelper.AutoNav.clsBlockListItem.ENodeType,System.Int32,ISXBotHelper.AutoNav.clsPathPoint,System.String)">
+            <summary>
+            Initializes a new instance of the clsBlockListItem class.
+            </summary>
+            <param name="nodeType"></param>
+            <param name="goToName"></param>
+            <param name="quantity"></param>
+            <param name="destinationPoint"></param>
+            <param name="destName"></param>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsBlockListItem.Clone">
+            <summary>
+            Clones this item
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsBlockListItem.ToString">
+            <summary>
+            Returns Destination Name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType">
+            <summary>
+            Holds the list of node types
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_Vendor_X_City_Y">
+            <summary>
+            goes to and opens vendor panel, will sell
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_Flightmaster_X_City_Y">
+            <summary>
+            goes to and opens flightmaster panel
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_Trainer_X_City_Y">
+            <summary>
+            goes to and opens training panel. TRAINS
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_Boat_X_City_Y">
+            <summary>
+            takes you to the dock
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Take_Boat_To_City_X">
+            <summary>
+            puts you on the boat and takes you off the boat onto the new dock
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Run_Rhabot_Path">
+            <summary>
+            run a specific path
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Run_Rhabot_Path_Full">
+            <summary>
+            Runs a full Rhabot path (found in the Rhabot level folders). 
+            Searches for units, herbs/mines/chests, and vendor runs
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_Innkeeper_X_City_Y">
+            <summary>
+            Goes to innkeeper and opens panel
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Stone_Home">
+            <summary>
+            Hearthstones
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_Repair_Vendor_X_City_Y">
+            <summary>
+            Goes to repair vendor and opens panel. Will sell/repair
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_Mailbox_X_City_Y">
+            <summary>
+            Goes to mailbox, opens and mails items
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Speak_To_Person_X_At_Y">
+            <summary>
+            Speaks to a person
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_QuestGiver_X_At_Y">
+            <summary>
+            Goes to a questgiver and opens dialog
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Fish_At_XYZ">
+            <summary>
+            Fishes at XYZ
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Fish_Until_X_Time">
+            <summary>
+            Condition of Fish. Stop fishing after X minutes (X in quantity)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Fish_Capture_X_of_Y">
+            <summary>
+            Condition of Fish. Stop fishing after X of Y item (fish) captured
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.NEW_BLOCK">
+            <summary>
+            Specifies a new block (has no main block requirements)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Purchase_X_of_Y">
+            <summary>
+            MUST be at vendor already
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Take_Flight_X_To_Y">
+            <summary>
+            MUST be at flight master
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Make_Inn_Home">
+            <summary>
+            MUST be at innkeeper
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Pick_Up_Quest_X">
+            <summary>
+            Picks up the quest named X
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Turn_In_Quest_Y">
+            <summary>
+            Turns in the quest named Y. Automatically selects reward (random slot)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Fight_Mobs_Zone_X">
+            <summary>
+            fights mobs in your zone that are within level range
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Fight_Mobs_Zone_X_Named_Y">
+            <summary>
+            Fights mobs that have this name
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Fight_Elite_Mobs_Zone_X">
+            <summary>
+            fights elite mobs in your zone within level range
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Fight_Elite_Mobs_Zone_X_Named_Y">
+            <summary>
+            fights elite mobs that have this name
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Exclude_Mobs_Zone_X_Named_Y">
+            <summary>
+            Don't fight mobs with this name
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Find_Herbs_Zone_X">
+            <summary>
+            Pick herbs in zone X
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Find_Mines_Zone_X">
+            <summary>
+            Pick mines in zone X
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Find_Chests_Zone_X">
+            <summary>
+            Find chests in zone X
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Pickup_Item_Named_X_Zone_Y">
+            <summary>
+            Picks up 1 item with name X in zone Y (MAIN/SUB)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Pickup_Item_Named_X_Zone_Y_MULTI">
+            <summary>
+            Picks up multiple quantities of item X in zone Y
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Use_Item_X">
+            <summary>
+            Use item in your backs named X
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Go_To_XYZ">
+            <summary>
+            Go to this location
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Choose_Gossip_Option_X">
+            <summary>
+            Choose the gossip option ID X
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Return_To_Vendor_When_X_Has_Quantity_Y">
+            <summary>
+            SPECIAL CONDITION. Returns to a vendor when item named X has Y quantity. 
+            You can add a sub to this of purchase X of Y. Path restarts from vendor
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Continue_Until_Bags_Full">
+            <summary>
+            OR. Block finishes when bags are full
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Continue_Durability_X_Percent">
+            <summary>
+            OR. Continue until your durability reaches X percent
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Continue_Until_X_Item_Y_Quantity">
+            <summary>
+            AND. Continue until you have X of Y items in your bags
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Continue_Until_X_Mob_Y_Killed">
+            <summary>
+            AND. Continue until you have killed X of mob named Y
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockListItem.ENodeType.Continue_Until_Character_Is_Level_X">
+            <summary>
+            AND. Continue until character reaches level X
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.ConvertStringToByteArray(System.String)">
+            <summary>
+            Converts a string to a byte array
+            </summary>
+            <param name="StrToConvert">the string to convert</param>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.ConvertByteArrayToString(System.Byte[])">
+            <summary>
+            Converts a byte array to a string
+            </summary>
+            <param name="ByteToConvert"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.SerializeObject(System.Object)">
+            <summary>
+            Serializes an object. Don't forget to mark the class with [Serializable]
+            </summary>
+            <param name="obj">the object to serialize</param>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.DeserializeObject(System.Byte[])">
+            <summary>
+            Deserializes an object.
+            </summary>
+            <param name="objBytes">the byte array to deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize_ToString(System.Object,System.Type)">
+            <summary>
+            Serializes an object
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Deserialize_FromString(System.String,System.Type)">
+            <summary>
+            XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize(System.Object,System.Type)">
+            <summary>
+            (Extension) Serializes an object
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Deserialize(System.String,System.Type)">
+            <summary>
+            (Extension) XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize(System.String)">
+            <summary>
+            (Extension) Serializes a string
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.DeserializeString(System.String)">
+            <summary>
+            (Extension) XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize(ISXBotHelper.PathListInfo)">
+            <summary>
+            (Extension) Serializes a string
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.DeserializePathListInfo(System.String)">
+            <summary>
+            (Extension) XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize(ISXBotHelper.Settings.Settings.clsGlobalSettings)">
+            <summary>
+            (Extension) Serializes a string
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.DeserializeGSettings(System.String)">
+            <summary>
+            (Extension) XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize(ISXBotHelper.Settings.Settings.clsLevelSettings)">
+            <summary>
+            (Extension) Serializes a string
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.DeserializeLevel(System.String)">
+            <summary>
+            (Extension) XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize(ISXBotHelper.AutoNav.clsAutoNavSaveList)">
+            <summary>
+            (Extension) Serializes a string
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.DeserializeAutoNav(System.String)">
+            <summary>
+            (Extension) XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize(ISXBotHelper.clsCombatSettings)">
+            <summary>
+            (Extension) Serializes a string
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.DeserializeCombatSettings(System.String)">
+            <summary>
+            (Extension) XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Serialize_ToByteA(System.Object,System.Type)">
+            <summary>
+            Serializes an object
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsSerialize.Deserialize_FromByteA(System.Byte[],System.Type)">
+            <summary>
+            XML Deserializes a string
+            </summary>
+            <param name="strSerial">the string to decrypt and deserialize</param>
+            <returns></returns>
+        </member>
+        <member name="T:ISXBotHelper.Sharing.clsSharedSettingsInfo">
+            <summary>
+            Summary description for clsSharedSettingsInfo
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Sharing.clsSharedSettingsInfo.UG">
+            <summary>
+            Original UserGUID
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.LowLevelAttack">
+            <summary>
+            Number of levels below your level to initiate an attack.
+            Example: If you are lvl 20, setting LLA to 4 would allow you to initiate an attack
+                 on lvl 16+ mobs
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.HighLevelAttack">
+            <summary>
+            Number of levels above your level to initiate an attack.
+            Example: If you are lvl 20, setting LLA to would allow you to initiate an attack
+                on lvl 20-21 mobs
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.TargetRange">
+            <summary>
+            Distance to attack targets
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.SearchRange">
+            <summary>
+            Distance to search for targets
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.TargetElites">
+            <summary>
+            When true, elites will be targetted in the target search
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.IsSkinner">
+            <summary>
+            True if the user is a skinner
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.IsMiner">
+            <summary>
+            True if the user is a miner
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.IsFlowerPicker">
+            <summary>
+            True if the user is an herbalist
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.IsRogue">
+            <summary>
+            Set to true if the character is a rogue
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Search_Chest">
+            <summary>
+            When true, usable chests will be searched for when appropriate
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.DurabilityPercent">
+            <summary>
+            When one or more equipped item's durability equals this percent, go repair
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_PreBuffSpells_List">
+            <summary>
+            List of spells to buff at start at of combat
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_PullSpell">
+            <summary>
+            Spell used for pulling mobs
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_SpamSpells_List">
+            <summary>
+            List of spells to spam during attack
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_HealSpell">
+            <summary>
+            Healing spell
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_ProtectionSpell">
+            <summary>
+            protection spell (like totem, or self buff)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_CombatTotem">
+            <summary>
+            Totem to cast during combat (such as Fire Nova). Leave blank for non-shamans
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_HealingOT">
+            <summary>
+            Set to the name of a healing over time spell (or healing stream totem)
+            Used when more than one mob attacks
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_DOT_List">
+            <summary>
+            List of DOT's (Damage Over Time spells) to cast ONCE per mob
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_HealthPercent">
+            <summary>
+            Percent of health at which Heal should be cast
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_ManaSpam">
+            <summary>
+            Use spam spells until Mana is below this percent
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_WaitTime_ms">
+            <summary>
+            Time, in milliseconds, to wait before restarting combat loop. 0 for no wait
+            If you are a caster, like a mage or warlock, you might want to set the time lower
+            For tanks, such as warriors, you might want to set the time higher.
+            1000 = 1 second
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.LootList">
+            <summary>
+            List of units which need to be looted
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_DowntimePercent">
+            <summary>
+            percent at which mana or health must be before 'downtime' is used
+            Downtime causes the character to sit. Toon will eat/drink if 
+            food/water is available.
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_PanicThreshold">
+            <summary>
+            Run in panic when the number of attacking mobs is >= this number
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_DoPanic">
+            <summary>
+            When true, panic mode is enabled. Combat mode can exit if panic conditions are met
+            When false, panic mode is disabled. Combat mode does not exit for panic conditions.
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_CastSpamRandomly">
+            <summary>
+            When true, spam spells are cast in random order
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_PostCombatSpells">
+            <summary>
+            List of spells to cast after combat
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_ClassSettings">
+            <summary>
+            Combat class settings
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsLevelSettings.Combat_StopRunawayAttemptSpell">
+            <summary>
+            Spell used when a mob attempts to run away
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.Items.clsAutoEquipItem.#ctor(ISXWoW.WoWEquipSlot,ISXRhabotGlobal.clsGlobals.EEquipItemMaterialType,ISXRhabotGlobal.clsGlobals.ENeedEquipStat)">
+            <summary>
+            Initializes a new instance of the clsAutoEquipItem class.
+            </summary>
+            <param name="equipSlot">slot to check</param>
+            <param name="materialType">material to favor</param>
+            <param name="equipStat">stat to favor</param>
+        </member>
+        <member name="M:ISXBotHelper.Items.clsAutoEquipItem.#ctor">
+            <summary>
+            Initializes a new instance of the clsAutoEquipItem class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.Items.clsAutoEquipItem.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the clsAutoEquipItem class.
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.Comm_Email_List">
+            <summary>
+            List of email addresses to send when errors are received
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.m_HealBot_HealPercent">
+            <summary>
+            Percent at which unit should be healed
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.HealBot_BuffList">
+            <summary>
+            List of buff's to maintain on unit
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.AutoBuff_BuffList">
+            <summary>
+            List of buffs to randomly add to players
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.AutoEquipList">
+            <summary>
+            List of AutoEquip requirements
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemSellList">
+            <summary>
+            List of items to sell when vendor is visited
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemBuyList">
+            <summary>
+            List of items to buy when vendor is visited
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemJunkList">
+            <summary>
+            List of items that can be deleted
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemMailList">
+            <summary>
+            List of items to be mailed to mule
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemDisenchantList">
+            <summary>
+            List of items to Disenchant
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemKeepList">
+            <summary>
+            List of items to keep
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemOpenList">
+            <summary>
+            List of items to open
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.Settings.Settings.clsGlobalSettings.#ctor">
+            <summary>
+            Initializes a new instance of the clsGlobalSettings class.
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.LogoutOnStuck">
+            <summary>
+            When true, the bot will logout if stuck for StuckTimeout seconds
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.StuckTimeout">
+            <summary>
+            Time, in seconds, to allow us to remain stuck before raising a stuck error
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.DeclineGuildInvite">
+            <summary>
+            When true, guild invites are declined
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.DeclineGroupInvite">
+            <summary>
+            When true, group invites are declined
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.DeclineDuelInvite">
+            <summary>
+            When true, duels are declined
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.Character_MailTo">
+            <summary>
+            The character to mail items to. Leave blank for no mail
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.MSN_Username">
+            <summary>
+            MSN Chat Username
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.MSN_Password">
+            <summary>
+            MSN Chat Password
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.MSN_UseMSNChat">
+            <summary>
+            When true, the MSN chat panel will load and send/receive commands via msn
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.Comm_Email_SMTPServer">
+            <summary>
+            Email server address (like smtp.somewhere.com)
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.Comm_Email_SMTPPort">
+            <summary>
+            SMTP Server port
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.Comm_Email_Usename">
+            <summary>
+            Username for logging into smtp server
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.Comm_Email_Password">
+            <summary>
+            Password for logging into smtp server. when setting from the GUI, need to encrypt first
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.HealBot_HealSpell">
+            <summary>
+            Healing spell to use
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.HealBot_RemoveDisease">
+            <summary>
+            Spell to remove disease
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.HealBot_RemoveCurse">
+            <summary>
+            Spell to remove curses
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.HealBot_RemovePoison">
+            <summary>
+            Spell to remove poison
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.HealBot_Target">
+            <summary>
+            Unit to follow/heal
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.AutoBuff_Heal">
+            <summary>
+            Healing spell to use for auto buff
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.AutoBuff_HealPercent">
+            <summary>
+            Health percent of player before healing is cast
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemSellColors">
+            <summary>
+            Color rules for selling to vendor
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemJunkColors">
+            <summary>
+            Color rules for deleting
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemMailColors">
+            <summary>
+            Color rules for mailing items
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Settings.Settings.clsGlobalSettings.ItemDisenchantColors">
+            <summary>
+            Color rules for Disenchanting items
+            </summary>
+        </member>
+        <member name="M:ISXRhabotGlobal.clsGlobals.AddStringToLog(System.String)">
+            <summary>
+            Adds an item to the Rhabot log
+            </summary>
+            <param name="LogMessage">the message to add to the log</param>
+        </member>
+        <member name="P:ISXRhabotGlobal.clsGlobals.ScriptStopped">
+            <summary>
+            This is set to true by Rhabot when the script has been stopped. True when
+            script has stopped, false when not stopped.
+            </summary>
+        </member>
+        <member name="T:ISXRhabotGlobal.clsGlobals.AttackOutcome">
+            <summary>
+            Outcomes for combat
+            </summary>
+        </member>
+        <member name="F:ISXRhabotGlobal.clsGlobals.AttackOutcome.Success">
+            <summary>
+            user killed monster
+            </summary>
+        </member>
+        <member name="F:ISXRhabotGlobal.clsGlobals.AttackOutcome.Dead">
+            <summary>
+            user died
+            </summary>
+        </member>
+        <member name="F:ISXRhabotGlobal.clsGlobals.AttackOutcome.Panic">
+            <summary>
+            panic mode, try to escape or other panic options
+            NOTE: combat mode exits. You need to run or take other measures
+            </summary>
+        </member>
+        <member name="F:ISXRhabotGlobal.clsGlobals.AttackOutcome.Bugged">
+            <summary>
+            unit being attacked is bugged. disengage and blacklist (Rhabot will blacklist for you)
+            </summary>
+        </member>
+        <member name="F:ISXRhabotGlobal.clsGlobals.AttackOutcome.Stopped">
+            <summary>
+            Script stopped by user
+            </summary>
+        </member>
+        <member name="T:ISXRhabotGlobal.clsGlobals.DeadUnitEnum">
+            <summary>
+            Specifies which unit(s) are dead
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Warrior_PullType">
+            <summary>
+            how to pull mobs
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Warlock_PullWithPet">
+            <summary>
+            True to pull with your pet, false to pull with a spell
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Warlock_PullWaitTime">
+            <summary>
+            Time, in milliseconds, to wait from pet pulling until first spell is cast on mob
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Warlock_SoulShardCount">
+            <summary>
+            Number of soulshards to keep in the bag
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Warlock_DrainSoulOnHealthPercent">
+            <summary>
+            When target's health is X percent, begin casting Drain Soul (if we need a soulshard), or
+            Drain Life if we don't need a soulshard (or health is below downtime level), or 
+            Drain Mana if we don't need a soulshard, health is above downtime level and mana is below downtime level
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Warlock_Pet">
+            <summary>
+            Pet to use
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Hunter_Ranged_DOT">
+            <summary>
+            Ranged DOT spells to maintain (using bow)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Hunter_Ranged_SpamSpells">
+            <summary>
+            List of ranged actions to cast on target
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Hunter_Pet_FoodList">
+            <summary>
+            List of foods to feed pet
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Hunter_Pet_FeedAtHappinessPercent">
+            <summary>
+            When pet's happiness is at or below this amount, feed him
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Paladin_UseAvengersShield">
+            <summary>
+            On aggro, use the Avenger's Shield
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Paladin_UseConsecration">
+            <summary>
+            On aggro, use Consecration
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Paladin_SealOne">
+            <summary>
+            First seal to use (then transfers to target)
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.clsCombatSettings.Paladin_SealTwo">
+            <summary>
+            Second seal to use (keeps on character)
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsCombatSettings.#ctor">
+            <summary>
+            Initializes a new instance of the clsCombatSettings class.
+            </summary>
+        </member>
+        <member name="T:ISXBotHelper.Sharing.clsSharedPathInfo">
+            <summary>
+            Summary description for clsSharedPathInfo
+            </summary>
+        </member>
+        <member name="P:ISXBotHelper.Sharing.clsSharedPathInfo.UG">
+            <summary>
+            Original UserGUID
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsAutoNavSaveList.#ctor">
+            <summary>
+            Initializes a new instance of the clsAutoNavSaveList class.
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsAutoNavSaveList.#ctor(System.Collections.Generic.List{ISXBotHelper.AutoNav.clsBlockList},System.String)">
+            <summary>
+            Initializes a new instance of the clsAutoNavSaveList class.
+            </summary>
+            <param name="autoNavList"></param>
+            <param name="planName"></param>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockList.SubBlocks">
+            <summary>
+            List of sub blocks in this list. Sub blocks are processed first
+            </summary>
+        </member>
+        <member name="F:ISXBotHelper.AutoNav.clsBlockList.BlockItem">
+            <summary>
+            This block's node
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.AutoNav.clsBlockList.#ctor">
+            <summary>
+            Initializes a new instance of the clsBlockList class.
+            </summary>
+        </member>
+        <member name="M:ISXRhabotGlobal.SerializedProperties.clsXMLSerialList.ReadXMLList``1(System.String,System.Type,System.Xml.XmlReader)">
+            <summary>
+            Reads the xml attributes to rebuild an xml serialized list
+            </summary>
+        </member>
+        <member name="M:ISXRhabotGlobal.SerializedProperties.clsXMLSerialList.WriteXMLList``1(System.String,System.Collections.Generic.List{``0},System.Type,System.Xml.XmlWriter@)">
+            <summary>
+            Writes an xml serialized list
+            </summary>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.#ctor">
+            <summary>
+            Encryption / Decryption Functions, with event notification
+            </summary>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.#ctor(MerlinEncrypt.Crypt.AES_KeySize)">
+            <summary>
+            Encryption / Decryption Functions, with event notification
+            </summary>
+            <param name="keySize">default key size</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.#ctor(MerlinEncrypt.Crypt.AES_KeySize,System.String)">
+            <summary>
+            Encryption / Decryption Functions, with event notification
+            </summary>
+            <param name="keySize">default key size</param>
+            <param name="defaultPassword">default password</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.clsAES_AES_EncryptDecryptEvent(System.Int32,System.Boolean)">
+            <summary>
+            Raise the encrypt/decrypt progress event
+            </summary>
+            <param name="PercentageEncrypted">percentage encrtyped/decrypted</param>
+            <param name="Encrypting">true if encrypting, false if decrypting</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.DecryptByteArray(System.Byte[])">
+            <summary>
+            Decrypts a string
+            </summary>
+            <param name="encryptedByteArray">the byte array to decrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.DecryptByteArray(System.Byte[],System.String)">
+            <summary>
+            Decrypts a string
+            </summary>
+            <param name="encryptedByteArray">the byte array to decrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.EncryptByteArray(System.Byte[])">
+            <summary>
+            encrypts  a string
+            </summary>
+            <param name="plainByteArray">the byte array to encrypt. must be at least length of 9</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.EncryptByteArray(System.Byte[],System.String)">
+            <summary>
+            encrypts  a string
+            </summary>
+            <param name="plainByteArray">the byte array to encrypt. must be at least length of 9</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.DecryptString(System.String)">
+            <summary>
+            Decrypts a string
+            </summary>
+            <param name="encryptedString"></param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.DecryptString(System.String,System.String)">
+            <summary>
+            Decrypts a string
+            </summary>
+            <param name="encryptedString"></param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.EncryptString(System.String)">
+            <summary>
+            encrypts  a string
+            </summary>
+            <param name="plainText">the string to encrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.EncryptString(System.String,System.String)">
+            <summary>
+            encrypts  a string
+            </summary>
+            <param name="plainText">the string to encrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.AES_Encrypt(MerlinEncrypt.Crypt.AES_KeySize,System.String,System.String)">
+            <summary>
+            Encrypts a string using AES encryption
+            </summary>
+            <param name="keySize">the key size</param>
+            <param name="Password">the password</param>
+            <param name="input">the string to encrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.AES_Encrypt(MerlinEncrypt.Crypt.AES_KeySize,System.String,System.Byte[])">
+            <summary>
+            Encrypts a byte array using AES encryption
+            </summary>
+            <param name="keySize">the key size</param>
+            <param name="Password">the password</param>
+            <param name="input">the byte array to encrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.AES_Encrypt(MerlinEncrypt.Crypt.AES_KeySize,System.Byte[],System.Byte[])">
+            <summary>
+            Encrypts a byte array using AES encryption
+            </summary>
+            <param name="keySize">the key size</param>
+            <param name="Password">the password</param>
+            <param name="input">the byte array to encrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.AES_Decrypt(MerlinEncrypt.Crypt.AES_KeySize,System.String,System.String)">
+            <summary>
+            Decrypts a string using AES encryption
+            </summary>
+            <param name="keySize">the key size</param>
+            <param name="Password">the password</param>
+            <param name="input">the string to decrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.AES_Decrypt(MerlinEncrypt.Crypt.AES_KeySize,System.String,System.Byte[])">
+            <summary>
+            Decrypts a byte array using AES encryption
+            </summary>
+            <param name="keySize">the key size</param>
+            <param name="Password">the password</param>
+            <param name="input">the byte array to decrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.AES_Decrypt(MerlinEncrypt.Crypt.AES_KeySize,System.Byte[],System.Byte[])">
+            <summary>
+            Decrypts a byte array using AES encryption
+            </summary>
+            <param name="keySize">the key size</param>
+            <param name="Password">the password</param>
+            <param name="input">the byte array to decrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.GetFullPassword(System.String)">
+            <summary>
+            build the password string
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.ConvertByteArrayToString(System.Byte[])">
+            <summary>
+            convert the bytearray to a string
+            </summary>
+            <param name="textB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.ConvertToByteArray(System.String)">
+            <summary>
+            convert a string to a byte array
+            </summary>
+            <param name="textStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.ConvertByteStringToByteArray(System.String)">
+            <summary>
+            convert a string that is a byte string to a byte array
+            </summary>
+            <param name="textStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MerlinEncrypt.Crypt.ConvertByteArrayToByteString(System.Byte[])">
+            <summary>
+            converts a byte array to a byte string
+            </summary>
+            <param name="textB"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MerlinEncrypt.Crypt.KeySize">
+            <summary>
+            Sets the size of the key
+            </summary>
+        </member>
+        <member name="P:MerlinEncrypt.Crypt.DefaultPassword">
+            <summary>
+            The default password to use if none is given
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsExtensions.ConvertToBool(System.String,System.Boolean)">
+            <summary>
+            Convert to a boolean
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsExtensions.ConvertToInt(System.String,System.Int32)">
+            <summary>
+            Convert to an int
+            </summary>
+        </member>
+        <member name="M:ISXBotHelper.clsExtensions.IsNumeric(System.String)">
+            <summary>
+            returns true ONLY if the entire string is numeric
+            </summary>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.#ctor(MerlinEncrypt.clsAES.KeySize,System.String)">
+            <summary>
+            Initializes the AES engine
+            </summary>
+            <param name="keySize">Size of the key</param>
+            <param name="Password">the password</param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.#ctor(MerlinEncrypt.clsAES.KeySize,System.Byte[])">
+            <summary>
+            Initializes the AES engine
+            </summary>
+            <param name="keySize">Size of the key</param>
+            <param name="keyBytes">the password, in a byte array</param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.Encrypt(System.String)">
+            <summary>
+            Encrypts the input string
+            </summary>
+            <param name="input">the string to encrypt  -   
+            Note: the base encryptiong algorithm uses a byte array, but it's not always
+            possible to convert the byte array to a string, using a 1:1 conversion.
+            Instead, we will convert each byte to a string, and add a space. So,
+            when you are encrypting a string, the return result will always be larger
+            in length than the original. When you are decrypting a string, the return
+            result will always be smaller in length than the original encrypted string.
+            </param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.Encrypt(System.Byte[])">
+            <summary>
+            Encrypts the input byte array
+            </summary>
+            <param name="input">the byte array to encrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.Decrypt(System.String)">
+            <summary>
+            Decrypts the input string
+            </summary>
+            <param name="input">the string to decrypt  -  
+            Note: the base encryption algorithm uses a byte array, but it's not always
+            possible to convert the byte array to a string, using a 1:1 conversion.
+            Instead, we converted each byte to a string, and added a space. So,
+            when you are encrypting a string, the return result will always be larger
+            in length than the original. When you are decrypting a string, the return
+            result will always be smaller in length than the original encrypted string.
+            </param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.Decrypt(System.Byte[])">
+            <summary>
+            Decrypts the input byte array
+            </summary>
+            <param name="input">the byte array to decrypt</param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.Cipher(System.Byte[])">
+            <summary>
+            Encrypt the data in a 16 bit block. returns:
+            16 byte block of encrypted characters
+            </summary>
+            <param name="input">16 byte block of characters to encrypt</param>
+            <param name="retCount">the number of bytes actually used</param>
+            <returns>16 byte block of encrypted characters</returns>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.InvCipher(System.Byte[])">
+            <summary>
+            Decrypts a 16 byte block of text
+            </summary>
+            <param name="input">16 byte block to decrypt</param>
+            <returns>16 byte block of decrypted bytes</returns>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.ConvertStringToByteArray(System.String)">
+            <summary>
+            Converts a string to a byte array
+            </summary>
+            <param name="StrToConvert">the string to convert</param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.ConvertByteArrayToString(System.Byte[])">
+            <summary>
+            Converts a byte array to a string
+            </summary>
+            <param name="ByteToConvert"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.AES_ShowError(System.Exception,System.String)">
+            <summary>
+            Display an error message
+            </summary>
+            <param name="excep">the exception</param>
+            <param name="FunctionName">the name of the function that caused the error</param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.GetArraySize(System.Int32)">
+            <summary>
+            Returns the size of the array needed to meet BlockSize
+            </summary>
+            <param name="ArrayLen">the length of the current array</param>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.ConvertByteArrayToEncryptedByteString(System.Byte[])">
+            <summary>
+            Converts an encrypted byte array and adds an extra number for each digit
+            </summary>
+            <param name="textB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MerlinEncrypt.clsAES.ConvertEncryptedByteStringToByteArray(System.String)">
+            <summary>
+            Converts an encrypted byte string (4 digit characters) to a byte array
+            </summary>
+            <param name="textStr"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

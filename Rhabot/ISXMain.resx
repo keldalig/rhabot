@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>FlatButtons</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.Name" xml:space="preserve">
+    <value>uscMain1</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.Type" xml:space="preserve">
+    <value>Rhabot.uscMain, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 73</value>
+  </data>
+  <data name="tabMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 454</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabMain.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.Name" xml:space="preserve">
+    <value>uscSettings1</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.Type" xml:space="preserve">
+    <value>Rhabot.uscSettings, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.Parent" xml:space="preserve">
+    <value>tabSettigns</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSettigns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabSettigns.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabSettigns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="tabSettigns.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabSettigns.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;tabSettigns.Name" xml:space="preserve">
+    <value>tabSettigns</value>
+  </data>
+  <data name="&gt;&gt;tabSettigns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSettigns.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabSettigns.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.Name" xml:space="preserve">
+    <value>uscCombatSettings1</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.Type" xml:space="preserve">
+    <value>Rhabot.uscCombatSettings, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.Parent" xml:space="preserve">
+    <value>tabCombatSettings</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabCombatSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabCombatSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="tabCombatSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabCombatSettings.Text" xml:space="preserve">
+    <value>Combat Settings</value>
+  </data>
+  <data name="&gt;&gt;tabCombatSettings.Name" xml:space="preserve">
+    <value>tabCombatSettings</value>
+  </data>
+  <data name="&gt;&gt;tabCombatSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCombatSettings.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabCombatSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.Name" xml:space="preserve">
+    <value>uscCombatRoutines1</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscCombatRoutines, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.Parent" xml:space="preserve">
+    <value>tabCombatClass</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabCombatClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabCombatClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="tabCombatClass.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tabCombatClass.Text" xml:space="preserve">
+    <value>Combat Class</value>
+  </data>
+  <data name="&gt;&gt;tabCombatClass.Name" xml:space="preserve">
+    <value>tabCombatClass</value>
+  </data>
+  <data name="&gt;&gt;tabCombatClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCombatClass.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabCombatClass.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.Name" xml:space="preserve">
+    <value>uscAutoUpgrade1</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.Type" xml:space="preserve">
+    <value>Rhabot.uscAutoUpgrade, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.Parent" xml:space="preserve">
+    <value>tabAutoEquip</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAutoEquip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabAutoEquip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabAutoEquip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="tabAutoEquip.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tabAutoEquip.Text" xml:space="preserve">
+    <value>Auto Equip</value>
+  </data>
+  <data name="&gt;&gt;tabAutoEquip.Name" xml:space="preserve">
+    <value>tabAutoEquip</value>
+  </data>
+  <data name="&gt;&gt;tabAutoEquip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAutoEquip.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabAutoEquip.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.Name" xml:space="preserve">
+    <value>uscQuests1</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.Type" xml:space="preserve">
+    <value>ISXBotHelper.Controls.uscQuests, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.Parent" xml:space="preserve">
+    <value>tabQuests</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabQuests.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabQuests.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="tabQuests.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="tabQuests.Text" xml:space="preserve">
+    <value>BETA - AutoNav Quests</value>
+  </data>
+  <data name="&gt;&gt;tabQuests.Name" xml:space="preserve">
+    <value>tabQuests</value>
+  </data>
+  <data name="&gt;&gt;tabQuests.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabQuests.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabQuests.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.Name" xml:space="preserve">
+    <value>uscHealBot1</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscHealBot, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.Parent" xml:space="preserve">
+    <value>tabHealBot</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabHealBot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabHealBot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="tabHealBot.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tabHealBot.Text" xml:space="preserve">
+    <value>HealBot Settings</value>
+  </data>
+  <data name="&gt;&gt;tabHealBot.Name" xml:space="preserve">
+    <value>tabHealBot</value>
+  </data>
+  <data name="&gt;&gt;tabHealBot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabHealBot.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabHealBot.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.Name" xml:space="preserve">
+    <value>uscItemMain1</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscItemMain, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.Parent" xml:space="preserve">
+    <value>tabInventory</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabInventory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tabInventory.Text" xml:space="preserve">
+    <value>Inventory Management</value>
+  </data>
+  <data name="&gt;&gt;tabInventory.Name" xml:space="preserve">
+    <value>tabInventory</value>
+  </data>
+  <data name="&gt;&gt;tabInventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabInventory.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabInventory.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.Name" xml:space="preserve">
+    <value>uscChatLog1</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.Type" xml:space="preserve">
+    <value>Rhabot.uscChatLog, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.Parent" xml:space="preserve">
+    <value>tabChatLog</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabChatLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabChatLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabChatLog.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabChatLog.Text" xml:space="preserve">
+    <value>Chat Log</value>
+  </data>
+  <data name="&gt;&gt;tabChatLog.Name" xml:space="preserve">
+    <value>tabChatLog</value>
+  </data>
+  <data name="&gt;&gt;tabChatLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabChatLog.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabChatLog.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.Name" xml:space="preserve">
+    <value>uscPaths1</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.Type" xml:space="preserve">
+    <value>Rhabot.uscPaths, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.Parent" xml:space="preserve">
+    <value>tabPath</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabPath.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabPath.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="&gt;&gt;tabPath.Name" xml:space="preserve">
+    <value>tabPath</value>
+  </data>
+  <data name="&gt;&gt;tabPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPath.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPath.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.Name" xml:space="preserve">
+    <value>uscTalents1</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.Type" xml:space="preserve">
+    <value>Rhabot.uscTalents, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.Parent" xml:space="preserve">
+    <value>tabTalents</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabTalents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabTalents.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabTalents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabTalents.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tabTalents.Text" xml:space="preserve">
+    <value>Talents</value>
+  </data>
+  <data name="&gt;&gt;tabTalents.Name" xml:space="preserve">
+    <value>tabTalents</value>
+  </data>
+  <data name="&gt;&gt;tabTalents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabTalents.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabTalents.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.Name" xml:space="preserve">
+    <value>uscAutoBuff1</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.Type" xml:space="preserve">
+    <value>Rhabot.uscAutoBuff, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.Parent" xml:space="preserve">
+    <value>tabAutoBuff</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAutoBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabAutoBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabAutoBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tabAutoBuff.Text" xml:space="preserve">
+    <value>AutoBuff</value>
+  </data>
+  <data name="&gt;&gt;tabAutoBuff.Name" xml:space="preserve">
+    <value>tabAutoBuff</value>
+  </data>
+  <data name="&gt;&gt;tabAutoBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAutoBuff.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabAutoBuff.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.Name" xml:space="preserve">
+    <value>uscCommunication1</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.Type" xml:space="preserve">
+    <value>Rhabot.uscCommunication, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.Parent" xml:space="preserve">
+    <value>tabCommunication</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabCommunication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabCommunication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabCommunication.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabCommunication.Text" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="&gt;&gt;tabCommunication.Name" xml:space="preserve">
+    <value>tabCommunication</value>
+  </data>
+  <data name="&gt;&gt;tabCommunication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCommunication.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabCommunication.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.Name" xml:space="preserve">
+    <value>uscChatter1</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscChatter, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.Parent" xml:space="preserve">
+    <value>tabChatter</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabChatter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabChatter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabChatter.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tabChatter.Text" xml:space="preserve">
+    <value>Chatter</value>
+  </data>
+  <data name="&gt;&gt;tabChatter.Name" xml:space="preserve">
+    <value>tabChatter</value>
+  </data>
+  <data name="&gt;&gt;tabChatter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabChatter.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabChatter.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.Name" xml:space="preserve">
+    <value>uscShareProfiles1</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.Type" xml:space="preserve">
+    <value>ISXBotHelper.Controls.uscShareProfiles, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.Parent" xml:space="preserve">
+    <value>tabSharedProfiles</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSharedProfiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabSharedProfiles.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabSharedProfiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabSharedProfiles.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="tabSharedProfiles.Text" xml:space="preserve">
+    <value>Shared Profiles</value>
+  </data>
+  <data name="tabSharedProfiles.ToolTipText" xml:space="preserve">
+    <value>Get and Share Your Profiles</value>
+  </data>
+  <data name="&gt;&gt;tabSharedProfiles.Name" xml:space="preserve">
+    <value>tabSharedProfiles</value>
+  </data>
+  <data name="&gt;&gt;tabSharedProfiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSharedProfiles.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabSharedProfiles.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.Name" xml:space="preserve">
+    <value>uscSharePaths1</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.Type" xml:space="preserve">
+    <value>ISXBotHelper.Controls.uscSharePaths, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.Parent" xml:space="preserve">
+    <value>tabSharedPaths</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSharedPaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tabSharedPaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="tabSharedPaths.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="tabSharedPaths.Text" xml:space="preserve">
+    <value>Shared Paths</value>
+  </data>
+  <data name="tabSharedPaths.ToolTipText" xml:space="preserve">
+    <value>Get and Share Paths</value>
+  </data>
+  <data name="&gt;&gt;tabSharedPaths.Name" xml:space="preserve">
+    <value>tabSharedPaths</value>
+  </data>
+  <data name="&gt;&gt;tabSharedPaths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSharedPaths.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabSharedPaths.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.Name" xml:space="preserve">
+    <value>uscSearch1</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscSearch, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.Parent" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 73</value>
+  </data>
+  <data name="tabSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 454</value>
+  </data>
+  <data name="tabSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tabSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Name" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.Name" xml:space="preserve">
+    <value>uscLog1</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.Type" xml:space="preserve">
+    <value>Rhabot.uscLog, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.Parent" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 73</value>
+  </data>
+  <data name="tabLog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 454</value>
+  </data>
+  <data name="tabLog.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Name" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabLog.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 531</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscMain1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uscMain1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscMain1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uscMain1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 448</value>
+  </data>
+  <data name="uscMain1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.Name" xml:space="preserve">
+    <value>uscMain1</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.Type" xml:space="preserve">
+    <value>Rhabot.uscMain, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;uscMain1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscSettings1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uscSettings1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscSettings1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uscSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 496</value>
+  </data>
+  <data name="uscSettings1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.Name" xml:space="preserve">
+    <value>uscSettings1</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.Type" xml:space="preserve">
+    <value>Rhabot.uscSettings, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.Parent" xml:space="preserve">
+    <value>tabSettigns</value>
+  </data>
+  <data name="&gt;&gt;uscSettings1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscCombatSettings1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscCombatSettings1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscCombatSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="uscCombatSettings1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.Name" xml:space="preserve">
+    <value>uscCombatSettings1</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.Type" xml:space="preserve">
+    <value>Rhabot.uscCombatSettings, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.Parent" xml:space="preserve">
+    <value>tabCombatSettings</value>
+  </data>
+  <data name="&gt;&gt;uscCombatSettings1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscCombatRoutines1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscCombatRoutines1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscCombatRoutines1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="uscCombatRoutines1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.Name" xml:space="preserve">
+    <value>uscCombatRoutines1</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscCombatRoutines, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.Parent" xml:space="preserve">
+    <value>tabCombatClass</value>
+  </data>
+  <data name="&gt;&gt;uscCombatRoutines1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscAutoUpgrade1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscAutoUpgrade1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uscAutoUpgrade1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 496</value>
+  </data>
+  <data name="uscAutoUpgrade1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.Name" xml:space="preserve">
+    <value>uscAutoUpgrade1</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.Type" xml:space="preserve">
+    <value>Rhabot.uscAutoUpgrade, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.Parent" xml:space="preserve">
+    <value>tabAutoEquip</value>
+  </data>
+  <data name="&gt;&gt;uscAutoUpgrade1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscQuests1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscQuests1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscQuests1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="uscQuests1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.Name" xml:space="preserve">
+    <value>uscQuests1</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.Type" xml:space="preserve">
+    <value>ISXBotHelper.Controls.uscQuests, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.Parent" xml:space="preserve">
+    <value>tabQuests</value>
+  </data>
+  <data name="&gt;&gt;uscQuests1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscHealBot1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscHealBot1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscHealBot1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 502</value>
+  </data>
+  <data name="uscHealBot1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.Name" xml:space="preserve">
+    <value>uscHealBot1</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscHealBot, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.Parent" xml:space="preserve">
+    <value>tabHealBot</value>
+  </data>
+  <data name="&gt;&gt;uscHealBot1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscItemMain1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscItemMain1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uscItemMain1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 472</value>
+  </data>
+  <data name="uscItemMain1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.Name" xml:space="preserve">
+    <value>uscItemMain1</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscItemMain, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.Parent" xml:space="preserve">
+    <value>tabInventory</value>
+  </data>
+  <data name="&gt;&gt;uscItemMain1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscChatLog1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscChatLog1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscChatLog1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="uscChatLog1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.Name" xml:space="preserve">
+    <value>uscChatLog1</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.Type" xml:space="preserve">
+    <value>Rhabot.uscChatLog, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.Parent" xml:space="preserve">
+    <value>tabChatLog</value>
+  </data>
+  <data name="&gt;&gt;uscChatLog1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscPaths1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscPaths1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscPaths1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="uscPaths1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.Name" xml:space="preserve">
+    <value>uscPaths1</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.Type" xml:space="preserve">
+    <value>Rhabot.uscPaths, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.Parent" xml:space="preserve">
+    <value>tabPath</value>
+  </data>
+  <data name="&gt;&gt;uscPaths1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscTalents1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscTalents1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uscTalents1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 472</value>
+  </data>
+  <data name="uscTalents1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.Name" xml:space="preserve">
+    <value>uscTalents1</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.Type" xml:space="preserve">
+    <value>Rhabot.uscTalents, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.Parent" xml:space="preserve">
+    <value>tabTalents</value>
+  </data>
+  <data name="&gt;&gt;uscTalents1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscAutoBuff1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscAutoBuff1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscAutoBuff1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="uscAutoBuff1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.Name" xml:space="preserve">
+    <value>uscAutoBuff1</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.Type" xml:space="preserve">
+    <value>Rhabot.uscAutoBuff, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.Parent" xml:space="preserve">
+    <value>tabAutoBuff</value>
+  </data>
+  <data name="&gt;&gt;uscAutoBuff1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscCommunication1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscCommunication1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscCommunication1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="uscCommunication1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.Name" xml:space="preserve">
+    <value>uscCommunication1</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.Type" xml:space="preserve">
+    <value>Rhabot.uscCommunication, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.Parent" xml:space="preserve">
+    <value>tabCommunication</value>
+  </data>
+  <data name="&gt;&gt;uscCommunication1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscChatter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscChatter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscChatter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="uscChatter1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.Name" xml:space="preserve">
+    <value>uscChatter1</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscChatter, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.Parent" xml:space="preserve">
+    <value>tabChatter</value>
+  </data>
+  <data name="&gt;&gt;uscChatter1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscShareProfiles1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscShareProfiles1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uscShareProfiles1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 472</value>
+  </data>
+  <data name="uscShareProfiles1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.Name" xml:space="preserve">
+    <value>uscShareProfiles1</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.Type" xml:space="preserve">
+    <value>ISXBotHelper.Controls.uscShareProfiles, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.Parent" xml:space="preserve">
+    <value>tabSharedProfiles</value>
+  </data>
+  <data name="&gt;&gt;uscShareProfiles1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscSharePaths1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscSharePaths1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uscSharePaths1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscSharePaths1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 478</value>
+  </data>
+  <data name="uscSharePaths1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.Name" xml:space="preserve">
+    <value>uscSharePaths1</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.Type" xml:space="preserve">
+    <value>ISXBotHelper.Controls.uscSharePaths, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.Parent" xml:space="preserve">
+    <value>tabSharedPaths</value>
+  </data>
+  <data name="&gt;&gt;uscSharePaths1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscSearch1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscSearch1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscSearch1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 454</value>
+  </data>
+  <data name="uscSearch1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.Name" xml:space="preserve">
+    <value>uscSearch1</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscSearch, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.Parent" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;uscSearch1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uscLog1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uscLog1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uscLog1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 448</value>
+  </data>
+  <data name="uscLog1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.Name" xml:space="preserve">
+    <value>uscLog1</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.Type" xml:space="preserve">
+    <value>Rhabot.uscLog, Rhabot, Version=1.64.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.Parent" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="&gt;&gt;uscLog1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="mnuMain.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F2</value>
+  </data>
+  <data name="mnuMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="mnuMain.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="loggingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="loggingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Logging</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="mnuInventory.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+I</value>
+  </data>
+  <data name="mnuInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="mnuInventory.Text" xml:space="preserve">
+    <value>Inventory Management</value>
+  </data>
+  <data name="pathsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="pathsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="sharingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="sharingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sharing</value>
+  </data>
+  <data name="mnuPanels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="mnuPanels.Text" xml:space="preserve">
+    <value>Panels</value>
+  </data>
+  <data name="mnuCharStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="mnuCharStatus.Text" xml:space="preserve">
+    <value>Character Status</value>
+  </data>
+  <data name="mnuCharStatus.ToolTipText" xml:space="preserve">
+    <value>See your character status screen</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="mnuSubscribe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="mnuSubscribe.Text" xml:space="preserve">
+    <value>Subscribe!</value>
+  </data>
+  <data name="mnuSubscribe.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mnuLog.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+L</value>
+  </data>
+  <data name="mnuLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="mnuLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="mnuChatLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="mnuChatLog.Text" xml:space="preserve">
+    <value>Chat Log</value>
+  </data>
+  <data name="mnuSettings.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+S</value>
+  </data>
+  <data name="mnuSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="mnuCombatSettings.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+C</value>
+  </data>
+  <data name="mnuCombatSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuCombatSettings.Text" xml:space="preserve">
+    <value>Combat Settings</value>
+  </data>
+  <data name="mnuCombatClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuCombatClass.Text" xml:space="preserve">
+    <value>Combat Class</value>
+  </data>
+  <data name="mnuAutoEquip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuAutoEquip.Text" xml:space="preserve">
+    <value>Auto Equip</value>
+  </data>
+  <data name="mnuHealBot.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+H</value>
+  </data>
+  <data name="mnuHealBot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuHealBot.Text" xml:space="preserve">
+    <value>HealBot</value>
+  </data>
+  <data name="mnuAutoBuff.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+A</value>
+  </data>
+  <data name="mnuAutoBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuAutoBuff.Text" xml:space="preserve">
+    <value>AutoBuff</value>
+  </data>
+  <data name="mnuTalents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuTalents.Text" xml:space="preserve">
+    <value>Talents</value>
+  </data>
+  <data name="mnuCommunication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuCommunication.Text" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="mnuChatter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="mnuChatter.Text" xml:space="preserve">
+    <value>Chatter</value>
+  </data>
+  <data name="mnuPathMng.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="mnuPathMng.Text" xml:space="preserve">
+    <value>Path Management</value>
+  </data>
+  <data name="mnuNewIndivPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="mnuNewIndivPath.Text" xml:space="preserve">
+    <value>New Individual Path</value>
+  </data>
+  <data name="mnuSharedProfiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="mnuSharedProfiles.Text" xml:space="preserve">
+    <value>Shared Profiles</value>
+  </data>
+  <data name="mnuSharedPaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="mnuSharedPaths.Text" xml:space="preserve">
+    <value>Shared Paths</value>
+  </data>
+  <data name="mnuWebsite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="mnuWebsite.Text" xml:space="preserve">
+    <value>Rhabot Website</value>
+  </data>
+  <data name="rhabotDocumentationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="rhabotDocumentationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rhabot Documentation</value>
+  </data>
+  <data name="rhabotQuickStartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="rhabotQuickStartToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rhabot Quick Start</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 6</value>
+  </data>
+  <data name="mnuUploadLastFiveLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="mnuUploadLastFiveLogs.Text" xml:space="preserve">
+    <value>Upload Last 5 Logs for inspection</value>
+  </data>
+  <data name="mnuUploadLastFiveLogs.ToolTipText" xml:space="preserve">
+    <value>Uploads the last five log files for inspection by the Rhabot team. This should only be used if you encounter a serious error or someone from the Rhabot team asks you to upload the log files.</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 6</value>
+  </data>
+  <data name="rhabotVersionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="rhabotVersionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rhabot Version</value>
+  </data>
+  <data name="rhabotExpireToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="rhabotExpireToolStripMenuItem.Text" xml:space="preserve">
+    <value>Subscription Renews On</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>707, 555</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFhYWABwcHABCQkIAZmZmAHd3dwApKSkAIiIiADMzMwBNTU0AVVVVAICAgACZmZkAlpaWAIaG
+        hgCkoKAAOTk5AMDAwAD///8A8fHxANfX1wCysrIAX19fAOrq6gAzMzMA3d3dANfX1wDW5+cEkKmtBAD/
+        MwQAAGYEAACZBAAAzAQAMwAEADMzBAAzZgQAM5kEADPMBAAz/wQAZgAEAGYzBABmZgQAZpkEAGbMBABm
+        /wQAmQAEAJkzBACZZgQAmZkEAJnMBACZ/wQAzAAEAMwzBADMZgQAzJkEAMzMBADM/wQA/2YEAP+ZBAD/
+        zAQz/wAE/wAzBDMAZgQzAJkEMwDMBDMA/wT/MwAEMzMzBDMzZgQzM5kEMzPMBDMz/wQzZgAEM2YzBDNm
+        ZgQzZpkEM2bMBDNm/wQzmQAEM5kzBDOZZgQzmZkEM5nMBDOZ/wQzzAAEM8wzBDPMZgQzzJkEM8zMBDPM
+        /wQz/zMEM/9mBDP/mQQz/8wEM///BGYAAARmADMEZgBmBGYAmQRmAMwEZgD/BGYzAARmMzMEZjNmBGYz
+        mQRmM8wEZjP/BGZmAARmZjMEZmZmBGZmmQRmZswEZpkABGaZMwRmmWYEZpmZBGaZzARmmf8EZswABGbM
+        MwRmzJkEZszMBGbM/wRm/wAEZv8zBGb/mQRm/8wEzAD/BP8AzASZmQAEmTOZBJkAmQSZAMwEmQAABJkz
+        MwSZAGYEmTPMBJkA/wSZZgAEmWYzBJkzZgSZZpkEmWbMBJkz/wSZmTMEmZlmBJmZmQSZmcwEmZn/BJnM
+        AASZzDMEZsxmBJnMmQSZzMwEmcz/BJn/AASZ/zMEmcxmBJn/mQSZ/8wEmf//BMwAAASZADMEzABmBMwA
+        mQTMAMwEmTMABMwzMwTMM2YEzDOZBMwzzATMM/8EzGYABMxmMwSZZmYEzGaZBMxmzASZZv8EzJkABMyZ
+        MwTMmWYEzJmZBMyZzATMmf8EzMwABMzMMwTMzGYEzMyZBMzMzATMzP8EzP8ABMz/MwSZ/2YEzP+ZBMz/
+        zATM//8EzAAzBP8AZgT/AJkEzDMABP8zMwT/M2YE/zOZBP8zzAT/M/8E/2YABP9mMwTMZmYE/2aZBP9m
+        zATMZv8E/5kABP+ZMwT/mWYE/5mZBP+ZzAT/mf8E/8wABP/MMwT/zGYE/8yZBP/MzAT/zP8E//8zBMz/
+        ZgT//5kE///MBGZm/wRm/2YEZv//BP9mZgT/Zv8E//9mBCEApQRfX18Ed3d3BIaGhgSWlpYEy8vLBLKy
+        sgTX19cE3d3dBOPj4wTq6uoE8fHxBPj4+ATw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQICCBAQBgcAAAAAAAAAAAAAAAAAAAAAAAAAAAYHAAAB
+        BwgJCgoJBQoBAAAAAAAAAAAAAAAAAAAAAAACAQAAAAABBgoKCgkLDAEAAAAAAAAAAAAAAAAAAAAAAAYI
+        AgAAAAABEAkKFg0FAgAAAAAAAAAAAAgAAAAAAAAAAQMKCAEAAAAAAQEHCAEBBwEAAAAAAAAAAAgAAAAA
+        AAABAwoKCQgBAAAAAAAAAAAAAQEAAAAAAAAAAAgAAAAAAAYDCgoKCgkQBwEAAAAAAAAABwAAAAAAAAAA
+        EAgBAAABBgoKCgoKCgoKCQQFCgMICAoWAAABAAAAAAABEAkQEAcIAwoKCgoKCgkKDg8PDwwPDgkAAAAA
+        AAAAAAAAAAgJCAgICQkJCgoKCQoODA0NDQwFAQAAAAAAAAAAAAAAABAICAgJFgoKAwkJCg4PDQ0NDQoA
+        AAAAAQAAAAAAAAAACAgICQkKCwUKCgMWDg0NDg0LBwAAAAABAAAAAAAAAAAABAwRFQoJBAQFBQsFDgsF
+        DQUIAAAAAAEAAAAAAAAAAAEVEhISDwkJCQoFDQ4NDQ0ODQMAAAAAAgAAAAAAAAAABxESEhIUCQoKCQUR
+        FQ0NDQsNCAAAAAAAAAAAAAAAAAABDhISEg8JCgkKERITEQ0LDQ4HAAAAAAAAAAAAAAAAAAAQDREMCgkK
+        CQUSEhISDwQKCAEAAQAAAAAAAAAAAQAAAAEQCgkJCgoJBRISEhIECQkIAAAAAAAAAAAAAAAAAAAAARAJ
+        CgoKCgkEERISERAICAgJCAAAAAAAAAAAAAAAAAAABwoKCgoJCg4NDw8FAgAAAAgJCAAAAAAAAAAAAAAA
+        AAAABgoKCQoLDA0MCwEAAAAAAAEICAAAAAAAAAAAAAAAAAAABgkKCwwNDA4CAAAAAAAAAAAACAAAAAAA
+        AAAAAAAAAAAAAgMEBQUEBgAAAAAABwAAAAAACAAAAAAAAAAAAAAAAAAAAAECAgEAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//////4Af//4AB//4AAP/8AAB/+AAAP/AAAB/gAAAPYAAAD4AAAAeAAAADgAAAA4AA
+        AAOAAAADAAAAAQAAAAEAAAABAAAAAQAAAAGAAAADgAAAA4AAAAOAAAADwAAAB+AAAA/gAAAH8AAAG/gA
+        AD/8AAB//wAB//+AA///+D//
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ISXRhabot</value>
+  </data>
+  <data name="&gt;&gt;mnuPanels.Name" xml:space="preserve">
+    <value>mnuPanels</value>
+  </data>
+  <data name="&gt;&gt;mnuPanels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuMain.Name" xml:space="preserve">
+    <value>mnuMain</value>
+  </data>
+  <data name="&gt;&gt;mnuMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loggingToolStripMenuItem.Name" xml:space="preserve">
+    <value>loggingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;loggingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuLog.Name" xml:space="preserve">
+    <value>mnuLog</value>
+  </data>
+  <data name="&gt;&gt;mnuLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChatLog.Name" xml:space="preserve">
+    <value>mnuChatLog</value>
+  </data>
+  <data name="&gt;&gt;mnuChatLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSettings.Name" xml:space="preserve">
+    <value>mnuSettings</value>
+  </data>
+  <data name="&gt;&gt;mnuSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuCombatSettings.Name" xml:space="preserve">
+    <value>mnuCombatSettings</value>
+  </data>
+  <data name="&gt;&gt;mnuCombatSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuCombatClass.Name" xml:space="preserve">
+    <value>mnuCombatClass</value>
+  </data>
+  <data name="&gt;&gt;mnuCombatClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuAutoEquip.Name" xml:space="preserve">
+    <value>mnuAutoEquip</value>
+  </data>
+  <data name="&gt;&gt;mnuAutoEquip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuHealBot.Name" xml:space="preserve">
+    <value>mnuHealBot</value>
+  </data>
+  <data name="&gt;&gt;mnuHealBot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuAutoBuff.Name" xml:space="preserve">
+    <value>mnuAutoBuff</value>
+  </data>
+  <data name="&gt;&gt;mnuAutoBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuTalents.Name" xml:space="preserve">
+    <value>mnuTalents</value>
+  </data>
+  <data name="&gt;&gt;mnuTalents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuCommunication.Name" xml:space="preserve">
+    <value>mnuCommunication</value>
+  </data>
+  <data name="&gt;&gt;mnuCommunication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChatter.Name" xml:space="preserve">
+    <value>mnuChatter</value>
+  </data>
+  <data name="&gt;&gt;mnuChatter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuInventory.Name" xml:space="preserve">
+    <value>mnuInventory</value>
+  </data>
+  <data name="&gt;&gt;mnuInventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pathsToolStripMenuItem.Name" xml:space="preserve">
+    <value>pathsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pathsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuPathMng.Name" xml:space="preserve">
+    <value>mnuPathMng</value>
+  </data>
+  <data name="&gt;&gt;mnuPathMng.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuNewIndivPath.Name" xml:space="preserve">
+    <value>mnuNewIndivPath</value>
+  </data>
+  <data name="&gt;&gt;mnuNewIndivPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sharingToolStripMenuItem.Name" xml:space="preserve">
+    <value>sharingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sharingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSharedProfiles.Name" xml:space="preserve">
+    <value>mnuSharedProfiles</value>
+  </data>
+  <data name="&gt;&gt;mnuSharedProfiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSharedPaths.Name" xml:space="preserve">
+    <value>mnuSharedPaths</value>
+  </data>
+  <data name="&gt;&gt;mnuSharedPaths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuCharStatus.Name" xml:space="preserve">
+    <value>mnuCharStatus</value>
+  </data>
+  <data name="&gt;&gt;mnuCharStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuWebsite.Name" xml:space="preserve">
+    <value>mnuWebsite</value>
+  </data>
+  <data name="&gt;&gt;mnuWebsite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rhabotDocumentationToolStripMenuItem.Name" xml:space="preserve">
+    <value>rhabotDocumentationToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rhabotDocumentationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rhabotQuickStartToolStripMenuItem.Name" xml:space="preserve">
+    <value>rhabotQuickStartToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rhabotQuickStartToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuUploadLastFiveLogs.Name" xml:space="preserve">
+    <value>mnuUploadLastFiveLogs</value>
+  </data>
+  <data name="&gt;&gt;mnuUploadLastFiveLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rhabotVersionToolStripMenuItem.Name" xml:space="preserve">
+    <value>rhabotVersionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rhabotVersionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rhabotExpireToolStripMenuItem.Name" xml:space="preserve">
+    <value>rhabotExpireToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rhabotExpireToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSubscribe.Name" xml:space="preserve">
+    <value>mnuSubscribe</value>
+  </data>
+  <data name="&gt;&gt;mnuSubscribe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ISXMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

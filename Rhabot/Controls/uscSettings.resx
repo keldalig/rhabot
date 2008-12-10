@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkUnattended.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkUnattended.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="chkUnattended.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 16</value>
+  </data>
+  <data name="chkUnattended.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="chkUnattended.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkUnattended.Text" xml:space="preserve">
+    <value>Unattended</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="chkUnattended.ToolTip" xml:space="preserve">
+    <value>Checking this will cause the bot to go into unattended mode. This change happens immediately and does not require clicking the Apply Settings button</value>
+  </data>
+  <data name="&gt;&gt;chkUnattended.Name" xml:space="preserve">
+    <value>chkUnattended</value>
+  </data>
+  <data name="&gt;&gt;chkUnattended.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkUnattended.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkUnattended.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chkChatter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkChatter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 19</value>
+  </data>
+  <data name="chkChatter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="chkChatter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkChatter.Text" xml:space="preserve">
+    <value>Chatter AI</value>
+  </data>
+  <data name="chkChatter.ToolTip" xml:space="preserve">
+    <value>Check this to turn on the Chatter AI bot (responds to whispers and says)</value>
+  </data>
+  <data name="&gt;&gt;chkChatter.Name" xml:space="preserve">
+    <value>chkChatter</value>
+  </data>
+  <data name="&gt;&gt;chkChatter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkChatter.Parent" xml:space="preserve">
+    <value>grpChatter</value>
+  </data>
+  <data name="&gt;&gt;chkChatter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkHumanCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHumanCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="chkHumanCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 16</value>
+  </data>
+  <data name="chkHumanCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="chkHumanCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkHumanCheck.Text" xml:space="preserve">
+    <value>Human Check</value>
+  </data>
+  <data name="chkHumanCheck.ToolTip" xml:space="preserve">
+    <value>Turns on or off Human Checking. When a player is encounterd more than once after 5 minutes, your toon will perform a random hello/acknowledge emote</value>
+  </data>
+  <data name="&gt;&gt;chkHumanCheck.Name" xml:space="preserve">
+    <value>chkHumanCheck</value>
+  </data>
+  <data name="&gt;&gt;chkHumanCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHumanCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkHumanCheck.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdApplySettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="cmdApplySettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cmdApplySettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="cmdApplySettings.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdApplySettings.Text" xml:space="preserve">
+    <value>Apply Settings</value>
+  </data>
+  <data name="cmdApplySettings.ToolTip" xml:space="preserve">
+    <value>Applies all settings in the Rhabot Settings section. Settings are saved to disk and are implemented in the bot</value>
+  </data>
+  <data name="&gt;&gt;cmdApplySettings.Name" xml:space="preserve">
+    <value>cmdApplySettings</value>
+  </data>
+  <data name="&gt;&gt;cmdApplySettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdApplySettings.Parent" xml:space="preserve">
+    <value>grpBotControl</value>
+  </data>
+  <data name="&gt;&gt;cmdApplySettings.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtLowAttack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="txtLowAttack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="txtLowAttack.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtLowAttack.ToolTip" xml:space="preserve">
+    <value>Number of levels below you to attack. If you are 20, and this is set to 5, you will target units down to level 15</value>
+  </data>
+  <data name="&gt;&gt;txtLowAttack.Name" xml:space="preserve">
+    <value>txtLowAttack</value>
+  </data>
+  <data name="&gt;&gt;txtLowAttack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLowAttack.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;txtLowAttack.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtHighAttack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 19</value>
+  </data>
+  <data name="txtHighAttack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="txtHighAttack.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtHighAttack.ToolTip" xml:space="preserve">
+    <value>Number of levels above you to attack. If you are 20, and this is set to 5, you will target units up to level 25</value>
+  </data>
+  <data name="&gt;&gt;txtHighAttack.Name" xml:space="preserve">
+    <value>txtHighAttack</value>
+  </data>
+  <data name="&gt;&gt;txtHighAttack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHighAttack.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;txtHighAttack.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtSearchRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 19</value>
+  </data>
+  <data name="txtSearchRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="txtSearchRange.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtSearchRange.ToolTip" xml:space="preserve">
+    <value>Number of yards off the trail to search for hostile units / herbs /mines / chests</value>
+  </data>
+  <data name="&gt;&gt;txtSearchRange.Name" xml:space="preserve">
+    <value>txtSearchRange</value>
+  </data>
+  <data name="&gt;&gt;txtSearchRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSearchRange.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;txtSearchRange.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chkTargetElites.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTargetElites.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 54</value>
+  </data>
+  <data name="chkTargetElites.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="chkTargetElites.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="chkTargetElites.Text" xml:space="preserve">
+    <value>Target Elites</value>
+  </data>
+  <data name="chkTargetElites.ToolTip" xml:space="preserve">
+    <value>Check this to target elites</value>
+  </data>
+  <data name="&gt;&gt;chkTargetElites.Name" xml:space="preserve">
+    <value>chkTargetElites</value>
+  </data>
+  <data name="&gt;&gt;chkTargetElites.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkTargetElites.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;chkTargetElites.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtStuckTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 19</value>
+  </data>
+  <data name="txtStuckTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="txtStuckTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtStuckTimeout.ToolTip" xml:space="preserve">
+    <value>Global Setting - Time to wait, in seconds, before a stuck error is raised. This is the amount of time the toon remains stuck before the location is flagged stuck and a special error is raised.</value>
+  </data>
+  <data name="&gt;&gt;txtStuckTimeout.Name" xml:space="preserve">
+    <value>txtStuckTimeout</value>
+  </data>
+  <data name="&gt;&gt;txtStuckTimeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStuckTimeout.Parent" xml:space="preserve">
+    <value>grpStuck</value>
+  </data>
+  <data name="&gt;&gt;txtStuckTimeout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkLogoutStuck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLogoutStuck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 22</value>
+  </data>
+  <data name="chkLogoutStuck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="chkLogoutStuck.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="chkLogoutStuck.Text" xml:space="preserve">
+    <value>Logout on Stuck</value>
+  </data>
+  <data name="chkLogoutStuck.ToolTip" xml:space="preserve">
+    <value>Global Setting - Logs out your bot when the Stuck error is raised. The bot tries to stone home, first</value>
+  </data>
+  <data name="&gt;&gt;chkLogoutStuck.Name" xml:space="preserve">
+    <value>chkLogoutStuck</value>
+  </data>
+  <data name="&gt;&gt;chkLogoutStuck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLogoutStuck.Parent" xml:space="preserve">
+    <value>grpStuck</value>
+  </data>
+  <data name="&gt;&gt;chkLogoutStuck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTargetRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 19</value>
+  </data>
+  <data name="txtTargetRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="txtTargetRange.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtTargetRange.ToolTip" xml:space="preserve">
+    <value>Distnace, in yards, to be from hostile before initiating pull</value>
+  </data>
+  <data name="&gt;&gt;txtTargetRange.Name" xml:space="preserve">
+    <value>txtTargetRange</value>
+  </data>
+  <data name="&gt;&gt;txtTargetRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTargetRange.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;txtTargetRange.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtLogoutTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 10</value>
+  </data>
+  <data name="txtLogoutTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="txtLogoutTime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtLogoutTime.ToolTip" xml:space="preserve">
+    <value>Automatically stones home and logs out after X minutes</value>
+  </data>
+  <data name="&gt;&gt;txtLogoutTime.Name" xml:space="preserve">
+    <value>txtLogoutTime</value>
+  </data>
+  <data name="&gt;&gt;txtLogoutTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLogoutTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtLogoutTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtDurability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="txtDurability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="txtDurability.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtDurability.ToolTip" xml:space="preserve">
+    <value>When one or more items reaches this durability percent, Rhabot will return to repair vendor</value>
+  </data>
+  <data name="&gt;&gt;txtDurability.Name" xml:space="preserve">
+    <value>txtDurability</value>
+  </data>
+  <data name="&gt;&gt;txtDurability.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDurability.Parent" xml:space="preserve">
+    <value>grpBotControl</value>
+  </data>
+  <data name="&gt;&gt;txtDurability.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkDeclineDuel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDeclineDuel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 19</value>
+  </data>
+  <data name="chkDeclineDuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="chkDeclineDuel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="chkDeclineDuel.Text" xml:space="preserve">
+    <value>Decline Duel Invites</value>
+  </data>
+  <data name="chkDeclineDuel.ToolTip" xml:space="preserve">
+    <value>Global Setting - When checked, automatically declines duels</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineDuel.Name" xml:space="preserve">
+    <value>chkDeclineDuel</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineDuel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineDuel.Parent" xml:space="preserve">
+    <value>grpDecline</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineDuel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkDeclineGroup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDeclineGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 19</value>
+  </data>
+  <data name="chkDeclineGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 17</value>
+  </data>
+  <data name="chkDeclineGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="chkDeclineGroup.Text" xml:space="preserve">
+    <value>Decline Group Invites</value>
+  </data>
+  <data name="chkDeclineGroup.ToolTip" xml:space="preserve">
+    <value>Global Setting - When checked, automatically declines group invites</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGroup.Name" xml:space="preserve">
+    <value>chkDeclineGroup</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGroup.Parent" xml:space="preserve">
+    <value>grpDecline</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkDeclineGuild.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDeclineGuild.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="chkDeclineGuild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="chkDeclineGuild.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="chkDeclineGuild.Text" xml:space="preserve">
+    <value>Decline Guild Invites</value>
+  </data>
+  <data name="chkDeclineGuild.ToolTip" xml:space="preserve">
+    <value>Global Setting - When checked, automatically declines guild invites</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGuild.Name" xml:space="preserve">
+    <value>chkDeclineGuild</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGuild.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGuild.Parent" xml:space="preserve">
+    <value>grpDecline</value>
+  </data>
+  <data name="&gt;&gt;chkDeclineGuild.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtEndLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 74</value>
+  </data>
+  <data name="txtEndLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="txtEndLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="txtEndLevel.ToolTip" xml:space="preserve">
+    <value>End Level for these settings.</value>
+  </data>
+  <data name="&gt;&gt;txtEndLevel.Name" xml:space="preserve">
+    <value>txtEndLevel</value>
+  </data>
+  <data name="&gt;&gt;txtEndLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEndLevel.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;txtEndLevel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtStartLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 74</value>
+  </data>
+  <data name="txtStartLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="txtStartLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="txtStartLevel.ToolTip" xml:space="preserve">
+    <value>Start Level for these settings.</value>
+  </data>
+  <data name="&gt;&gt;txtStartLevel.Name" xml:space="preserve">
+    <value>txtStartLevel</value>
+  </data>
+  <data name="&gt;&gt;txtStartLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStartLevel.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;txtStartLevel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkDisableRendering.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDisableRendering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 369</value>
+  </data>
+  <data name="chkDisableRendering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="chkDisableRendering.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkDisableRendering.Text" xml:space="preserve">
+    <value>Disable Rendering</value>
+  </data>
+  <data name="chkDisableRendering.ToolTip" xml:space="preserve">
+    <value>Disables rendering wow.</value>
+  </data>
+  <data name="&gt;&gt;chkDisableRendering.Name" xml:space="preserve">
+    <value>chkDisableRendering</value>
+  </data>
+  <data name="&gt;&gt;chkDisableRendering.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDisableRendering.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkDisableRendering.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkDisableBkgRender.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDisableBkgRender.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkDisableBkgRender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 369</value>
+  </data>
+  <data name="chkDisableBkgRender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 17</value>
+  </data>
+  <data name="chkDisableBkgRender.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chkDisableBkgRender.Text" xml:space="preserve">
+    <value>Disable Background Rendering</value>
+  </data>
+  <data name="chkDisableBkgRender.ToolTip" xml:space="preserve">
+    <value>Disables background rendering rendering wow.</value>
+  </data>
+  <data name="&gt;&gt;chkDisableBkgRender.Name" xml:space="preserve">
+    <value>chkDisableBkgRender</value>
+  </data>
+  <data name="&gt;&gt;chkDisableBkgRender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDisableBkgRender.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkDisableBkgRender.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkCharStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCharStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 369</value>
+  </data>
+  <data name="chkCharStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="chkCharStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chkCharStatus.Text" xml:space="preserve">
+    <value>Character Status</value>
+  </data>
+  <data name="chkCharStatus.ToolTip" xml:space="preserve">
+    <value>This allows you to view your toon's status from a remote pc, once per minute. You can view this  information at http://char.rhabot.com.</value>
+  </data>
+  <data name="chkCharStatus.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkCharStatus.Name" xml:space="preserve">
+    <value>chkCharStatus</value>
+  </data>
+  <data name="&gt;&gt;chkCharStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCharStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkCharStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkSendOnDead.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSendOnDead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="chkSendOnDead.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSendOnDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 16</value>
+  </data>
+  <data name="chkSendOnDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 17</value>
+  </data>
+  <data name="chkSendOnDead.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chkSendOnDead.Text" xml:space="preserve">
+    <value>Email on Death</value>
+  </data>
+  <data name="chkSendOnDead.ToolTip" xml:space="preserve">
+    <value>Sends an email to all people in your communication list (and an MSN message) when the toon dies</value>
+  </data>
+  <data name="&gt;&gt;chkSendOnDead.Name" xml:space="preserve">
+    <value>chkSendOnDead</value>
+  </data>
+  <data name="&gt;&gt;chkSendOnDead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSendOnDead.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkSendOnDead.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdBrowseChatter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="cmdBrowseChatter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 13</value>
+  </data>
+  <data name="cmdBrowseChatter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 23</value>
+  </data>
+  <data name="cmdBrowseChatter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdBrowseChatter.Text" xml:space="preserve">
+    <value>Browse for AI Script</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowseChatter.Name" xml:space="preserve">
+    <value>cmdBrowseChatter</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowseChatter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowseChatter.Parent" xml:space="preserve">
+    <value>grpChatter</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowseChatter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtChatterPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="txtChatterPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="txtChatterPath.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtChatterPath.Name" xml:space="preserve">
+    <value>txtChatterPath</value>
+  </data>
+  <data name="&gt;&gt;txtChatterPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtChatterPath.Parent" xml:space="preserve">
+    <value>grpChatter</value>
+  </data>
+  <data name="&gt;&gt;txtChatterPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpChatter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="grpChatter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>534, 42</value>
+  </data>
+  <data name="grpChatter.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpChatter.Text" xml:space="preserve">
+    <value>Chatter AI</value>
+  </data>
+  <data name="&gt;&gt;grpChatter.Name" xml:space="preserve">
+    <value>grpChatter</value>
+  </data>
+  <data name="&gt;&gt;grpChatter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpChatter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpChatter.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>109, 17</value>
+  </metadata>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 29</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Durability Percent</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>grpBotControl</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpDecline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 219</value>
+  </data>
+  <data name="grpDecline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 51</value>
+  </data>
+  <data name="grpDecline.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpDecline.Text" xml:space="preserve">
+    <value>Declines - Global Setting</value>
+  </data>
+  <data name="&gt;&gt;grpDecline.Name" xml:space="preserve">
+    <value>grpDecline</value>
+  </data>
+  <data name="&gt;&gt;grpDecline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDecline.Parent" xml:space="preserve">
+    <value>grpBotControl</value>
+  </data>
+  <data name="&gt;&gt;grpDecline.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 26</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Stuck Timeout (in seconds)</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>grpStuck</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpStuck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 154</value>
+  </data>
+  <data name="grpStuck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 59</value>
+  </data>
+  <data name="grpStuck.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpStuck.Text" xml:space="preserve">
+    <value>Stuck Settings - Global Setting</value>
+  </data>
+  <data name="&gt;&gt;grpStuck.Name" xml:space="preserve">
+    <value>grpStuck</value>
+  </data>
+  <data name="&gt;&gt;grpStuck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpStuck.Parent" xml:space="preserve">
+    <value>grpBotControl</value>
+  </data>
+  <data name="&gt;&gt;grpStuck.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 81</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>End Level</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 81</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Start Level</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 26</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Target Range</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkSearchChest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSearchChest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 54</value>
+  </data>
+  <data name="chkSearchChest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="chkSearchChest.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="chkSearchChest.Text" xml:space="preserve">
+    <value>Find Chests</value>
+  </data>
+  <data name="&gt;&gt;chkSearchChest.Name" xml:space="preserve">
+    <value>chkSearchChest</value>
+  </data>
+  <data name="&gt;&gt;chkSearchChest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSearchChest.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;chkSearchChest.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkRogue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkRogue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 54</value>
+  </data>
+  <data name="chkRogue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="chkRogue.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkRogue.Text" xml:space="preserve">
+    <value>Rogue</value>
+  </data>
+  <data name="&gt;&gt;chkRogue.Name" xml:space="preserve">
+    <value>chkRogue</value>
+  </data>
+  <data name="&gt;&gt;chkRogue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRogue.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;chkRogue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkFlower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkFlower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 54</value>
+  </data>
+  <data name="chkFlower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="chkFlower.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chkFlower.Text" xml:space="preserve">
+    <value>Flower Picker</value>
+  </data>
+  <data name="&gt;&gt;chkFlower.Name" xml:space="preserve">
+    <value>chkFlower</value>
+  </data>
+  <data name="&gt;&gt;chkFlower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkFlower.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;chkFlower.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkMiner.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMiner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 54</value>
+  </data>
+  <data name="chkMiner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chkMiner.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="chkMiner.Text" xml:space="preserve">
+    <value>Miner</value>
+  </data>
+  <data name="&gt;&gt;chkMiner.Name" xml:space="preserve">
+    <value>chkMiner</value>
+  </data>
+  <data name="&gt;&gt;chkMiner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMiner.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;chkMiner.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkSkinner.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSkinner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 54</value>
+  </data>
+  <data name="chkSkinner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="chkSkinner.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chkSkinner.Text" xml:space="preserve">
+    <value>Skinner</value>
+  </data>
+  <data name="&gt;&gt;chkSkinner.Name" xml:space="preserve">
+    <value>chkSkinner</value>
+  </data>
+  <data name="&gt;&gt;chkSkinner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSkinner.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;chkSkinner.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 26</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Search Range</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 27</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>High Attack</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 27</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Low Attack</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="grpSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="grpSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 100</value>
+  </data>
+  <data name="grpSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpSearch.Text" xml:space="preserve">
+    <value>Search Settings</value>
+  </data>
+  <data name="&gt;&gt;grpSearch.Name" xml:space="preserve">
+    <value>grpSearch</value>
+  </data>
+  <data name="&gt;&gt;grpSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpSearch.Parent" xml:space="preserve">
+    <value>grpBotControl</value>
+  </data>
+  <data name="&gt;&gt;grpSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpBotControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 87</value>
+  </data>
+  <data name="grpBotControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>534, 276</value>
+  </data>
+  <data name="grpBotControl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="grpBotControl.Text" xml:space="preserve">
+    <value>Rhabot Settings</value>
+  </data>
+  <data name="&gt;&gt;grpBotControl.Name" xml:space="preserve">
+    <value>grpBotControl</value>
+  </data>
+  <data name="&gt;&gt;grpBotControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBotControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBotControl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 17</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Logout after X minutes:</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblLogoutTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogoutTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 17</value>
+  </data>
+  <data name="lblLogoutTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblLogoutTime.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblLogoutTime.Name" xml:space="preserve">
+    <value>lblLogoutTime</value>
+  </data>
+  <data name="&gt;&gt;lblLogoutTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogoutTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLogoutTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>61</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>561, 400</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>uscSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

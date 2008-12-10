@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<profile>
+  <section name="Settings">
+    <entry name="LastChatterFile">
+    </entry>
+    <entry name="LastSettingsFolder">
+    </entry>
+    <entry name="RunExplore">False</entry>
+    <entry name="ShowQuickGuideNag">False</entry>
+    <entry name="ShowTrialExpire">False</entry>
+    <entry name="LastLoginName">merlin981</entry>
+    <entry name="MPQPath">C:\Program Files\Adobe\</entry>
+    <entry name="PathPrecision">5</entry>
+    <entry name="SavePathPrecision">12</entry>
+    <entry name="NoLoginGUID">163004271174102822241248062707931523172212462114077719430123181102331940157103852270013418152255072716070420186305122466144407161055028122881247026614201092060414271804073719320951164417950712</entry>
+    <entry name="SettingsUploadWizardShown">False</entry>
+  </section>
+</profile>

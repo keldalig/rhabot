@@ -1,0 +1,975 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E20ACE4-CD78-4A3B-9BCD-B7755D81C615}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISXBotHelper</RootNamespace>
+    <AssemblyName>Rhabot</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>bot.ico</ApplicationIcon>
+    <TargetZone>Custom</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ExcludedPermissions>System.Security.Permissions.FileDialogPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExcludedPermissions>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <StartupObject>Rhabot.Program</StartupObject>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Rhabot</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>3001</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;Rhabot</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ISXWoW.NET, Version=0.0.26.61202, Culture=neutral, PublicKeyToken=93568f806a8d6774, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\InnerSpace\ISXWoW.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Lavish.InnerSpace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9029a3ab4cbe108d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\InnerSpace\Lavish.InnerSpace.dll</HintPath>
+    </Reference>
+    <Reference Include="rs, Version=1.68.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\rs\rs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BotThreads\clsAutoNavBot.cs" />
+    <Compile Include="BotThreads\clsCombatOnly.cs" />
+    <Compile Include="BotThreads\clsHealBot.cs" />
+    <Compile Include="BotThreads\clsIndividPath.cs" />
+    <Compile Include="BotThreads\clsRhabot.cs" />
+    <Compile Include="BotThreads\clsSushiBot.cs" />
+    <Compile Include="clsGlobals.cs" />
+    <Compile Include="Controls\uscQuests.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscQuests.Designer.cs">
+      <DependentUpon>uscQuests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscSharePaths.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscSharePaths.Designer.cs">
+      <DependentUpon>uscSharePaths.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscAutoUpgrade.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscAutoUpgrade.Designer.cs">
+      <DependentUpon>uscAutoUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscChatter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscChatter.Designer.cs">
+      <DependentUpon>uscChatter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscCombatRoutines.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscCombatRoutines.Designer.cs">
+      <DependentUpon>uscCombatRoutines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscHealBot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscHealBot.Designer.cs">
+      <DependentUpon>uscHealBot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscItemList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscItemList.Designer.cs">
+      <DependentUpon>uscItemList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscItemMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscItemMain.Designer.cs">
+      <DependentUpon>uscItemMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscSearch.Designer.cs">
+      <DependentUpon>uscSearch.cs</DependentUpon>
+    </Compile>
+    <None Include="BotThreads\PartyBot.iss" />
+    <None Include="Scripts\debug.iss" />
+    <None Include="Scripts\inventory.iss" />
+    <None Include="Scripts\math.iss" />
+    <None Include="Scripts\misc.iss" />
+    <None Include="Scripts\moveto.iss" />
+    <None Include="Scripts\spells.iss" />
+    <None Include="Scripts\system.iss" />
+    <None Include="Scripts\uhs.iss" />
+    <Compile Include="Controls\uscShareProfiles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscShareProfiles.Designer.cs">
+      <DependentUpon>uscShareProfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUploadLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUploadLog.Designer.cs">
+      <DependentUpon>frmUploadLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Priest.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsCreateProfile.cs" />
+    <Compile Include="ISXBotHelper\AutoNav\clsFullPath.cs" />
+    <Compile Include="ISXBotHelper\CharacterStatus\clsCharacterStatusMain.cs" />
+    <None Include="ISXBotHelper\CharacterStatus\clsCharStatus.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\MerlinEncrypt\clsAES.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\MerlinEncrypt\Crypt.cs" />
+    <Compile Include="ISXBotHelper\Movement\PathListInfoEx.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsDebugWriter.cs" />
+    <Compile Include="ISXBotHelper\Threading\ThreadBase.cs" />
+    <Compile Include="ISXBotHelper\Threading\ThreadSpin.cs" />
+    <Compile Include="ISXCreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXCreateUser.Designer.cs">
+      <DependentUpon>ISXCreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscStartEndLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscStartEndLevel.Designer.cs">
+      <DependentUpon>uscStartEndLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXBotHelper\AutoNav\clsAutoNav.cs" />
+    <Compile Include="ISXBotHelper\AutoNav\clsAutoNavTop.cs" />
+    <Compile Include="ISXBotHelper\Character\clsCharacter.cs" />
+    <Compile Include="ISXBotHelper\Character\clsGhost.cs" />
+    <Compile Include="ISXBotHelper\Character\clsMount.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Helper.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Shaman.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Warlock.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Warrior.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Paladin.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Druid.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Mage.cs" />
+    <Compile Include="ISXBotHelper\Combat\clsCombat_Hunter.cs" />
+    <Compile Include="ISXBotHelper\Communication\Chatter\clsAutoResponder.cs" />
+    <Compile Include="ISXBotHelper\Communication\Chatter\clsChat.cs" />
+    <Compile Include="ISXBotHelper\Communication\Chatter\clsChatter.cs" />
+    <Compile Include="ISXBotHelper\Communication\clsSend.cs" />
+    <Compile Include="ISXBotHelper\Communication\MSNChat\clsMSNChat.cs" />
+    <Compile Include="ISXBotHelper\Communication\MSNChat\clsMSNCmd.cs" />
+    <Compile Include="ISXBotHelper\Explore\clsUnitInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\Configuration.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ConnectivityException.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ConnectivitySettings.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\Contact.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ContactGroup.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ContactGroupList.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ContactList.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\Conversation.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\Credentials.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\DisplayImage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\DNOWSerialWrapper.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\DotMSNException.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\Emoticon.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\EmoticonCollection.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\EmoticonMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\enums.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\EventArgs.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\Factory.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\IMessageHandler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MailEventArgs.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MessagePool.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MessageProcessor.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\Messenger.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MobileMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MSNMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MSNObject.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MSNSLPHandler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\MSNSLPMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\NetworkMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\NotificationMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\NS9MessageHandler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\NSMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\NSMessagePool.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\NSMessageProcessor.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\P2PDCPool.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\P2PDirectProcessor.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\P2PHandler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\P2PMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\P2PMessagePool.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\P2PMessageSession.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\P2PTransferSession.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\PersistentStream.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\AuthMethod.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\AuthNone.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\AuthUserPass.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\IAsyncProxyResult.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\ProxyException.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\ProxySocket.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\Socks4Handler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\Socks5Handler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\ProxySocket\SocksHandler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\SB9MessageHandler.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\SBMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\SBMessagePool.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\SBMessageProcessor.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\SBMSGMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\SocketMessageProcessor.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\TextMessage.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\DotMSN\UnauthorizedException.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\XDMessaging\DataGram.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\XDMessaging\Native\Native.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\XDMessaging\Utils\WindowsEnum.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\XDMessaging\WindowEnumFilter.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\XDMessaging\XDBroadcast.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\XDMessaging\XDListener.cs" />
+    <Compile Include="ISXBotHelper\External_Dlls\XDMessaging\XDMessageEventArgs.cs" />
+    <Compile Include="ISXBotHelper\frmSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXBotHelper\frmSelect.Designer.cs">
+      <DependentUpon>frmSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXBotHelper\HumanCheck\clsAutoBuff.cs" />
+    <Compile Include="ISXBotHelper\HumanCheck\clsHumanCheck.cs" />
+    <Compile Include="ISXBotHelper\HumanCheck\clsInvites.cs" />
+    <Compile Include="ISXBotHelper\ISXError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXBotHelper\ISXError.Designer.cs">
+      <DependentUpon>ISXError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXBotHelper\ISXLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXBotHelper\ISXLog.Designer.cs">
+      <DependentUpon>ISXLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXBotHelper\Items\clsAutoEquip.cs" />
+    <Compile Include="ISXBotHelper\Items\clsItem.cs" />
+    <Compile Include="ISXBotHelper\Items\clsPotions.cs" />
+    <Compile Include="ISXBotHelper\Misc\clsEvent.cs" />
+    <Compile Include="ISXBotHelper\Misc\clsLoot.cs" />
+    <Compile Include="ISXBotHelper\Misc\clsMail.cs" />
+    <Compile Include="ISXBotHelper\Misc\clsQuest.cs" />
+    <Compile Include="ISXBotHelper\Misc\clsVendor.cs" />
+    <Compile Include="ISXBotHelper\Misc\clsWowEvents.cs" />
+    <Compile Include="ISXBotHelper\Movement\clsAutoNavPath.cs" />
+    <Compile Include="ISXBotHelper\Movement\clsFace.cs" />
+    <Compile Include="ISXBotHelper\Movement\clsPath.cs" />
+    <Compile Include="ISXBotHelper\Movement\clsStuck.cs" />
+    <Compile Include="ISXBotHelper\Search\clsSearch.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsBlacklist.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsError.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsFrameLock.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsLogging.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsLogin.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsLoginInfo.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsRhabotException.cs" />
+    <Compile Include="ISXBotHelper\Settings\clsSettings.cs" />
+    <Compile Include="ISXBotHelper\Talents\clsTalentInfo.cs" />
+    <Compile Include="ISXBotHelper\Talents\clsTalents.cs" />
+    <Compile Include="ISXBotHelper\Uploads\clsUploadLog.cs" />
+    <Compile Include="ISXBotHelper\XProfile\Config.cs" />
+    <Compile Include="ISXBotHelper\XProfile\Events.cs" />
+    <Compile Include="ISXBotHelper\XProfile\IProfile.cs" />
+    <Compile Include="ISXBotHelper\XProfile\Profile.cs" />
+    <Compile Include="ISXBotHelper\XProfile\Xml.cs" />
+    <Compile Include="ISXBotHelper\XProfile\XmlHelper.cs" />
+    <Compile Include="ISXFloat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXFloat.Designer.cs">
+      <DependentUpon>ISXFloat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXLogin.Designer.cs">
+      <DependentUpon>ISXLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXNewPathWiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXNewPathWiz.Designer.cs">
+      <DependentUpon>ISXNewPathWiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXMain.Designer.cs">
+      <DependentUpon>ISXMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISXWbImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISXWbImport.Designer.cs">
+      <DependentUpon>ISXWbImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ppather\clsPPather.cs" />
+    <Compile Include="Ppather\Triangles\Location.cs" />
+    <Compile Include="Ppather\Triangles\MPQTriangleSupplier.cs" />
+    <Compile Include="Ppather\Triangles\StormDll.cs" />
+    <Compile Include="Ppather\Triangles\Triangles.cs" />
+    <Compile Include="Ppather\Triangles\Utils.cs" />
+    <Compile Include="Ppather\Triangles\WmoFile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\uscChatter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscHealBot.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscHealBot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXCreateUser.resx">
+      <DependentUpon>ISXCreateUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXBotHelper\ISXError.resx">
+      <DependentUpon>ISXError.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXBotHelper\ISXLog.resx">
+      <DependentUpon>ISXLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXFloat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXFloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXNewPathWiz.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXNewPathWiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXWbImport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXWbImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoBuff.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoBuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscChatLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCommunication.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMainInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMainInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscPaths.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscPaths.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscTalents.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscTalents.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Controls\uscAutoBuff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscAutoBuff.Designer.cs">
+      <DependentUpon>uscAutoBuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscChatLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscChatLog.Designer.cs">
+      <DependentUpon>uscChatLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscCombatSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscCombatSettings.Designer.cs">
+      <DependentUpon>uscCombatSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscCommunication.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscCommunication.Designer.cs">
+      <DependentUpon>uscCommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscLog.Designer.cs">
+      <DependentUpon>uscLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscMain.Designer.cs">
+      <DependentUpon>uscMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscMainInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscMainInfo.Designer.cs">
+      <DependentUpon>uscMainInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscPaths.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscPaths.Designer.cs">
+      <DependentUpon>uscPaths.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscSettings.Designer.cs">
+      <DependentUpon>uscSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\uscTalents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\uscTalents.Designer.cs">
+      <DependentUpon>uscTalents.cs</DependentUpon>
+    </Compile>
+    <None Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </None>
+    <Compile Include="Properties\Resources.it.Designer.cs">
+      <DependentUpon>Resources.it.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.de-DE.Designer.cs">
+      <DependentUpon>Resources.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.zh-CHS.Designer.cs">
+      <DependentUpon>Resources.zh-CHS.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Threaded Controls\ThreadTextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Threaded Controls\ThreadTextbox.Designer.cs">
+      <DependentUpon>ThreadTextbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Threaded Controls\ThreadLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Threaded Controls\ThreadLabel.Designer.cs">
+      <DependentUpon>ThreadLabel.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISXCombat\ISXCombat.csproj">
+      <Project>{0C586B53-167B-44D9-8CC9-BAAA70CF3E3E}</Project>
+      <Name>ISXCombat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISXRhabotGlobal\ISXRhabotGlobal.csproj">
+      <Project>{A5B27D4A-C5D4-4DAB-8AF6-E04994164E8B}</Project>
+      <Name>ISXRhabotGlobal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bot.ico" />
+    <Content Include="ISXBotHelper\AutoNav\Node Info.txt" />
+    <Content Include="ISXBotHelper\ReleaseNotes.txt" />
+    <EmbeddedResource Include="Controls\uscQuests.resx">
+      <DependentUpon>uscQuests.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSharePaths.resx">
+      <DependentUpon>uscSharePaths.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoBuff.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoBuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoBuff.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoBuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoBuff.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoBuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoUpgrade.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoUpgrade.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoUpgrade.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscAutoUpgrade.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscAutoUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscChatLog.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscChatLog.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscChatLog.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscChatter.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscChatter.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscChatter.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscChatter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatRoutines.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatRoutines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatRoutines.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatRoutines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatRoutines.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatRoutines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatRoutines.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatRoutines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatSettings.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatSettings.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCombatSettings.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCombatSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCommunication.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCommunication.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscCommunication.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscHealBot.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscHealBot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscHealBot.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscHealBot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscHealBot.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscHealBot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemList.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemList.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemList.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemMain.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemMain.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscItemMain.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscItemMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscLog.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscLog.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscLog.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMain.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMain.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMain.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMainInfo.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMainInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMainInfo.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMainInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscMainInfo.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscMainInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscPaths.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscPaths.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscPaths.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscPaths.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscPaths.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscPaths.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSearch.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSearch.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSearch.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSettings.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSettings.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscSettings.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscShareProfiles.resx">
+      <DependentUpon>uscShareProfiles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscStartEndLevel.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscStartEndLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscStartEndLevel.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscStartEndLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscStartEndLevel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscStartEndLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscStartEndLevel.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscStartEndLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscTalents.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscTalents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscTalents.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscTalents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\uscTalents.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscTalents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUploadLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUploadLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="ISXBotHelper\frmSelect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXBotHelper\rhabot_msn.png" />
+    <EmbeddedResource Include="ISXFloat.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXFloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXFloat.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXFloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXFloat.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXFloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXLogin.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXLogin.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXLogin.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXMain.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXMain.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXMain.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXNewPathWiz.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXNewPathWiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXNewPathWiz.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXNewPathWiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXNewPathWiz.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXNewPathWiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXWbImport.de-DE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXWbImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXWbImport.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXWbImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISXWbImport.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ISXWbImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.it.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.it.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.de-DE.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-CHS.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-CHS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Threaded Controls\ThreadTextbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ThreadTextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="ISXBotHelper\Search\Search Strings.txt" />
+    <Content Include="ISXBotHelper\TODO.txt" />
+    <Content Include="rhabot 32x32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ISXBotHelper\ADMIN\" />
+    <Folder Include="ISXBotHelper\Settings\Settings\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkDruidBearOnAggro.Text" xml:space="preserve">
+    <value>Change to Bear/DireBear on Aggro</value>
+  </data>
+  <data name="chkDruidBearOnAggro.ToolTip" xml:space="preserve">
+    <value>When checked, you will transform into a Bear or DireBear when more than one mob is attacking you</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.Text" xml:space="preserve">
+    <value>Use Avenger's Shield on Aggro</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.ToolTip" xml:space="preserve">
+    <value>When checked, you will cast Avenger's Shield if you have more than one monster attacking you</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.Text" xml:space="preserve">
+    <value>Use Consecration on Aggro</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.ToolTip" xml:space="preserve">
+    <value>When checked, you will cast Consecrate if you have more than one monster attacking you</value>
+  </data>
+  <data name="chkWarrior_Execute.Text" xml:space="preserve">
+    <value>Use Execute</value>
+  </data>
+  <data name="chkWarrior_Execute.ToolTip" xml:space="preserve">
+    <value>Check to use Execute when mob health is 20% and we have at least 20 rage</value>
+  </data>
+  <data name="chkWarrior_Overpower.Text" xml:space="preserve">
+    <value>Use Overpower</value>
+  </data>
+  <data name="chkWarrior_Overpower.ToolTip" xml:space="preserve">
+    <value>Check to use overpower when the target dodges</value>
+  </data>
+  <data name="chkWarrior_Rampage.Text" xml:space="preserve">
+    <value>Use Rampage</value>
+  </data>
+  <data name="chkWarrior_Rampage.ToolTip" xml:space="preserve">
+    <value>Check this to cast Rampage when we get a critical strike</value>
+  </data>
+  <data name="cmbWarlockPet.Items" xml:space="preserve">
+    <value>Imp</value>
+  </data>
+  <data name="cmbWarlockPet.Items1" xml:space="preserve">
+    <value>Voidwalker</value>
+  </data>
+  <data name="cmbWarlockPet.Items2" xml:space="preserve">
+    <value>Succubus</value>
+  </data>
+  <data name="cmbWarlockPet.Items3" xml:space="preserve">
+    <value>Felhunter</value>
+  </data>
+  <data name="cmbWarlockPet.Items4" xml:space="preserve">
+    <value>Felguard</value>
+  </data>
+  <data name="cmdHunterAdd.Text" xml:space="preserve">
+    <value>Add &gt;&gt;</value>
+  </data>
+  <data name="cmdHunterDelete.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="cmdHunterRefreshBag.Text" xml:space="preserve">
+    <value>Refresh Bag</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Pet Foods</value>
+  </data>
+  <data name="grpDruid.Text" xml:space="preserve">
+    <value>Druid</value>
+  </data>
+  <data name="grpHunter.Text" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="grpPaladin.Text" xml:space="preserve">
+    <value>Paladin</value>
+  </data>
+  <data name="grpShaman.Text" xml:space="preserve">
+    <value>Shaman</value>
+  </data>
+  <data name="grpWarlock.Text" xml:space="preserve">
+    <value>Warlock</value>
+  </data>
+  <data name="grpWarrior.Text" xml:space="preserve">
+    <value>Warrior</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Main Weapon Buff</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Combat Form</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Ranged DOT Spells</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Ranged Spam Spells</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Food In Bag</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Feed Pet With This Food</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Feed Pet When Happiness %</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Number of Soulshards to Keep</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Start draining when mob has X health percent</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Pet to Use</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Offhand Weapon Buff</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Earth Totem</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Fire Totem</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Water Totem</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Air Totem</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Pull Type</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Seal Two (You)</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Seal One (Mob)</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.Text" xml:space="preserve">
+    <value>Time to wait, in millisends, before casting spells</value>
+  </data>
+  <data name="optBear.Text" xml:space="preserve">
+    <value>Bear</value>
+  </data>
+  <data name="optCat.Text" xml:space="preserve">
+    <value>Cat</value>
+  </data>
+  <data name="optCharge.Text" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="optDireBear.Text" xml:space="preserve">
+    <value>Dire Bear</value>
+  </data>
+  <data name="optHumanoid.Text" xml:space="preserve">
+    <value>Humanoid</value>
+  </data>
+  <data name="optMoonkin.Text" xml:space="preserve">
+    <value>Moonkin</value>
+  </data>
+  <data name="optShoot.Text" xml:space="preserve">
+    <value>Shoot</value>
+  </data>
+  <data name="optThrow.Text" xml:space="preserve">
+    <value>Throw</value>
+  </data>
+  <data name="optWarlockPetPull.Text" xml:space="preserve">
+    <value>Pull with Pet</value>
+  </data>
+  <data name="optWarlockPetPull.ToolTip" xml:space="preserve">
+    <value>User your pet to pull mobs</value>
+  </data>
+  <data name="optWarlockSpellPull.Text" xml:space="preserve">
+    <value>Pull with Spells</value>
+  </data>
+  <data name="optWarlockSpellPull.ToolTip" xml:space="preserve">
+    <value>User spells to pull, and your pet to tank afteward</value>
+  </data>
+  <data name="txtHunterPetHappiness.ToolTip" xml:space="preserve">
+    <value>When your pet's happiness is at or below this percent, feed him after combat</value>
+  </data>
+  <data name="txtHunterRangedDOT.ToolTip" xml:space="preserve">
+    <value>List of Rnaged DOT's to keep on target</value>
+  </data>
+  <data name="txtHunterRangedSpamSpells.ToolTip" xml:space="preserve">
+    <value>List of Ranged spells to spam onto target</value>
+  </data>
+  <data name="txtPaladin_SealOne.ToolTip" xml:space="preserve">
+    <value>Casts this seal onto the mob</value>
+  </data>
+  <data name="txtPaladin_SealTwo.ToolTip" xml:space="preserve">
+    <value>Casts this seal onto you</value>
+  </data>
+  <data name="txtWarlockCastWaitTime.ToolTip" xml:space="preserve">
+    <value>When using your pet to pull, you can set a delay before your warlock casts a spell on the mob. This helps your pet gain more aggro. Enter a time (in milliseconds) to wait before casting. 1000 milliseconds = 1 second</value>
+  </data>
+  <data name="txtWarlockMobHealthDrain.ToolTip" xml:space="preserve">
+    <value>When the mob's health percent is at or below this amount, begin casting Drain Life/Soul</value>
+  </data>
+  <data name="txtWarlockSoulshards.ToolTip" xml:space="preserve">
+    <value>Number of soulshards to keep in your bags. When the quantity is below this amount, your warlock will create new ones during combat</value>
+  </data>
+</root>

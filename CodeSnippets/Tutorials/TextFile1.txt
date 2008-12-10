@@ -1,0 +1,18 @@
+XX 1) Frame lock with Using
+	- according to Lax, use for any function/property to that RETURNS a Lavish Object
+	- http://www.isxwow.net/forums/viewtopic.php?f=15&t=1003
+
+XX 2) Hooking Events
+	- http://www.isxwow.net/forums/viewtopic.php?f=15&t=1014
+
+XX 3) Movement
+	- http://www.isxwow.net/forums/viewtopic.php?f=15&t=1034
+
+XX 4) Searching
+	- http://www.isxwow.net/forums/viewtopic.php?f=15&t=1092&p=7506#p7506
+
+XX 9) ISXWOW.UI frames
+	- http://www.isxwow.net/forums/viewtopic.php?f=15&t=1112
+
+
+7) casting spells

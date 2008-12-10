@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SearchingForUnitsAttackingMe" xml:space="preserve">
+    <value>Searching for units attacking me</value>
+  </data>
+  <data name="KillingAutoNavBotThread" xml:space="preserve">
+    <value>Killing AutoNav Bot Thread</value>
+  </data>
+  <data name="StartingAutoNavBot" xml:space="preserve">
+    <value>Starting AutoNav Bot</value>
+  </data>
+  <data name="MapDataNotDefined" xml:space="preserve">
+    <value>Map data has not yet been defined for this zone. Please try another zone</value>
+  </data>
+  <data name="RunningAutoNavPath" xml:space="preserve">
+    <value>Running AutoNav Path</value>
+  </data>
+  <data name="AutoNavBotCompleted" xml:space="preserve">
+    <value>AutoNav Bot Completed</value>
+  </data>
+  <data name="FoundPathXLocationY" xml:space="preserve">
+    <value>Found point in path {0}, Location {1}</value>
+  </data>
+  <data name="ReversePathDirection" xml:space="preserve">
+    <value>reverse path direction</value>
+  </data>
+  <data name="RunPath" xml:space="preserve">
+    <value>RunPath</value>
+  </data>
+  <data name="RunPathExiting" xml:space="preserve">
+    <value>RunPath Exiting</value>
+  </data>
+  <data name="MovingAround" xml:space="preserve">
+    <value>Moving around to get a better angle</value>
+  </data>
+  <data name="FirstTimeChecking" xml:space="preserve">
+    <value>First time checking</value>
+  </data>
+  <data name="StuckReachedNextPoint" xml:space="preserve">
+    <value>Reached next point. Unstuck</value>
+  </data>
+  <data name="HandleStuck" xml:space="preserve">
+    <value>HandleStuck</value>
+  </data>
+  <data name="PathIsObstructed" xml:space="preserve">
+    <value>Path to target is obstructed</value>
+  </data>
+  <data name="CouldNotBuildPathToTargetPoint" xml:space="preserve">
+    <value>Could not build a path to the target point</value>
+  </data>
+  <data name="AdvancingToPointX" xml:space="preserve">
+    <value>Advancing to point {0}</value>
+  </data>
+  <data name="CouldNotRunToPoint" xml:space="preserve">
+    <value>Could not run to the point</value>
+  </data>
+  <data name="PathAroundAStarLog" xml:space="preserve">
+    <value>CurrentList has {0} points. Building path to {1}</value>
+  </data>
+  <data name="UploadRhabotLogs" xml:space="preserve">
+    <value>Upload Rhabot Logs</value>
+  </data>
+  <data name="NoLogFilesFound" xml:space="preserve">
+    <value>No log files found</value>
+  </data>
+  <data name="UploadingLogX" xml:space="preserve">
+    <value>Uploading Log '{0}' to the Rhabot Server</value>
+  </data>
+  <data name="UploadingLogError" xml:space="preserve">
+    <value>There was a problem uploading log '{0}'. This log could not be uploaded. Try emailing the log to rhabot@rhabot.com</value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="SushiWhatAreYouThinking" xml:space="preserve">
+    <value>What are you thinking? You don't have a pole equipped!</value>
+  </data>
+  <data name="ExitingDueToScriptStop" xml:space="preserve">
+    <value>Exiting due to script stop</value>
+  </data>
+  <data name="FishingLure" xml:space="preserve">
+    <value>Fishing Lure</value>
+  </data>
+  <data name="Fishing" xml:space="preserve">
+    <value>Fishing</value>
+  </data>
+  <data name="SushiFishSpellError" xml:space="preserve">
+    <value>Couldn't cast fish spell. Trying again in 2 seconds</value>
+  </data>
+  <data name="SushiBobberError" xml:space="preserve">
+    <value>Could not find a bobber, trying again</value>
+  </data>
+  <data name="WaitingBeforeRecast" xml:space="preserve">
+    <value>Waiting before recast</value>
+  </data>
+  <data name="Exiting" xml:space="preserve">
+    <value>Exiting</value>
+  </data>
+  <data name="GuidUpdateError" xml:space="preserve">
+    <value>Rhabot is shutting down because it could not validate your login with the Rhabot server. Please try logging into Rhabot again.</value>
+  </data>
+  <data name="LoggingIntoRhabot" xml:space="preserve">
+    <value>Logging into Rhabot</value>
+  </data>
+  <data name="RhabotServerNotFoundError" xml:space="preserve">
+    <value>The Rhabot server could not be contacted for login. Please try again in 15 minutes</value>
+  </data>
+  <data name="RhabotLoginFailed" xml:space="preserve">
+    <value>Rhabot login failed</value>
+  </data>
+  <data name="FreeTrialExpired" xml:space="preserve">
+    <value>Your free trial of Rhabot has expired. You will need to purchase a subscription to have access to all of Rhabot's features. You will now be logged in as a standard free user.</value>
+  </data>
+  <data name="TrialExpiredTitle" xml:space="preserve">
+    <value>Rhabot Trial Expire</value>
+  </data>
+  <data name="FreeTrialExpireAfterXDays" xml:space="preserve">
+    <value>Your free Full trial of Rhabot will expire in {0} days.
+
+After {0} days, you will only have access to the free user's features</value>
+  </data>
+  <data name="RhabotLoginSuccessful" xml:space="preserve">
+    <value>Rhabot login successful</value>
+  </data>
+  <data name="FoundNearbyMobs" xml:space="preserve">
+    <value>Found nearby mobs. Trying Downtime before looting, for safety</value>
+  </data>
+  <data name="NoNearbyMobs" xml:space="preserve">
+    <value>No nearby mobs. Trying to loot before downtime</value>
+  </data>
+  <data name="BotType_RhabotStandard" xml:space="preserve">
+    <value>Rhabot Standard - With Paths</value>
+  </data>
+  <data name="BotType_RhabotCombatOnly" xml:space="preserve">
+    <value>Rhabot Standard - Combat Only, No Movement</value>
+  </data>
+  <data name="BotType_HealBot" xml:space="preserve">
+    <value>Rhabot - Out of Party Healbot</value>
+  </data>
+  <data name="BotType_SushiBot" xml:space="preserve">
+    <value>Sushi Bot - You must be at water</value>
+  </data>
+  <data name="BotType_IndividPath" xml:space="preserve">
+    <value>Run General Path - Combat Only on Aggro</value>
+  </data>
+  <data name="PleaseEnterSettingsFolder" xml:space="preserve">
+    <value>Please enter a settings folder</value>
+  </data>
+  <data name="SettingsFileLoaded" xml:space="preserve">
+    <value>Setting files loaded</value>
+  </data>
+  <data name="FailedToLoadSettings" xml:space="preserve">
+    <value>Failed to load settings files</value>
+  </data>
+  <data name="PleaseSelectBoType" xml:space="preserve">
+    <value>Please select a bot type</value>
+  </data>
+  <data name="RhabotPathFileFilter" xml:space="preserve">
+    <value>Rhabot Path File (*.xml)|*.xml</value>
+  </data>
+  <data name="OpenRhabotPathFile" xml:space="preserve">
+    <value>Open Rhabot Path File</value>
+  </data>
+  <data name="PauseBot" xml:space="preserve">
+    <value>Pause Bot</value>
+  </data>
+  <data name="UnpauseBot" xml:space="preserve">
+    <value>Unpause Bot</value>
+  </data>
+  <data name="ClosingFloatForm" xml:space="preserve">
+    <value>Closing float form</value>
+  </data>
+  <data name="FormShow" xml:space="preserve">
+    <value>Form.Show</value>
+  </data>
+  <data name="ReshowingForm" xml:space="preserve">
+    <value>Reshowing form</value>
+  </data>
+  <data name="StoppingBot" xml:space="preserve">
+    <value>Stopping Bot</value>
+  </data>
+  <data name="RhabotStopped" xml:space="preserve">
+    <value>Rhabot Stopped</value>
+  </data>
+  <data name="ForceQuitPrompt" xml:space="preserve">
+    <value>Are you sure you wish to forcibly quit Rhabot? Only use this as a last resort!</value>
+  </data>
+  <data name="ForceQuitTitle" xml:space="preserve">
+    <value>Rhabot - Force Quit</value>
+  </data>
+  <data name="ForceQuit" xml:space="preserve">
+    <value>Force Quit</value>
+  </data>
+  <data name="nologin" xml:space="preserve">
+    <value>nologin</value>
+  </data>
+  <data name="LoadAutoEquipError" xml:space="preserve">
+    <value>Load Auto Equip Settings</value>
+  </data>
+  <data name="SaveAutoEquipError" xml:space="preserve">
+    <value>Save Auto Equip Settings</value>
+  </data>
+  <data name="CommReceivedProcessing" xml:space="preserve">
+    <value>Communication Received - Processing</value>
+  </data>
+  <data name="CommunicationReceived" xml:space="preserve">
+    <value>CommunicationReceived</value>
+  </data>
+  <data name="ChatterKBFile" xml:space="preserve">
+    <value>Chatter Knowledge Base (*.ckb)|*.ckb</value>
+  </data>
+  <data name="ChatterInstructions" xml:space="preserve">
+    <value>Chatter is a Chatbot A.I. It allows you set input and output messages. When an input message is received, a random associated output message is returned.
+
+Chatter will automatically respond in the correct chat channel. Chatter currently monitors Say and Whisper channels.
+
+Input Message - a template input message. For example, if you add "What is your name", chatter will respond to any of the following: "What is your name, stupid", "What the hell is your name", "Hi, what is your name"
+
+Output Message - you can add multiple response for a given input message. The more you add for an input message, the more real Chatter can seem. When the input message is heard on Say or Whisper, Chatter will choose a random output message from the input list. Chatter will then respond to the player with the selected output message. Using the above example, you might use the following for output messages: "Sam", "My name is Sam", "I don't know! I've forgot my name!", "What's your name?"
+
+After you have typed your Input Message and Output Messages, click the "Save Message" button. This will add your message to the list. NOTE: You list is not ready for use, yet.
+
+After you have added all the Input and Output messages you want, click the "Build Chatter File" button. This will compile all your messages and make the file ready to use.
+
+DON'T FORGET - To use chatter, you need to enable it in the "Settings" tab.
+
+HINTS:
+Try to keep the input message as general as possible. This lets Chatter catch more broad input messages
+
+Try not to use punctuation (.,!?) in your input message, unless it absolutely necessary. Punctuation could cause your input message to not trigger.
+
+Remember people are bad spellers. Try to have multiple input messages with variations of spelling. Also, remember to have input messages which use abbreviations (like 'wtf')
+
+If Chatter can not find a matching input message when a chat message is received, Chatter will NOT respond.
+
+</value>
+  </data>
+  <data name="YouMustEnterInputMsg" xml:space="preserve">
+    <value>You must enter an input message and at least one output message</value>
+  </data>
+  <data name="YouMustEnterOutputMsg" xml:space="preserve">
+    <value>You must enter at least one output message. Double-click the grid to add a new blank row.</value>
+  </data>
+  <data name="ChatterBuildKB" xml:space="preserve">
+    <value>Build Knowledge Base</value>
+  </data>
+  <data name="NoClassNull" xml:space="preserve">
+    <value>No Class / NULL</value>
+  </data>
+  <data name="LoadSettings" xml:space="preserve">
+    <value>Load Settings</value>
+  </data>
+  <data name="SaveSettings" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="CombatSettingsLevelMsg" xml:space="preserve">
+    <value>Please select the settings level (on the Main tab) first.</value>
+  </data>
+  <data name="HideCombatSettingsErr" xml:space="preserve">
+    <value>Hide Combat Setting Controls</value>
+  </data>
+  <data name="CheckingForCollision" xml:space="preserve">
+    <value>Checking for collisions</value>
+  </data>
+  <data name="AddToFeedList" xml:space="preserve">
+    <value>Add to Feed List</value>
+  </data>
+  <data name="RemoveFromFeedList" xml:space="preserve">
+    <value>Remove from Feed List</value>
+  </data>
+  <data name="PopHunterBagList" xml:space="preserve">
+    <value>Pop Hunter Bag List</value>
+  </data>
+  <data name="PopHunterFeedList" xml:space="preserve">
+    <value>Pop Hunter Feed List</value>
+  </data>
+  <data name="SaveHunterFeedList" xml:space="preserve">
+    <value>Save Hunter Feed List</value>
+  </data>
+  <data name="TooFarFromPoint" xml:space="preserve">
+    <value>Too far from point. Returning. Point: {0}, Distance: {1}</value>
+  </data>
+  <data name="AutoNavSpecialConditionMet" xml:space="preserve">
+    <value>Special condition met. Needs Vendor. Exiting</value>
+  </data>
+  <data name="AutoNavConditionsMet" xml:space="preserve">
+    <value>Conditions Met. Exiting</value>
+  </data>
+  <data name="PathCouldNotBeSaved" xml:space="preserve">
+    <value>Path could not be saved</value>
+  </data>
+  <data name="CouldNotLoadPath" xml:space="preserve">
+    <value>Could not load the path</value>
+  </data>
+  <data name="PleaseSelectGroupPathName" xml:space="preserve">
+    <value>Please select a group path name</value>
+  </data>
+  <data name="RhabotPathUpload" xml:space="preserve">
+    <value>Rhabot Path and Settings Upload</value>
+  </data>
+  <data name="PleaseWaitWhilePathsAreUploaded" xml:space="preserve">
+    <value>Please wait while your Rhabot paths and settings are moved to the Rhabot server</value>
+  </data>
+  <data name="GetTempFileName" xml:space="preserve">
+    <value>GetTempFileName</value>
+  </data>
+  <data name="UploadSettingsFile" xml:space="preserve">
+    <value>UploadSettingsFile</value>
+  </data>
+  <data name="GetSettingsFile" xml:space="preserve">
+    <value>GetSettingsFile</value>
+  </data>
+  <data name="PleaseEnterSettingsName" xml:space="preserve">
+    <value>Please enter a settings name. It is recommended to use something like "Race Class - Spec" for your settings name</value>
+  </data>
+  <data name="SettingsNameAlreadyExists" xml:space="preserve">
+    <value>The settings name you entered already exists. Please use a different name</value>
+  </data>
+  <data name="SettingsUploadWizardText" xml:space="preserve">
+    <value> button to upload your settings files and path files to the Rhabot server. You will not be able to use these files until they have been uploaded to the Rhabot server.</value>
+  </data>
+  <data name="SettingsUploadedSuccessfully" xml:space="preserve">
+    <value>Settings Uploaded Successfull</value>
+  </data>
+  <data name="CreateSettingsInstruct" xml:space="preserve">
+    <value>Please enter the settings name in the "Settings" drop down, then click "Load Settings"</value>
+  </data>
+  <data name="ItemsToMailToMule" xml:space="preserve">
+    <value>Items to mail to your mule</value>
+  </data>
+  <data name="ListOfItemToMail" xml:space="preserve">
+    <value>List of items to mail</value>
+  </data>
+  <data name="MailAll" xml:space="preserve">
+    <value>Mail All</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="SellAtVendors" xml:space="preserve">
+    <value>sell at vendors</value>
+  </data>
+  <data name="ListofItemsTo" xml:space="preserve">
+    <value>List of items to </value>
+  </data>
+  <data name="SellAll" xml:space="preserve">
+    <value>Sell All </value>
+  </data>
+  <data name="Sell" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>Delete All </value>
+  </data>
+  <data name="Disenchant" xml:space="preserve">
+    <value>Disenchant</value>
+  </data>
+  <data name="DisenchantAll" xml:space="preserve">
+    <value>Disenchant All </value>
+  </data>
+  <data name="Keep" xml:space="preserve">
+    <value>Keep</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Blues" xml:space="preserve">
+    <value>Blues</value>
+  </data>
+  <data name="Greens" xml:space="preserve">
+    <value>Greens</value>
+  </data>
+  <data name="Greys" xml:space="preserve">
+    <value>Greys</value>
+  </data>
+  <data name="Purples" xml:space="preserve">
+    <value>Purples</value>
+  </data>
+  <data name="Whites" xml:space="preserve">
+    <value>Whites</value>
+  </data>
+  <data name="AddItemToListXY" xml:space="preserve">
+    <value>Adding item '{1}' to {0} list</value>
+  </data>
+  <data name="RemovingItemFromListXY" xml:space="preserve">
+    <value>Removing item '{1}' from {0} list</value>
+  </data>
+  <data name="BotThread_CombatOnly" xml:space="preserve">
+    <value>CombatOnly</value>
+  </data>
+  <data name="BotThread_RhabotStandard" xml:space="preserve">
+    <value>Rhabot Standard</value>
+  </data>
+  <data name="RhabotStart" xml:space="preserve">
+    <value>Rhabot Start</value>
+  </data>
+  <data name="RhabotStop" xml:space="preserve">
+    <value>Rhabot Stop</value>
+  </data>
+  <data name="SushiBot" xml:space="preserve">
+    <value>SushiBot</value>
+  </data>
+  <data name="AutoNav" xml:space="preserve">
+    <value>AutoNav</value>
+  </data>
+  <data name="AutoNavConditionsMetTest" xml:space="preserve">
+    <value>Testing if conditions have been met</value>
+  </data>
+  <data name="Combat" xml:space="preserve">
+    <value>Combat</value>
+  </data>
+  <data name="Chatter" xml:space="preserve">
+    <value>Chatter</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="IPO" xml:space="preserve">
+    <value>IPO</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="MoveThroughAutoNavPath" xml:space="preserve">
+    <value>MoveThroughAutoNavPath</value>
+  </data>
+  <data name="FaceNextPoint" xml:space="preserve">
+    <value>FaceNextPoint</value>
+  </data>
+  <data name="StartMoving" xml:space="preserve">
+    <value>Start moving</value>
+  </data>
+  <data name="MoveAround" xml:space="preserve">
+    <value>MoveAround</value>
+  </data>
+  <data name="CheckStuckEx" xml:space="preserve">
+    <value>CheckStuckEx</value>
+  </data>
+  <data name="PathAround" xml:space="preserve">
+    <value>PathAround</value>
+  </data>
+  <data name="UploadLog" xml:space="preserve">
+    <value>UploadLog</value>
+  </data>
+  <data name="GUIDUpdate" xml:space="preserve">
+    <value>GUIDUpdate</value>
+  </data>
+  <data name="AdThread" xml:space="preserve">
+    <value>AdThread</value>
+  </data>
+  <data name="abort" xml:space="preserve">
+    <value>abort</value>
+  </data>
+  <data name="uscMain" xml:space="preserve">
+    <value>uscMain</value>
+  </data>
+  <data name="AutoBuff" xml:space="preserve">
+    <value>AutoBuff</value>
+  </data>
+  <data name="AutoEquip" xml:space="preserve">
+    <value>AutoEquip</value>
+  </data>
+  <data name="uscChatLog" xml:space="preserve">
+    <value>uscChatLog</value>
+  </data>
+  <data name="uscCombatSettings" xml:space="preserve">
+    <value>uscCombatSettings</value>
+  </data>
+  <data name="uscCombatRoutines" xml:space="preserve">
+    <value>uscCombatRoutines</value>
+  </data>
+  <data name="WoWBotPathImport" xml:space="preserve">
+    <value>WoWBotPathImport</value>
+  </data>
+  <data name="NewPathWizard" xml:space="preserve">
+    <value>NewPathWizard</value>
+  </data>
+  <data name="PathIO" xml:space="preserve">
+    <value>PathIO</value>
+  </data>
+  <data name="UploadPaths" xml:space="preserve">
+    <value>UploadPaths</value>
+  </data>
+  <data name="PopGroupPathList" xml:space="preserve">
+    <value>PopGroupPathList</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="RhabotSettingsUploadWizard" xml:space="preserve">
+    <value>RhabotSettingsUploadWizard</value>
+  </data>
+  <data name="PopBagList" xml:space="preserve">
+    <value>PopBagList</value>
+  </data>
+  <data name="Killing_AutoNav_Test_Bot_Thread" xml:space="preserve">
+    <value>Killing AutoNav Test Bot Thread</value>
+  </data>
+  <data name="StartingAutoNav" xml:space="preserve">
+    <value>Starting AutoNav</value>
+  </data>
+  <data name="RhabotMainForceQuit" xml:space="preserve">
+    <value>Rhabot Main Loop - Received Forced Shutdown</value>
+  </data>
+  <data name="RhabotMainThread" xml:space="preserve">
+    <value>Rhabot Main Thread</value>
+  </data>
+  <data name="HookingTargetChangeEvent" xml:space="preserve">
+    <value>Hooking Target Change Event</value>
+  </data>
+  <data name="HookTargetChangeEvent" xml:space="preserve">
+    <value>HookTargetChangeEvent</value>
+  </data>
+  <data name="TargetChangedTo" xml:space="preserve">
+    <value>Target Changed to</value>
+  </data>
+  <data name="TargetDeadOrInvalid" xml:space="preserve">
+    <value>Target is dead or invalid. Skipping</value>
+  </data>
+  <data name="TargettingAndAttacking" xml:space="preserve">
+    <value>Targetting and attacking</value>
+  </data>
+  <data name="TargetChange" xml:space="preserve">
+    <value>TargetChange</value>
+  </data>
+  <data name="NoTargetAndHealSpellFound" xml:space="preserve">
+    <value>No target and/or heal spell found in HealBot settings. HealBot can not start</value>
+  </data>
+  <data name="HealBot" xml:space="preserve">
+    <value>HealBot</value>
+  </data>
+  <data name="HealBotStopping" xml:space="preserve">
+    <value>HealBot Stopping</value>
+  </data>
+  <data name="CouldNotRezAtCorpse" xml:space="preserve">
+    <value>Could not find or rez at corpse. Forcing script stop</value>
+  </data>
+  <data name="TargetLost" xml:space="preserve">
+    <value>Target lost. Trying to re-acquire</value>
+  </data>
+  <data name="HealBotTargetNotFound" xml:space="preserve">
+    <value>Target could not be found. Trying again in one second</value>
+  </data>
+  <data name="HealBotTargetDead" xml:space="preserve">
+    <value>Target '{0}' is dead. Waiting for him to resurrect</value>
+  </data>
+  <data name="HealingX" xml:space="preserve">
+    <value>Healing '{0}'</value>
+  </data>
+  <data name="FoundDebuff" xml:space="preserve">
+    <value>Found Debuff on target: '{0}'</value>
+  </data>
+  <data name="RemovingPoison" xml:space="preserve">
+    <value>Removing Poison from Target</value>
+  </data>
+  <data name="RemovingDisease" xml:space="preserve">
+    <value>Removing Disease from Target</value>
+  </data>
+  <data name="RemovingCurse" xml:space="preserve">
+    <value>Removing Curse from Target</value>
+  </data>
+  <data name="HealBotThread" xml:space="preserve">
+    <value>HealBot Thread</value>
+  </data>
+  <data name="CheckAggro" xml:space="preserve">
+    <value>Check Aggro</value>
+  </data>
+  <data name="RhabotCouldNotStartNoPathFile" xml:space="preserve">
+    <value>Rhabot could not start because the path file does not exist</value>
+  </data>
+  <data name="Rhabot" xml:space="preserve">
+    <value>Rhabot</value>
+  </data>
+  <data name="BotThreadIndivdPathRun" xml:space="preserve">
+    <value>Rhabot Individual Path Run</value>
+  </data>
+  <data name="RhabotStopping" xml:space="preserve">
+    <value>Rhabot stopping</value>
+  </data>
+  <data name="CouldNotContinueNoPathsLoaded" xml:space="preserve">
+    <value>Rhabot can not continue because no paths have been loaded. Please create paths for this character</value>
+  </data>
+  <data name="IndividPathRunSuccessful" xml:space="preserve">
+    <value>Rhabot Inidivual Path Run Completed Successfully</value>
+  </data>
+  <data name="IndividPathError" xml:space="preserve">
+    <value>Rhabot Individual Path Run encountered and error. Path run is exiting</value>
+  </data>
+  <data name="IndividPathStuck" xml:space="preserve">
+    <value>Rhabot Individual Path Run cannot finish because the bot is stuck</value>
+  </data>
+  <data name="IndividPathDeadNoGY" xml:space="preserve">
+    <value>Rhabot Individual Path Run - {0} has died. No Graveyard paths have been loaded</value>
+  </data>
+  <data name="IndividPathThreadExit" xml:space="preserve">
+    <value>Rhabot Individual Path: Thread exiting</value>
+  </data>
+  <data name="CheckNearHuntPath" xml:space="preserve">
+    <value>check if we are near our hunt path</value>
+  </data>
+  <data name="FindingHuntStart" xml:space="preserve">
+    <value>Not near hunt path, finding hunt start</value>
+  </data>
+  <data name="TryingOtherPaths" xml:space="preserve">
+    <value>Not near hunt start, trying all other paths</value>
+  </data>
+  <data name="TryingPathX" xml:space="preserve">
+    <value>Trying path {0}</value>
+  </data>
+  <data name="NoPathFoundInZone" xml:space="preserve">
+    <value>Rhabot could not find a path for your zone. Please make a path for this zone</value>
+  </data>
+  <data name="FoundPointOnX" xml:space="preserve">
+    <value>Found point on path {0}</value>
+  </data>
+  <data name="AdvanceToHunt" xml:space="preserve">
+    <value>Advancing to hunt path</value>
+  </data>
+  <data name="NoPathToHuntPath" xml:space="preserve">
+    <value>Rhabot could not generate a path from your location to the hunt path</value>
+  </data>
+  <data name="BadVendorRun" xml:space="preserve">
+    <value>Could not complete vendor run. Rhabot exiting</value>
+  </data>
+  <data name="NoPathFromCurrPoint" xml:space="preserve">
+    <value>No path could be found from your current point</value>
+  </data>
+  <data name="NoPathsMatchName" xml:space="preserve">
+    <value>No paths found in path list that match path name.</value>
+  </data>
+  <data name="FindingNearestPointForX" xml:space="preserve">
+    <value>Finding nearest point for path {0}</value>
+  </data>
+  <data name="NoPointInXNearUs" xml:space="preserve">
+    <value>No points in path {0} found near our location</value>
+  </data>
+  <data name="FindPath" xml:space="preserve">
+    <value>FindPath</value>
+  </data>
+  <data name="AutoBuff_NonParty_Players" xml:space="preserve">
+    <value>AutoBuff Non-Party Players</value>
+  </data>
+  <data name="WhenCheckedAutoBuffActive" xml:space="preserve">
+    <value>When checked, the AutoBuff routine is active. Uncheck to stop AutoBuff</value>
+  </data>
+  <data name="AutoBuffHealingSpell" xml:space="preserve">
+    <value>Healing spell to cast on non-party members. Leave blank for no healing spell. Hea</value>
+  </data>
+  <data name="AutoBuffHealingSpellEx" xml:space="preserve">
+    <value>Healing spell to cast on non-party members. Leave blank for no healing spell. Healing spell is only cast when needed. If healing is cast, no buffs will be cast on player</value>
+  </data>
+  <data name="AutBuffHealPercent" xml:space="preserve">
+    <value>Percentage of health for player before Healing spell is cast on them.</value>
+  </data>
+  <data name="AutoBuffListOfBuffs" xml:space="preserve">
+    <value>List of buffs to cast on player. Only one buff per player will be chose, at random, from this list. Double-click to add another row</value>
+  </data>
+  <data name="Buffs_To_Cast" xml:space="preserve">
+    <value>Buffs To Cast</value>
+  </data>
+  <data name="HealingSpell" xml:space="preserve">
+    <value>Healing Spell</value>
+  </data>
+  <data name="HealthPercent" xml:space="preserve">
+    <value>Health Percent</value>
+  </data>
+  <data name="SaveAutoBuffSettings" xml:space="preserve">
+    <value>Save AutoBuff Settings</value>
+  </data>
+  <data name="TopLevel" xml:space="preserve">
+    <value>TopLevel</value>
+  </data>
+  <data name="TopLevelActions" xml:space="preserve">
+    <value>Top Level Actions</value>
+  </data>
+  <data name="SubGroup" xml:space="preserve">
+    <value>SubGroup</value>
+  </data>
+  <data name="SubGroupActions" xml:space="preserve">
+    <value>Sub Actions</value>
+  </data>
+  <data name="Conditions" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="GoToRunRhabotPath" xml:space="preserve">
+    <value>GoTo - Run Rhabot Path</value>
+  </data>
+  <data name="GotoVendorXinZoneY" xml:space="preserve">
+    <value>GoTo - Go to Vendor X in Zone Y</value>
+  </data>
+  <data name="GoToFlightmasterXinZoneY" xml:space="preserve">
+    <value>GoTo - Go to Flightmaster X in Zone Y</value>
+  </data>
+  <data name="GoToTrainerXinZoneY" xml:space="preserve">
+    <value>GoTo - Go to Trainer X in Zone Y</value>
+  </data>
+  <data name="GoToTakeBoattoZoneX" xml:space="preserve">
+    <value>GoTo - Take Boat to Zone X</value>
+  </data>
+  <data name="GoToInnkeeperinZoneX" xml:space="preserve">
+    <value>GoTo - Go to Innkeeper in Zone X</value>
+  </data>
+  <data name="GoToRepairVendorXinZoneY" xml:space="preserve">
+    <value>GoTo - Go to Repair Vendor X in Zone Y</value>
+  </data>
+  <data name="GoToMailboxinZoneX" xml:space="preserve">
+    <value>GoTo - Go to Mailbox in Zone X</value>
+  </data>
+  <data name="GoToNPCXinZoneY" xml:space="preserve">
+    <value>GoTo - Go to NPC X in Zone Y</value>
+  </data>
+  <data name="GoToQuestgiverXinZoneY" xml:space="preserve">
+    <value>GoTo - Go to Questgiver X in Zone Y</value>
+  </data>
+  <data name="GoToStonehome" xml:space="preserve">
+    <value>GoTo - Stone home</value>
+  </data>
+  <data name="GoToXYZ" xml:space="preserve">
+    <value>GoTo - Go To XYZ</value>
+  </data>
+  <data name="FishinZoneX" xml:space="preserve">
+    <value>Fish - Fish near known fish school in Zone X</value>
+  </data>
+  <data name="BlockNewBlock" xml:space="preserve">
+    <value>Block - New Block</value>
+  </data>
+  <data name="RunFullRhabotPath" xml:space="preserve">
+    <value>Run - Run Full Rhabot Path (runs paths in Rhabot settings folders)</value>
+  </data>
+  <data name="RunsapremadeRhabotpath" xml:space="preserve">
+    <value>Runs a pre-made Rhabot path</value>
+  </data>
+  <data name="Buildsapathtothevendor" xml:space="preserve">
+    <value>Builds a path to the vendor named X in Zone Y. Speaks with Vendor</value>
+  </data>
+  <data name="Buildsapathtotheflightmaster" xml:space="preserve">
+    <value>Builds a path to the flightmaster named X in Zone Y. Speaks with Flightmaster</value>
+  </data>
+  <data name="Buildsapathtothetrainer" xml:space="preserve">
+    <value>Builds a path to the trainer named X in Zone Y. Speaks with trainer and learns all available lessons</value>
+  </data>
+  <data name="Buildsapathtotheboatdock" xml:space="preserve">
+    <value>Builds a path to the boat dock. Boards boat going to Zone X</value>
+  </data>
+  <data name="BuildsapathtotheInnkeeper" xml:space="preserve">
+    <value>Builds a path to the Innkeeper in Zone X. Speaks with the Innkeeper</value>
+  </data>
+  <data name="Buildsapathtotherepairvendor" xml:space="preserve">
+    <value>Builds a path to the repair vendor named X in Zone Y. Repairs and speaks with the Vendor</value>
+  </data>
+  <data name="Buildsapathtothemailbox" xml:space="preserve">
+    <value>Builds a path to the mailbox in Zone X. Performs inventory management Mailing rules</value>
+  </data>
+  <data name="BuildsapathtotheNPC" xml:space="preserve">
+    <value>Builds a path to the NPC named X in Zone Y. Speaks with NPC</value>
+  </data>
+  <data name="Buildsapaththequestgiver" xml:space="preserve">
+    <value>Builds a path the questgiver named X in Zone Y. Speaks with quest giver</value>
+  </data>
+  <data name="HearthstonestoyourhomeInn" xml:space="preserve">
+    <value>Hearthstones to your home Inn</value>
+  </data>
+  <data name="Buildsapathfromthecurrentlocation toXYZ" xml:space="preserve">
+    <value>Builds a path from the current location to XYZ</value>
+  </data>
+  <data name="Buildsapathtothespecifiedschooloffish" xml:space="preserve">
+    <value>Builds a path to the specified school of fish in Zone X. Starts fishing after the toon arrives</value>
+  </data>
+  <data name="Createanewblock" xml:space="preserve">
+    <value>Create a new block for sub action items</value>
+  </data>
+  <data name="RunsacompleteRhabotpath" xml:space="preserve">
+    <value>Runs a complete Rhabot path (similar to running Rhabot Standard. Searches for units; searches for chests/herbs/mines/etc; does vendor and graveyard runs</value>
+  </data>
+  <data name="PurchaseXofYitems" xml:space="preserve">
+    <value>Vendor - Purchase X of Y items</value>
+  </data>
+  <data name="TakeflighttoX" xml:space="preserve">
+    <value>Flightmaster - Take flight to X</value>
+  </data>
+  <data name="MakeInnyourhome" xml:space="preserve">
+    <value>Innkeeper - Make Inn your home</value>
+  </data>
+  <data name="Pickupquest" xml:space="preserve">
+    <value>Quest - Pickup quest X</value>
+  </data>
+  <data name="Turninquest" xml:space="preserve">
+    <value>Quest - Turn in quest X</value>
+  </data>
+  <data name="FightmobsinZoneX" xml:space="preserve">
+    <value>Fight - Fight mobs in Zone X</value>
+  </data>
+  <data name="FightmobsinZoneXnamedY" xml:space="preserve">
+    <value>Fight - Fight mobs in Zone X named Y</value>
+  </data>
+  <data name="FightelitemobsinZoneX" xml:space="preserve">
+    <value>Fight - Fight elite mobs in Zone X</value>
+  </data>
+  <data name="FightelitemobsinZoneXnamedY" xml:space="preserve">
+    <value>Fight - Fight elite mobs in Zone X named Y</value>
+  </data>
+  <data name="FindHerbsinZoneX" xml:space="preserve">
+    <value>Find - Find Herbs in Zone X</value>
+  </data>
+  <data name="FindChestsinZoneX" xml:space="preserve">
+    <value>Find - Find Mines in Zone X</value>
+  </data>
+  <data name="FindChestsinZoneXEx" xml:space="preserve">
+    <value>Find - Find Chests in Zone X</value>
+  </data>
+  <data name="FindobjectsnamedX" xml:space="preserve">
+    <value>Find - Find objects named X in Zone Y</value>
+  </data>
+  <data name="UseIteminbackpack" xml:space="preserve">
+    <value>Use - Use Item in backpack named X</value>
+  </data>
+  <data name="ChooseGossipnumberX" xml:space="preserve">
+    <value>Gossip - Choose Gossip number X</value>
+  </data>
+  <data name="SpecialConditionReturntovendor" xml:space="preserve">
+    <value>Special Condition - Return to vendor when item X has quantity Y</value>
+  </data>
+  <data name="PurchasesYitemuntil" xml:space="preserve">
+    <value>You MUST be at a vendor already. Purchases Y item until you X in your bag.</value>
+  </data>
+  <data name="Takesflightfromyourcurrentlocation" xml:space="preserve">
+    <value>You MUST be at a flightmaster already. Takes flight from your current location to X</value>
+  </data>
+  <data name="MakesthisInnyournewhome" xml:space="preserve">
+    <value>You MUST be at an innkeeper already. Makes this Inn your new home</value>
+  </data>
+  <data name="PicksupthequestnamedX" xml:space="preserve">
+    <value>You MUST be speaking with a quest giver already. Picks up the quest named X</value>
+  </data>
+  <data name="TurnsinquestnamedX" xml:space="preserve">
+    <value>You MUST be speaking with a quest giver/receiver already. Turns in quest named X</value>
+  </data>
+  <data name="Buildsapathtofightmobs" xml:space="preserve">
+    <value>Builds a path to fight mobs of your level range in Zone X. Does NOT target elite mobs</value>
+  </data>
+  <data name="BuildsapathtofightmobsNamedX" xml:space="preserve">
+    <value>Builds a path to fight mobs of your level range in Zone X. Searches for mobs named Y. Does NOT target elite mobs</value>
+  </data>
+  <data name="BuildsapathtofightelitemobsinZoneX" xml:space="preserve">
+    <value>Builds a path to fight elite mobs in Zone X</value>
+  </data>
+  <data name="BuildsapathtofightelitemobsinZoneXNamedY" xml:space="preserve">
+    <value>Builds a path to fight elite mobs in Zone X named Y</value>
+  </data>
+  <data name="Buildsapathtoallknownherbs" xml:space="preserve">
+    <value>Builds a path to all known herbs in Zone X</value>
+  </data>
+  <data name="BuildsapathtoallknownMines" xml:space="preserve">
+    <value>Builds a path to all known mines in Zone X</value>
+  </data>
+  <data name="BuildsapathtoallknownChests" xml:space="preserve">
+    <value>Builds a path to all known chests in Zone X</value>
+  </data>
+  <data name="BuildsapathtoallknownObjects" xml:space="preserve">
+    <value>Builds a path to all known objects in Zone Y that are named X</value>
+  </data>
+  <data name="UsestheitemnamedX" xml:space="preserve">
+    <value>Uses the item named X that is found in your backpack. If multiple items are found, only one is used</value>
+  </data>
+  <data name="ChoosesthegossipatindexX" xml:space="preserve">
+    <value>You MUST already be at an NPC. Chooses the gossip at index X (starting with 1)</value>
+  </data>
+  <data name="Return_To_Vendor_When_X_Has_Quantity_Y" xml:space="preserve">
+    <value>When item Y has X or fewer remaining in your bag, a special path is built from your current location to the specified vendor.</value>
+  </data>
+  <data name="ContinueuntilyouhavekilledXofY" xml:space="preserve">
+    <value>Continue until you have killed X of Y mob</value>
+  </data>
+  <data name="PopLeftList" xml:space="preserve">
+    <value>PopLeftList</value>
+  </data>
+  <data name="ContinueuntilyouhaveXquantity" xml:space="preserve">
+    <value>Continue until you have X quantity of Y item in your bag</value>
+  </data>
+  <data name="ContinueuntilCharacterislevelX" xml:space="preserve">
+    <value>Continue until Character is level X</value>
+  </data>
+  <data name="ContinueuntilDurabilityisXpercent" xml:space="preserve">
+    <value>Continue until Durability is X percent</value>
+  </data>
+  <data name="ContinueuntilBagsarefull" xml:space="preserve">
+    <value>Continue until Bags are full</value>
+  </data>
+  <data name="FishuntilXtime" xml:space="preserve">
+    <value>Fish - Fish until X time has expired</value>
+  </data>
+  <data name="FishuntilyouhaveXquantity" xml:space="preserve">
+    <value>Fish - Fish until you have X quantity of Y fish in bag</value>
+  </data>
+  <data name="ContinuethisblockofactionsuntilyoukillX" xml:space="preserve">
+    <value>Continue this block of actions until you kill X mobs named Y.</value>
+  </data>
+  <data name="ContinuethisblockofactionsuntilyourcharacterhasXnumber" xml:space="preserve">
+    <value>Continue this block of actions until your character has X number of Y item in your bags. For example, 20 Runecloth</value>
+  </data>
+  <data name="untilyourcharactersreachesthespecifiedlevel" xml:space="preserve">
+    <value>Continue this block of actions until your characters reaches the specified level</value>
+  </data>
+  <data name="untilyourdurabilityisXpercent" xml:space="preserve">
+    <value>Continue this block of actions until your durability is X percent. This is not normally required most of the time, as Rhabot will automatically repair and rerun paths</value>
+  </data>
+  <data name="untilyourbagsarefull" xml:space="preserve">
+    <value>Continue this block of actions until your bags are full. This is not normally required, as Rhabot will usually return to the vendor when your bags are full</value>
+  </data>
+  <data name="FishesuntilXminutes" xml:space="preserve">
+    <value>Fishes until X minutes have passed</value>
+  </data>
+  <data name="FishesuntilyouhaveXnumberofYfish" xml:space="preserve">
+    <value>Fishes until you have X number of Y fish in your bag. For example, 20 Oily Blackmouth</value>
+  </data>
+  <data name="Pleaseaddoneormoreactionitems" xml:space="preserve">
+    <value>Please add one or more action items</value>
+  </data>
+  <data name="Pleaseentertheplanename" xml:space="preserve">
+    <value>Please enter the plane name</value>
+  </data>
+  <data name="AutoNavPlanSaved" xml:space="preserve">
+    <value>AutoNav Plan Saved</value>
+  </data>
+  <data name="SaveActionPlan" xml:space="preserve">
+    <value>Save Action Plan</value>
+  </data>
+  <data name="SaveNodeChildren" xml:space="preserve">
+    <value>SaveNodeChildren</value>
+  </data>
+  <data name="YoudonothaveanysavedAutoNavplans" xml:space="preserve">
+    <value>You do not have any saved AutoNav plans. Please create a plan first</value>
+  </data>
+  <data name="LoadAutoNavPlans" xml:space="preserve">
+    <value>Load AutoNav Plans</value>
+  </data>
+  <data name="PlanName" xml:space="preserve">
+    <value>Plan Name</value>
+  </data>
+  <data name="AutoNavPlanSelect" xml:space="preserve">
+    <value>AutoNav Plan Select</value>
+  </data>
+  <data name="LoadActionPlan" xml:space="preserve">
+    <value>Load Action Plan</value>
+  </data>
+  <data name="LoadChildNode" xml:space="preserve">
+    <value>LoadChildNode</value>
+  </data>
+  <data name="BrowseforRhabotPaths" xml:space="preserve">
+    <value>Browse for Rhabot Paths</value>
+  </data>
+  <data name="RemoveActionItem" xml:space="preserve">
+    <value>Remove Action Item</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="PathFile" xml:space="preserve">
+    <value>Path File</value>
+  </data>
+  <data name="Timeminutes" xml:space="preserve">
+    <value>Time (minutes)</value>
+  </data>
+  <data name="PurchaseItem" xml:space="preserve">
+    <value>Purchase Item</value>
+  </data>
+  <data name="QuestName" xml:space="preserve">
+    <value>Quest Name</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="GossipNum" xml:space="preserve">
+    <value>Gossip #</value>
+  </data>
+  <data name="DurabilityPct" xml:space="preserve">
+    <value>Durability %</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="ActionItemSelect" xml:space="preserve">
+    <value>Action Item Select</value>
+  </data>
+  <data name="SaveActionItemOptions" xml:space="preserve">
+    <value>Save Action Item Options</value>
+  </data>
+  <data name="GetParentZone" xml:space="preserve">
+    <value>GetParentZone</value>
+  </data>
+  <data name="ColorItem" xml:space="preserve">
+    <value>ColorItem</value>
+  </data>
+  <data name="Youcannotaddthisactionitem" xml:space="preserve">
+    <value>You can not add this action item to the selected node of the action plan.</value>
+  </data>
+  <data name="AddActionItem" xml:space="preserve">
+    <value>Add Action Item</value>
+  </data>
+  <data name="SelectingZone" xml:space="preserve">
+    <value>Selecting Zone</value>
+  </data>
+  <data name="PopZoneList" xml:space="preserve">
+    <value>Pop Zone List</value>
+  </data>
+  <data name="NPCName" xml:space="preserve">
+    <value>NPC Name</value>
+  </data>
+  <data name="FishSchools" xml:space="preserve">
+    <value>Fish Schools</value>
+  </data>
+  <data name="MobName" xml:space="preserve">
+    <value>Mob Name</value>
+  </data>
+  <data name="OtherItems" xml:space="preserve">
+    <value>Other Items</value>
+  </data>
+  <data name="school" xml:space="preserve">
+    <value>school</value>
+  </data>
+  <data name="PopNPCList" xml:space="preserve">
+    <value>Pop NPC List</value>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="PopNPCAsBoat" xml:space="preserve">
+    <value>Pop NPC As Boat</value>
+  </data>
+  <data name="SettingsWizardTextA" xml:space="preserve">
+    <value>You can view this wizard anytime by clicking Help &gt; Settings Upload Wizard
+
+Rhabot settings and path files are now stored on the Rhabot server. This allows your settings and paths to easily follow you when you change computers
+
+You can name your settings whatever you want. I suggest you give them an easy to remember name, being sure to include the character's class. An example might be "Night Elf Druid - Feral"
+
+Enter your settings name, then click the "Import Settings"</value>
+  </data>
+  <data name="AutoNavPath" xml:space="preserve">
+    <value>AutoNav Path</value>
+  </data>
+  <data name="PathAroundAStar" xml:space="preserve">
+    <value>PathAroundAStar</value>
+  </data>
+  <data name="UnableToCreateSettingsFolder" xml:space="preserve">
+    <value>Unable to create settings folder</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="MSNUsernameInvalid" xml:space="preserve">
+    <value>MSN Username/Password invalid</value>
+  </data>
+  <data name="PleaseEnterCorrectMSNUname" xml:space="preserve">
+    <value>Please enter a correct username/password for MSN chat</value>
+  </data>
+  <data name="StartingMSNchat" xml:space="preserve">
+    <value>Starting MSN chat</value>
+  </data>
+  <data name="StartStopMSN" xml:space="preserve">
+    <value>Start/Stop MSN</value>
+  </data>
+  <data name="LoadCommunicationSettings" xml:space="preserve">
+    <value>Load Communication Settings</value>
+  </data>
+  <data name="SaveCommunicationSettings" xml:space="preserve">
+    <value>Save Communication Settings</value>
+  </data>
+  <data name="RhabotGoldXPInfoLoop" xml:space="preserve">
+    <value>Rhabot Gold/XP Info Loop</value>
+  </data>
+  <data name="GoldFormat" xml:space="preserve">
+    <value>0g 0s 0c</value>
+  </data>
+  <data name="Searchreturnednoresults" xml:space="preserve">
+    <value>Search returned no results</value>
+  </data>
+  <data name="selectanitem " xml:space="preserve">
+    <value>Please select an item from the list</value>
+  </data>
+  <data name="enteravalidpathfortheChatterAIScript" xml:space="preserve">
+    <value>Please enter a valid path for the Chatter AI Script</value>
+  </data>
+  <data name="StartStopChatter" xml:space="preserve">
+    <value>Start/Stop Chatter</value>
+  </data>
+  <data name="BrowseforChatterAIScript" xml:space="preserve">
+    <value>Browse for Chatter AI Script</value>
+  </data>
+  <data name="ChatterScriptExt" xml:space="preserve">
+    <value>Chatter Script (*.ckb)|*.ckb</value>
+  </data>
+  <data name="BrowseforChatterScript" xml:space="preserve">
+    <value>Browse for Chatter Script</value>
+  </data>
+  <data name="StartStopHumanCheck" xml:space="preserve">
+    <value>Start/Stop Human Check</value>
+  </data>
+  <data name="Pleaseselectthesettingslevel" xml:space="preserve">
+    <value>Please select the settings level (on the Main tab) first</value>
+  </data>
+  <data name="Logoutattimereset" xml:space="preserve">
+    <value>Logout at time reset</value>
+  </data>
+  <data name="LogouttimesettoX" xml:space="preserve">
+    <value>Logout time set to: {0}</value>
+  </data>
+  <data name="TalentsSaved" xml:space="preserve">
+    <value>Talents Saved</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Unpause" xml:space="preserve">
+    <value>Unpause</value>
+  </data>
+  <data name="RhabotAttemptingLogin" xml:space="preserve">
+    <value>Rhabot - Attempting Login</value>
+  </data>
+  <data name="AnewversionofRhabotisavailable" xml:space="preserve">
+    <value>A new version of Rhabot is available. You will not be able to run Rhabot until the new version has been installed. Would you like to download it now?</value>
+  </data>
+  <data name="NewRhabotVersionAvailable" xml:space="preserve">
+    <value>New Rhabot Version Available</value>
+  </data>
+  <data name="youmustinstallthenewversion" xml:space="preserve">
+    <value>Don't forget, you must install the new version. Stop Rhabot first, then install the new version</value>
+  </data>
+  <data name="UnabletoLogin" xml:space="preserve">
+    <value>Unable to Login</value>
+  </data>
+  <data name="Logininformationisinvalid" xml:space="preserve">
+    <value>Login information is invalid. Please try again</value>
+  </data>
+  <data name="RhabotLogin" xml:space="preserve">
+    <value>Rhabot Login</value>
+  </data>
+  <data name="RhabotLoading" xml:space="preserve">
+    <value>Rhabot Loading...</value>
+  </data>
+  <data name="Pleaseenterapathname" xml:space="preserve">
+    <value>Please enter a path name</value>
+  </data>
+  <data name="Startlevelmustbe" xml:space="preserve">
+    <value>Start level must be less than or equal to end level</value>
+  </data>
+  <data name="Pleaseenteragroupname" xml:space="preserve">
+    <value>Please enter a group name</value>
+  </data>
+  <data name="RestartRecording" xml:space="preserve">
+    <value>Restart Recording</value>
+  </data>
+  <data name="PauseRecording" xml:space="preserve">
+    <value>Pause Recording</value>
+  </data>
+  <data name="Pathlistsaved" xml:space="preserve">
+    <value>Path list saved</value>
+  </data>
+  <data name="CheckIfNeedsVendor" xml:space="preserve">
+    <value>Check if needs vendor</value>
+  </data>
+  <data name="NeedsVendorDurabilityLow" xml:space="preserve">
+    <value>Needs Vendor - Durability Low: {0}</value>
+  </data>
+  <data name="ScanningBagX" xml:space="preserve">
+    <value>Scanning Bag: {0}</value>
+  </data>
+  <data name="BagInSlotX" xml:space="preserve">
+    <value>Bag in slot {0} is null</value>
+  </data>
+  <data name="NeedsVendorBadBag" xml:space="preserve">
+    <value>NeedsVendor - Bad Bag: {0}</value>
+  </data>
+  <data name="DoesNotNeedVendor" xml:space="preserve">
+    <value>Does not need vendor - bags are not full</value>
+  </data>
+  <data name="NeedsVendor" xml:space="preserve">
+    <value>NeedsVendor</value>
+  </data>
+  <data name="ReturningX" xml:space="preserve">
+    <value>Returning {0}</value>
+  </data>
+  <data name="HookingCharacterLevelEvent" xml:space="preserve">
+    <value>Hooking Character Level Event</value>
+  </data>
+  <data name="UpgradeNotice" xml:space="preserve">
+    <value>Upgrade Notice. The toon {0}, Level {1}, needs to upgrade the following items
+</value>
+  </data>
+  <data name="EquipmentUpgradeNotice" xml:space="preserve">
+    <value>{0} - Equipment Upgrade Notice</value>
+  </data>
+  <data name="XItemLevel" xml:space="preserve">
+    <value>{0} - Item Level: {1}
+</value>
+  </data>
+  <data name="StoneHome" xml:space="preserve">
+    <value>StoneHome</value>
+  </data>
+  <data name="CastingSpell" xml:space="preserve">
+    <value>Casting Spell</value>
+  </data>
+  <data name="SpellCastFailed1" xml:space="preserve">
+    <value>Spell cast failed, trying to use hearthstone item</value>
+  </data>
+  <data name="CouldNotUseHearthstone" xml:space="preserve">
+    <value>Could not use Hearthstone</value>
+  </data>
+  <data name="HandleDead" xml:space="preserve">
+    <value>HandleDead</value>
+  </data>
+  <data name="CouldNotBuildPathFromGhosttoCorpse" xml:space="preserve">
+    <value>Could not build path from ghost to corpse. Could not find nearest Graveyard Path</value>
+  </data>
+  <data name="RunningGraveyardPathX" xml:space="preserve">
+    <value>Running Graveyard path '{0}'</value>
+  </data>
+  <data name="Couldnotrunpathfromghosttocorpse" xml:space="preserve">
+    <value>Could not run path from ghost to corpse</value>
+  </data>
+  <data name="CouldNotBuildPath1" xml:space="preserve">
+    <value>Could not build a path from the Graveyard path to the current path</value>
+  </data>
+  <data name="MergingHuntStartandHuntpaths" xml:space="preserve">
+    <value>Merging Hunt Start and Hunt paths</value>
+  </data>
+  <data name="CouldNotFindPointNearCorpse" xml:space="preserve">
+    <value>Could not find a point on the current path that is near to the corpse</value>
+  </data>
+  <data name="FoundPathFromGhosttoCorpse" xml:space="preserve">
+    <value>Found a path from ghost to corpse. Creating path info</value>
+  </data>
+  <data name="RunningtoCorpse" xml:space="preserve">
+    <value>Running to corpse</value>
+  </data>
+  <data name="CouldNotRuntoCorpse" xml:space="preserve">
+    <value>Could not run to corpse or could not find corpse</value>
+  </data>
+  <data name="AttemptingToRezAtCorpse" xml:space="preserve">
+    <value>Attempting to rez at corpse</value>
+  </data>
+  <data name="ReleaseFromBody" xml:space="preserve">
+    <value>ReleaseFromBody</value>
+  </data>
+  <data name="NotDead" xml:space="preserve">
+    <value>Not Dead</value>
+  </data>
+  <data name="AlreadyGhost" xml:space="preserve">
+    <value>Already a Ghost</value>
+  </data>
+  <data name="ReleasingFromCorpse" xml:space="preserve">
+    <value>Releasing from corpse</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="RezMeFailedRez" xml:space="preserve">
+    <value>RezMe failed to rez</value>
+  </data>
+  <data name="Resurrected" xml:space="preserve">
+    <value>Resurrected</value>
+  </data>
+  <data name="CheckingIfRezPointClear" xml:space="preserve">
+    <value>Checking if RezPoint {0} is clear for resurrection</value>
+  </data>
+  <data name="IsCorpseClearX" xml:space="preserve">
+    <value>IsCorpseClear = {0}</value>
+  </data>
+  <data name="FindBestRezSpot" xml:space="preserve">
+    <value>FindBestRezSpot</value>
+  </data>
+  <data name="BestSpotXY" xml:space="preserve">
+    <value>Best Spot: {0}, {1} with {2} Hostiles</value>
+  </data>
+  <data name="TooFarFromCorpse" xml:space="preserve">
+    <value>Too far from corpse, moving back to corpse</value>
+  </data>
+  <data name="FindBestRezSpotCorpseX" xml:space="preserve">
+    <value>FindBestRezSpot. Corpse = {0}</value>
+  </data>
+  <data name="FindingMount" xml:space="preserve">
+    <value>Finding Mount</value>
+  </data>
+  <data name="LevelIsLessThan40Exiting" xml:space="preserve">
+    <value>Level is less than 40. Exiting MountUp</value>
+  </data>
+  <data name="NoMountsBag" xml:space="preserve">
+    <value>No mounts in bag. Exiting MountUp</value>
+  </data>
+  <data name="UsingMount" xml:space="preserve">
+    <value>Using mount {0}</value>
+  </data>
+  <data name="FoundGhostWolf" xml:space="preserve">
+    <value>Found Ghost Wolf. Casting...</value>
+  </data>
+  <data name="ExitingMountUpNoMountsFound" xml:space="preserve">
+    <value>Exiting MountUp. No mounts found</value>
+  </data>
+  <data name="AttemptingToDismount" xml:space="preserve">
+    <value>Attempting to dismount</value>
+  </data>
+  <data name="DismountGhostWolfRemoved" xml:space="preserve">
+    <value>Dismount: Ghost Wolf removed</value>
+  </data>
+  <data name="CouldNotRemoveGhostWolf" xml:space="preserve">
+    <value>Dismount: Could not remove Ghost Wolf</value>
+  </data>
+  <data name="SpellSummonXsuccessfullyRemoved" xml:space="preserve">
+    <value>Dismount: Spell/Summon {0} successfully removed</value>
+  </data>
+  <data name="AttemptingToStopFlying" xml:space="preserve">
+    <value>Dismount: Attempting to stop flying by reaching ground</value>
+  </data>
+  <data name="RemovedMountBuff" xml:space="preserve">
+    <value>Dismount: Removed mount buff</value>
+  </data>
+  <data name="DismountExitingWaited10Seconds" xml:space="preserve">
+    <value>Dismount: Exiting. Waited 10 seconds and could not reach ground</value>
+  </data>
+  <data name="RemovedItemBuffX" xml:space="preserve">
+    <value>Dismount: Removed item buff {0}</value>
+  </data>
+  <data name="DismountReturningX" xml:space="preserve">
+    <value>Dismount returning {0}</value>
+  </data>
+  <data name="FindingFlyingMount" xml:space="preserve">
+    <value>Finding Flying Mount</value>
+  </data>
+  <data name="LevelLessThan60ExitingMountFlying" xml:space="preserve">
+    <value>Level is less than 60. Exiting MountFlying</value>
+  </data>
+  <data name="NoMountsInBag2" xml:space="preserve">
+    <value>No mounts in bag. Exiting MountFlying</value>
+  </data>
+  <data name="UsingFlyingMountX" xml:space="preserve">
+    <value>Using flying mount {0}</value>
+  </data>
+  <data name="ExitingMountFlyingNoMountsFound" xml:space="preserve">
+    <value>Exiting MountFlying. No mounts found</value>
+  </data>
+  <data name="FoundXAttackingMe" xml:space="preserve">
+    <value>Found {0} attacking me</value>
+  </data>
+  <data name="GetUnitAttackingMeFoundX" xml:space="preserve">
+    <value>GetUnitAttackingMe Found {0}</value>
+  </data>
+  <data name="BeginCombat" xml:space="preserve">
+    <value>BeginCombat</value>
+  </data>
+  <data name="UsingExternalCombatRoutine" xml:space="preserve">
+    <value>Using External Combat Routine</value>
+  </data>
+  <data name="UsingXCombatRoutine" xml:space="preserve">
+    <value>Using {0} Combat Routine</value>
+  </data>
+  <data name="Warrior" xml:space="preserve">
+    <value>Warrior</value>
+  </data>
+  <data name="Paladin" xml:space="preserve">
+    <value>Paladin</value>
+  </data>
+  <data name="Druid" xml:space="preserve">
+    <value>Druid</value>
+  </data>
+  <data name="Shaman" xml:space="preserve">
+    <value>Shaman</value>
+  </data>
+  <data name="Mage" xml:space="preserve">
+    <value>Mage</value>
+  </data>
+  <data name="Hunter" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="Warlock" xml:space="preserve">
+    <value>Warlock</value>
+  </data>
+  <data name="BuildingRandomSpamSpellList" xml:space="preserve">
+    <value>Building Random Spam Spell List</value>
+  </data>
+  <data name="TargetingX" xml:space="preserve">
+    <value>Targeting {0}</value>
+  </data>
+  <data name="PreCombatPrep" xml:space="preserve">
+    <value>	Pre Combat Prep</value>
+  </data>
+  <data name="PreBuffSpellsX" xml:space="preserve">
+    <value>PreBuff Spells: {0}</value>
+  </data>
+  <data name="PreBuffAlreadyHaveBuff" xml:space="preserve">
+    <value>Pre Buff - Already have buff: {0}</value>
+  </data>
+  <data name="TargetIsTooFarAwayMovingCloser" xml:space="preserve">
+    <value>Target is too far away. Moving closer. Distance = {0}</value>
+  </data>
+  <data name="CastingPullSpellX" xml:space="preserve">
+    <value>Casting Pull Spell: {0}</value>
+  </data>
+  <data name="CastingProtectionSpellX" xml:space="preserve">
+    <value>Casting Protection Spell: {0}</value>
+  </data>
+  <data name="CastingHealOverTimeX" xml:space="preserve">
+    <value>Casting Heal Over Time: {0}</value>
+  </data>
+  <data name="CastingCombatTotemX" xml:space="preserve">
+    <value>Casting Combat Totem: {0}</value>
+  </data>
+  <data name="CastingDOTs" xml:space="preserve">
+    <value>Casting DOT's</value>
+  </data>
+  <data name="CastingSpamSpells" xml:space="preserve">
+    <value>Casting Spam Spells</value>
+  </data>
+  <data name="SleepingToLetOurCharacterWhackOnMob" xml:space="preserve">
+    <value>Sleeping {0} ms, to let our character whack on the mob some</value>
+  </data>
+  <data name="XIsBugged" xml:space="preserve">
+    <value>'{0}' is bugged</value>
+  </data>
+  <data name="UnitXHasDied" xml:space="preserve">
+    <value>Unit {0} has died</value>
+  </data>
+  <data name="CharacterDiedInCombat" xml:space="preserve">
+    <value>Character Died in Combat</value>
+  </data>
+  <data name="StillBeingAttackedByX" xml:space="preserve">
+    <value>Still Being Attacked By: {0}  Lvl {1}  - Location ({2}, {3}, {4}</value>
+  </data>
+  <data name="ExitWithCodeX" xml:space="preserve">
+    <value>Exit with code: {0}</value>
+  </data>
+  <data name="CastingPostCombatSpells" xml:space="preserve">
+    <value>Casting Post Combat Spells</value>
+  </data>
+  <data name="TooCloseToTargetBackingUp" xml:space="preserve">
+    <value>Too close to target, backing up. Distance: {0}</value>
+  </data>
+  <data name="TogglingAttack" xml:space="preserve">
+    <value>Toggling Attack - IsInCombat: {0} - Attacking: {1}</value>
+  </data>
+  <data name="CastSpell" xml:space="preserve">
+    <value>CastSpell</value>
+  </data>
+  <data name="InvalidGuidNoSpellName" xml:space="preserve">
+    <value>Exiting. Invalid Guid, no spell name, or stunned</value>
+  </data>
+  <data name="CastingSpellX" xml:space="preserve">
+    <value>Casting spell: {0}</value>
+  </data>
+  <data name="InvalidSpell" xml:space="preserve">
+    <value>Exiting. Invalid spell. Recheck spelling of spell name '{0}'</value>
+  </data>
+  <data name="SpellXCostsTooMuch" xml:space="preserve">
+    <value>Spell '{0}' costs too much. Cost: {1}; Available: {2} - Exiting CastSpell</value>
+  </data>
+  <data name="CastSpellNoCheck" xml:space="preserve">
+    <value>CastSpell_NoCheck</value>
+  </data>
+  <data name="CheckNeedHealHealthPercent" xml:space="preserve">
+    <value>CheckNeedHeal: Health Percent = {0}; Setting = {1}</value>
+  </data>
+  <data name="UsingManaStone" xml:space="preserve">
+    <value>CheckNeedMana: Using Mana Stone '{0}'</value>
+  </data>
+  <data name="CheckDeadAttackingUnit" xml:space="preserve">
+    <value>CheckDead: AttackingUnit '{0}' = {1}, Me = {2}</value>
+  </data>
+  <data name="Downtime" xml:space="preserve">
+    <value>Downtime</value>
+  </data>
+  <data name="SittingForDowntime" xml:space="preserve">
+    <value>Sitting for Downtime</value>
+  </data>
+  <data name="EatingX" xml:space="preserve">
+    <value>Eating {0}</value>
+  </data>
+  <data name="DrinkingX" xml:space="preserve">
+    <value>Drinking {0}</value>
+  </data>
+  <data name="StillNeedDowntimeSleeping" xml:space="preserve">
+    <value>Still need downtime, sleeping</value>
+  </data>
+  <data name="RedoingDowntimeAfterCastingXSpells" xml:space="preserve">
+    <value>Redoing downtime after casting {0} spells</value>
+  </data>
+  <data name="BeginingLootLoop" xml:space="preserve">
+    <value>Begining Loot Loop</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="LootLoopExiting" xml:space="preserve">
+    <value>Loot Loop exiting</value>
+  </data>
+  <data name="Rage" xml:space="preserve">
+    <value>Rage</value>
+  </data>
+  <data name="PowerTypeX" xml:space="preserve">
+    <value>PowerType = {0}</value>
+  </data>
+  <data name="Mana" xml:space="preserve">
+    <value>Mana</value>
+  </data>
+  <data name="Energy" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="BUGGEDUnitX" xml:space="preserve">
+    <value>BUGGED: Unit - {0}  Level - {1}  Location: ({2}, {3}, {4}</value>
+  </data>
+  <data name="MonsterAttemptingToRunAway" xml:space="preserve">
+    <value>Monster attempting to run away. Casting '{0}'</value>
+  </data>
+  <data name="PostCombat" xml:space="preserve">
+    <value>PostCombat</value>
+  </data>
+  <data name="MageNeedsWater" xml:space="preserve">
+    <value>Mage needs water</value>
+  </data>
+  <data name="MageNeedsFood" xml:space="preserve">
+    <value>Mage needs food</value>
+  </data>
+  <data name="MageNeedsManaStones" xml:space="preserve">
+    <value>Mage needs mana stones</value>
+  </data>
+  <data name="HunterPostCombat" xml:space="preserve">
+    <value>HunterPostCombat</value>
+  </data>
+  <data name="ExitingNoPet" xml:space="preserve">
+    <value>Exiting because you do not have a pet</value>
+  </data>
+  <data name="PetDeadReviving" xml:space="preserve">
+    <value>Pet is dead. Reviving</value>
+  </data>
+  <data name="FindFoodForPet" xml:space="preserve">
+    <value>Finding food to feed pet</value>
+  </data>
+  <data name="FoundFoodX" xml:space="preserve">
+    <value>Found food '{0}'</value>
+  </data>
+  <data name="FeedingPet" xml:space="preserve">
+    <value>Feeding Pet</value>
+  </data>
+  <data name="DruidCombat" xml:space="preserve">
+    <value>Druid Combat</value>
+  </data>
+  <data name="WarriorCombat" xml:space="preserve">
+    <value>Warrior Combat</value>
+  </data>
+  <data name="ChangingForm" xml:space="preserve">
+    <value>Changing form if needed</value>
+  </data>
+  <data name="TransformingToBear" xml:space="preserve">
+    <value>Transforming to Bear/Dire Bear because of aggro</value>
+  </data>
+  <data name="WhackingOnX" xml:space="preserve">
+    <value>Whacking on '{0}' for {1} milliseconds)</value>
+  </data>
+  <data name="BlinkingToX" xml:space="preserve">
+    <value>Mage - Blinking to {0}</value>
+  </data>
+  <data name="BlinkTestingPointX" xml:space="preserve">
+    <value>Mage - Blink - Testing Point {0}</value>
+  </data>
+  <data name="PaladinCombat" xml:space="preserve">
+    <value>Paladin Combat</value>
+  </data>
+  <data name="PanicCastingDivineShield" xml:space="preserve">
+    <value>Panic. Casting 'Divine Shield'</value>
+  </data>
+  <data name="WarlockUsingPetToPull" xml:space="preserve">
+    <value>Warlock - Using pet to pull</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Charging</value>
+  </data>
+  <data name="Shooting" xml:space="preserve">
+    <value>Shooting</value>
+  </data>
+  <data name="Throwing" xml:space="preserve">
+    <value>Throwing</value>
+  </data>
+  <data name="ApplyWeaponBuff" xml:space="preserve">
+    <value>ApplyWeaponBuff</value>
+  </data>
+  <data name="WeaponIsInvalid" xml:space="preserve">
+    <value>Weapon is invalid</value>
+  </data>
+  <data name="ItemXIsNotAWeapon" xml:space="preserve">
+    <value>Item '{0}' is not a weapon. Class = {1}</value>
+  </data>
+  <data name="CouldNotBuffWeaponWithX" xml:space="preserve">
+    <value>Could not buff weapon '{0}' with '{1}'</value>
+  </data>
+  <data name="ChatAutoResponderThreadStarting" xml:space="preserve">
+    <value>Chat Auto Responder Thread starting</value>
+  </data>
+  <data name="ListeningChatChannelX" xml:space="preserve">
+    <value>Listening for events on Chat Channel: {0}</value>
+  </data>
+  <data name="ReceivedWhisperFromX" xml:space="preserve">
+    <value>Received Whisper from {0}. Message: {1}</value>
+  </data>
+  <data name="ReceivedSayFromX" xml:space="preserve">
+    <value>Received Say from {0}. Message: {1}</value>
+  </data>
+  <data name="ChatSendMessageX" xml:space="preserve">
+    <value>Chat SendMessage: Channel={0}, MessageTo={1}, Message={2}</value>
+  </data>
+  <data name="ChatSendMessageX2" xml:space="preserve">
+    <value>Chat SendMessage: Sending Message on Channel {0}. Message: {1}</value>
+  </data>
+  <data name="SendingMessageToX" xml:space="preserve">
+    <value>Sending Message To {0} on Channel {1}. Message: {2}</value>
+  </data>
+  <data name="ChatterScriptFileNotFound" xml:space="preserve">
+    <value>Chatter script file could not be found. {0}</value>
+  </data>
+  <data name="ChatterShuttingdown" xml:space="preserve">
+    <value>Chatter Shutting down</value>
+  </data>
+  <data name="BuildNewKnowledgeBase" xml:space="preserve">
+    <value>Build New Knowledge Base - {0}</value>
+  </data>
+  <data name="ChatterStarted" xml:space="preserve">
+    <value>Chatter Started</value>
+  </data>
+  <data name="NoRulesFound" xml:space="preserve">
+    <value>No rules found</value>
+  </data>
+  <data name="NoReplyFoundForMessageX" xml:space="preserve">
+    <value>No reply found for message: {0}</value>
+  </data>
+  <data name="ChatterResponseX" xml:space="preserve">
+    <value>Chatter Response: {0}</value>
+  </data>
+  <data name="MSNChatPleaseProvideUsernamePassword" xml:space="preserve">
+    <value>MSN Chat - Please provide a username and password</value>
+  </data>
+  <data name="MSNChat" xml:space="preserve">
+    <value>MSN Chat</value>
+  </data>
+  <data name="ConnectingtoMSNServer" xml:space="preserve">
+    <value>Connecting to MSN server</value>
+  </data>
+  <data name="RaisingShutdownEventConversationThreads" xml:space="preserve">
+    <value>Raising shutdown event for conversation threads</value>
+  </data>
+  <data name="Sleeping5Seconds" xml:space="preserve">
+    <value>sleeping 5 seconds for conversations to end</value>
+  </data>
+  <data name="DisconnectingFromMSN" xml:space="preserve">
+    <value>Disconnecting from MSN</value>
+  </data>
+  <data name="ShutdownFinished" xml:space="preserve">
+    <value>Shutdown finished</value>
+  </data>
+  <data name="ConnectedMSN" xml:space="preserve">
+    <value>Connected to MSN Server</value>
+  </data>
+  <data name="SignedOutMSN" xml:space="preserve">
+    <value>Signed out of the MSN network</value>
+  </data>
+  <data name="SignedIntoMSN" xml:space="preserve">
+    <value>Signed into MSN Chat as {0}</value>
+  </data>
+  <data name="AddingContact" xml:space="preserve">
+    <value>Adding contact {0} to the contact list</value>
+  </data>
+  <data name="StartConversationExiting" xml:space="preserve">
+    <value>StartConversation exiting. No contacts to talk with</value>
+  </data>
+  <data name="StartConversation" xml:space="preserve">
+    <value>Starting Conversations</value>
+  </data>
+  <data name="ConversationInitiatedRemotely" xml:space="preserve">
+    <value>Conversation initiated remotely</value>
+  </data>
+  <data name="NewConversationThreadStarted" xml:space="preserve">
+    <value>New Conversation thread started</value>
+  </data>
+  <data name="MSNRhabotShuttingDown" xml:space="preserve">
+    <value>{0} Rhabot Shutting down. {1}</value>
+  </data>
+  <data name="XleftConverstation" xml:space="preserve">
+    <value>{0} left converstation</value>
+  </data>
+  <data name="XjoinedConversation" xml:space="preserve">
+    <value>{0} joined the conversation</value>
+  </data>
+  <data name="HelloRhabotMSNVersion" xml:space="preserve">
+    <value>Hello. Rhabot MSN version: {0}</value>
+  </data>
+  <data name="MSNCharInfo" xml:space="preserve">
+    <value>Character: {0} - Level: {1} - Zone Text: {2} - Location: {3}</value>
+  </data>
+  <data name="SessionXClosed" xml:space="preserve">
+    <value>Session with {0} has been closed</value>
+  </data>
+  <data name="SessionUnknownClosed" xml:space="preserve">
+    <value>Session with unknown has been closed</value>
+  </data>
+  <data name="MessageFromX" xml:space="preserve">
+    <value>Message from {0}. Message: {1}</value>
+  </data>
+  <data name="LogoutRequestReceived" xml:space="preserve">
+    <value>Logout request received. Initiating Logut and Shutdown</value>
+  </data>
+  <data name="MSNCharInfo2" xml:space="preserve">
+    <value>Level: {1}{0}IsDead: {2}{0}In Combat: {3}{6}{0}Zone: {4}{0}Location: {5}</value>
+  </data>
+  <data name="MSNCharTarget" xml:space="preserve">
+    <value>-Hostile Name: {1}{0}-Hostile GUID: {2}</value>
+  </data>
+  <data name="RhabotLogsStream" xml:space="preserve">
+    <value>Rhabot logs will stream for 5 mintues - until {0}</value>
+  </data>
+  <data name="RhabotLogStreamStop" xml:space="preserve">
+    <value>Rhabot logs streaming stopped by user</value>
+  </data>
+  <data name="ReceivedCommandStonehome" xml:space="preserve">
+    <value>Received command to stone home</value>
+  </data>
+  <data name="StonehomeCompleted" xml:space="preserve">
+    <value>Stone home completed</value>
+  </data>
+  <data name="ReceivedCommandhookErrorEvents" xml:space="preserve">
+    <value>Received command to hook error events</value>
+  </data>
+  <data name="RhabotErrorsHooked" xml:space="preserve">
+    <value>Rhabot errors hooked.</value>
+  </data>
+  <data name="LogoutXCommandEeceived" xml:space="preserve">
+    <value>LogoutX command received - {0}</value>
+  </data>
+  <data name="CancellingLogoutAfterX" xml:space="preserve">
+    <value>Cancelling Logout after X time</value>
+  </data>
+  <data name="LoggingOutAfterX" xml:space="preserve">
+    <value>Logging out after {0} seconds</value>
+  </data>
+  <data name="PausingRhabot" xml:space="preserve">
+    <value>Pausing Rhabot</value>
+  </data>
+  <data name="RhabotPaused" xml:space="preserve">
+    <value>Rhabot paused</value>
+  </data>
+  <data name="UnpausingRhabot" xml:space="preserve">
+    <value>Unpausing Rhabot</value>
+  </data>
+  <data name="RhabotUnpaused" xml:space="preserve">
+    <value>Rhabot unpaused</value>
+  </data>
+  <data name="StoppingRhabot" xml:space="preserve">
+    <value>Stopping Rhabot</value>
+  </data>
+  <data name="InventoryList" xml:space="preserve">
+    <value>Inventory List</value>
+  </data>
+  <data name="NoItemsInInventory" xml:space="preserve">
+    <value>No items in inventory</value>
+  </data>
+  <data name="InventoryListX" xml:space="preserve">
+    <value>Inventory List for {0}
+</value>
+  </data>
+  <data name="MSNItemInfo" xml:space="preserve">
+    <value>	Item: {0}
+		Bag: {1} - Slot: {2}
+</value>
+  </data>
+  <data name="SendMessageFailed" xml:space="preserve">
+    <value>SendMessage failed. No contacts for this session</value>
+  </data>
+  <data name="MSNChatFrom" xml:space="preserve">
+    <value>Chat: {0} - From: {1} - Msg: {2}</value>
+  </data>
+  <data name="FoundNearbyX" xml:space="preserve">
+    <value>Found Nearby: {0}</value>
+  </data>
+  <data name="TryingHealX" xml:space="preserve">
+    <value>Trying to heal {0}</value>
+  </data>
+  <data name="HealedX" xml:space="preserve">
+    <value>Healed {0}</value>
+  </data>
+  <data name="EmotingX" xml:space="preserve">
+    <value>Emoting {0} / Buffing {1} to {2}</value>
+  </data>
+  <data name="HumanCheckingStopping" xml:space="preserve">
+    <value>Human Checking stopping</value>
+  </data>
+  <data name="HumanCheck" xml:space="preserve">
+    <value>HumanCheck</value>
+  </data>
+  <data name="EmotingXToY" xml:space="preserve">
+    <value>Emoting {0} to {1}</value>
+  </data>
+  <data name="DecliningDuelInvite" xml:space="preserve">
+    <value>Declining duel invite</value>
+  </data>
+  <data name="DecliningGroupInvite" xml:space="preserve">
+    <value>Declining group invite</value>
+  </data>
+  <data name="DecliningGuildInvite" xml:space="preserve">
+    <value>Declining guild invite</value>
+  </data>
+  <data name="CheckNeedEquipItems" xml:space="preserve">
+    <value>CheckNeedEquipItems</value>
+  </data>
+  <data name="ExitingNoRules" xml:space="preserve">
+    <value>Exiting - No Rules Defined</value>
+  </data>
+  <data name="FoundMatchEquippingX" xml:space="preserve">
+    <value>Found Match. Equipping '{0}'</value>
+  </data>
+  <data name="FoundMatchingItem" xml:space="preserve">
+    <value>Found matching item - '{0}', equpping to {1}</value>
+  </data>
+  <data name="FindingUsuableItemX" xml:space="preserve">
+    <value>Finding Usuable Item: {0}</value>
+  </data>
+  <data name="LootGameOjbect" xml:space="preserve">
+    <value>LootGameObject</value>
+  </data>
+  <data name="LootingX" xml:space="preserve">
+    <value>Looting '{0}'</value>
+  </data>
+  <data name="LootStuckBugged" xml:space="preserve">
+    <value>Stuck or bugged - Result = '{0}</value>
+  </data>
+  <data name="LootingXatY" xml:space="preserve">
+    <value>Looting {0} at {1}</value>
+  </data>
+  <data name="CoulndtOpenLootWindow" xml:space="preserve">
+    <value>Coulnd't open loot window. Waiting 2 seconds and trying again</value>
+  </data>
+  <data name="SkinningX" xml:space="preserve">
+    <value>Skinning '{0}'</value>
+  </data>
+  <data name="GetLoot" xml:space="preserve">
+    <value>GetLoot</value>
+  </data>
+  <data name="LootWaitTimer" xml:space="preserve">
+    <value>Loot wait timer. {0} seconds</value>
+  </data>
+  <data name="ExitingLootWinNotVisible" xml:space="preserve">
+    <value>Exiting because loot window not visible</value>
+  </data>
+  <data name="LootWinNotVisible" xml:space="preserve">
+    <value>Loot window not visible</value>
+  </data>
+  <data name="XItemsToLoot" xml:space="preserve">
+    <value>{0} items to loot</value>
+  </data>
+  <data name="LootingSlotX" xml:space="preserve">
+    <value>Looting slot {0}. Name: '{1}'</value>
+  </data>
+  <data name="SendMailList" xml:space="preserve">
+    <value>SendMailList</value>
+  </data>
+  <data name="CanNotMailX" xml:space="preserve">
+    <value>Can not mail '{0}' because it is invalid</value>
+  </data>
+  <data name="MailingX" xml:space="preserve">
+    <value>Mailing: {0}</value>
+  </data>
+  <data name="CouldNotPickUpX" xml:space="preserve">
+    <value>Could not pick up: {0}</value>
+  </data>
+  <data name="Quest" xml:space="preserve">
+    <value>Quest</value>
+  </data>
+  <data name="AcceptingQuest" xml:space="preserve">
+    <value>Accepting Quest</value>
+  </data>
+  <data name="CompletingQuest" xml:space="preserve">
+    <value>Completing Quest</value>
+  </data>
+  <data name="UpdatingQuestProgress" xml:space="preserve">
+    <value>updating quest progress</value>
+  </data>
+  <data name="SelectQuestByNameX" xml:space="preserve">
+    <value>SelectQuestByName: '{0}'</value>
+  </data>
+  <data name="SelectQuestByNameExiting" xml:space="preserve">
+    <value>SelectQuestByName: Exiting because gossip window is not open</value>
+  </data>
+  <data name="SelectActiveQuestByNameX" xml:space="preserve">
+    <value>SelectActiveQuestByName: '{0}'</value>
+  </data>
+  <data name="SelectActiveQuestByNameExiting" xml:space="preserve">
+    <value>SelectActiveQuestByName: Exiting because no gossip window is open</value>
+  </data>
+  <data name="MovingFromXToVendor " xml:space="preserve">
+    <value>Moving from {0} to Vendor {1} at {2}</value>
+  </data>
+  <data name="SellToVendorExitingX" xml:space="preserve">
+    <value>SellToVendor exiting because: {0}</value>
+  </data>
+  <data name="CouldNotOpenVendorDialog" xml:space="preserve">
+    <value>SellToVendor: Could not open vendor dialog</value>
+  </data>
+  <data name="GettingItemsFromBag" xml:space="preserve">
+    <value>Getting items from bag {0} - {1}</value>
+  </data>
+  <data name="Reparing" xml:space="preserve">
+    <value>Reparing</value>
+  </data>
+  <data name="SellToVendorExitingSuccessfull" xml:space="preserve">
+    <value>SellToVendor exiting successfull</value>
+  </data>
+  <data name="SellingX" xml:space="preserve">
+    <value>Selling {0}</value>
+  </data>
+  <data name="DisenchantingX" xml:space="preserve">
+    <value>Disenchanting '{0}'</value>
+  </data>
+  <data name="OpenLockboxesFoundX" xml:space="preserve">
+    <value>OpenLockboxes: Found {0}. Attempting to unlock</value>
+  </data>
+  <data name="OpenItemsFoundX" xml:space="preserve">
+    <value>OpenItems: Found {0}. Attempting to open</value>
+  </data>
+  <data name="CouldNotRunToVendor" xml:space="preserve">
+    <value>BuyItem: Could not run to vendor. Exiting</value>
+  </data>
+  <data name="CouldNotOpenDialog" xml:space="preserve">
+    <value>BuyItem: Could not open vendor dialog.</value>
+  </data>
+  <data name="BeginMovingThroughAutoNavWaypoints" xml:space="preserve">
+    <value>Begin moving through AutoNav waypoints</value>
+  </data>
+  <data name="SearchingForUnitToAttack" xml:space="preserve">
+    <value>Searching for unit to attack</value>
+  </data>
+  <data name="SearchingForObjectsInList" xml:space="preserve">
+    <value>Searching for objects in the objects list</value>
+  </data>
+  <data name="ExitingNeedsVendor" xml:space="preserve">
+    <value>Exiting. Needs Vendor</value>
+  </data>
+  <data name="ExitingNeedsToBuy" xml:space="preserve">
+    <value>Exiting. Needs to buy '{0}' from vendor</value>
+  </data>
+  <data name="STUCKExiting" xml:space="preserve">
+    <value>STUCK. Exiting</value>
+  </data>
+  <data name="ObstacleFound" xml:space="preserve">
+    <value>Obstacle found. No path could be found around obstacle - Stopping</value>
+  </data>
+  <data name="SearchingForHerbs" xml:space="preserve">
+    <value>Searching for herbs</value>
+  </data>
+  <data name="SearchingForMines" xml:space="preserve">
+    <value>Searching for mines</value>
+  </data>
+  <data name="SearchingForChests" xml:space="preserve">
+    <value>Searching for chests</value>
+  </data>
+  <data name="FacePointExCombat" xml:space="preserve">
+    <value>FacePointExCombat</value>
+  </data>
+  <data name="ThisPointWasRecentlyFaced" xml:space="preserve">
+    <value>This point was recently faced. Skipping for one more second</value>
+  </data>
+  <data name="FacePointEx" xml:space="preserve">
+    <value>FacePointEx</value>
+  </data>
+  <data name="StopMoving" xml:space="preserve">
+    <value>Stop Moving</value>
+  </data>
+  <data name="BuildPath" xml:space="preserve">
+    <value>BuildPath</value>
+  </data>
+  <data name="AutoNavBeginExec" xml:space="preserve">
+    <value>Beginning Auto Nav Execution</value>
+  </data>
+  <data name="AutoNavTestPoint" xml:space="preserve">
+    <value>Test Point</value>
+  </data>
+  <data name="nompqfile" xml:space="preserve">
+    <value>MPQ files were not found. Please change the MPQ directory and try again.</value>
+  </data>
+</root>

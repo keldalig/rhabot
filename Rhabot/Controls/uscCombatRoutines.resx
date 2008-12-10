@@ -1,0 +1,2649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkWarrior_Execute.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkWarrior_Execute.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkWarrior_Execute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 64</value>
+  </data>
+  <data name="chkWarrior_Execute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="chkWarrior_Execute.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkWarrior_Execute.Text" xml:space="preserve">
+    <value>Use Execute</value>
+  </data>
+  <data name="chkWarrior_Execute.ToolTip" xml:space="preserve">
+    <value>Check to use Execute when mob health is 20% and we have at least 20 rage</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Execute.Name" xml:space="preserve">
+    <value>chkWarrior_Execute</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Execute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Execute.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Execute.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkWarrior_Rampage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWarrior_Rampage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarrior_Rampage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 88</value>
+  </data>
+  <data name="chkWarrior_Rampage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="chkWarrior_Rampage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkWarrior_Rampage.Text" xml:space="preserve">
+    <value>Use Rampage</value>
+  </data>
+  <data name="chkWarrior_Rampage.ToolTip" xml:space="preserve">
+    <value>Check this to cast Rampage when we get a critical strike</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Rampage.Name" xml:space="preserve">
+    <value>chkWarrior_Rampage</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Rampage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Rampage.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Rampage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkWarrior_Overpower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWarrior_Overpower.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarrior_Overpower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 111</value>
+  </data>
+  <data name="chkWarrior_Overpower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="chkWarrior_Overpower.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkWarrior_Overpower.Text" xml:space="preserve">
+    <value>Use Overpower</value>
+  </data>
+  <data name="chkWarrior_Overpower.ToolTip" xml:space="preserve">
+    <value>Check to use overpower when the target dodges</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Overpower.Name" xml:space="preserve">
+    <value>chkWarrior_Overpower</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Overpower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Overpower.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;chkWarrior_Overpower.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.Text" xml:space="preserve">
+    <value>Use Consecration on Aggro</value>
+  </data>
+  <data name="chkPaladin_UseConsecration.ToolTip" xml:space="preserve">
+    <value>When checked, you will cast Consecrate if you have more than one monster attacking you</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseConsecration.Name" xml:space="preserve">
+    <value>chkPaladin_UseConsecration</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseConsecration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseConsecration.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseConsecration.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 17</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.Text" xml:space="preserve">
+    <value>Use Avenger's Shield on Aggro</value>
+  </data>
+  <data name="chkPaladin_UseAvengeShield.ToolTip" xml:space="preserve">
+    <value>When checked, you will cast Avenger's Shield if you have more than one monster attacking you</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseAvengeShield.Name" xml:space="preserve">
+    <value>chkPaladin_UseAvengeShield</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseAvengeShield.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseAvengeShield.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;chkPaladin_UseAvengeShield.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtPaladin_SealTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 105</value>
+  </data>
+  <data name="txtPaladin_SealTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtPaladin_SealTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtPaladin_SealTwo.ToolTip" xml:space="preserve">
+    <value>Casts this seal onto you</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealTwo.Name" xml:space="preserve">
+    <value>txtPaladin_SealTwo</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealTwo.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealTwo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPaladin_SealOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 79</value>
+  </data>
+  <data name="txtPaladin_SealOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtPaladin_SealOne.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtPaladin_SealOne.ToolTip" xml:space="preserve">
+    <value>Casts this seal onto the mob</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealOne.Name" xml:space="preserve">
+    <value>txtPaladin_SealOne</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealOne.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;txtPaladin_SealOne.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkDruidBearOnAggro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDruidBearOnAggro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkDruidBearOnAggro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 161</value>
+  </data>
+  <data name="chkDruidBearOnAggro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 17</value>
+  </data>
+  <data name="chkDruidBearOnAggro.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkDruidBearOnAggro.Text" xml:space="preserve">
+    <value>Change to Bear/DireBear on Aggro</value>
+  </data>
+  <data name="chkDruidBearOnAggro.ToolTip" xml:space="preserve">
+    <value>When checked, you will transform into a Bear or DireBear when more than one mob is attacking you</value>
+  </data>
+  <data name="&gt;&gt;chkDruidBearOnAggro.Name" xml:space="preserve">
+    <value>chkDruidBearOnAggro</value>
+  </data>
+  <data name="&gt;&gt;chkDruidBearOnAggro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDruidBearOnAggro.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;chkDruidBearOnAggro.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtHunterRangedDOT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="txtHunterRangedDOT.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHunterRangedDOT.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtHunterRangedDOT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 43</value>
+  </data>
+  <data name="txtHunterRangedDOT.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtHunterRangedDOT.ToolTip" xml:space="preserve">
+    <value>List of Rnaged DOT's to keep on target</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedDOT.Name" xml:space="preserve">
+    <value>txtHunterRangedDOT</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedDOT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedDOT.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedDOT.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtHunterRangedSpamSpells.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 33</value>
+  </data>
+  <data name="txtHunterRangedSpamSpells.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHunterRangedSpamSpells.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtHunterRangedSpamSpells.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 43</value>
+  </data>
+  <data name="txtHunterRangedSpamSpells.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtHunterRangedSpamSpells.ToolTip" xml:space="preserve">
+    <value>List of Ranged spells to spam onto target</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedSpamSpells.Name" xml:space="preserve">
+    <value>txtHunterRangedSpamSpells</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedSpamSpells.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedSpamSpells.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;txtHunterRangedSpamSpells.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtHunterPetHappiness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 82</value>
+  </data>
+  <data name="txtHunterPetHappiness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="txtHunterPetHappiness.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtHunterPetHappiness.ToolTip" xml:space="preserve">
+    <value>When your pet's happiness is at or below this percent, feed him after combat</value>
+  </data>
+  <data name="&gt;&gt;txtHunterPetHappiness.Name" xml:space="preserve">
+    <value>txtHunterPetHappiness</value>
+  </data>
+  <data name="&gt;&gt;txtHunterPetHappiness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHunterPetHappiness.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;txtHunterPetHappiness.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optWarlockPetPull.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optWarlockPetPull.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optWarlockPetPull.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="optWarlockPetPull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="optWarlockPetPull.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="optWarlockPetPull.Text" xml:space="preserve">
+    <value>Pull with Pet</value>
+  </data>
+  <data name="optWarlockPetPull.ToolTip" xml:space="preserve">
+    <value>User your pet to pull mobs</value>
+  </data>
+  <data name="&gt;&gt;optWarlockPetPull.Name" xml:space="preserve">
+    <value>optWarlockPetPull</value>
+  </data>
+  <data name="&gt;&gt;optWarlockPetPull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optWarlockPetPull.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;optWarlockPetPull.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="optWarlockSpellPull.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optWarlockSpellPull.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optWarlockSpellPull.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 25</value>
+  </data>
+  <data name="optWarlockSpellPull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="optWarlockSpellPull.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optWarlockSpellPull.Text" xml:space="preserve">
+    <value>Pull with Spells</value>
+  </data>
+  <data name="optWarlockSpellPull.ToolTip" xml:space="preserve">
+    <value>User spells to pull, and your pet to tank afteward</value>
+  </data>
+  <data name="&gt;&gt;optWarlockSpellPull.Name" xml:space="preserve">
+    <value>optWarlockSpellPull</value>
+  </data>
+  <data name="&gt;&gt;optWarlockSpellPull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optWarlockSpellPull.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;optWarlockSpellPull.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtWarlockCastWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 51</value>
+  </data>
+  <data name="txtWarlockCastWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="txtWarlockCastWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtWarlockCastWaitTime.ToolTip" xml:space="preserve">
+    <value>When using your pet to pull, you can set a delay before your warlock casts a spell on the mob. This helps your pet gain more aggro. Enter a time (in milliseconds) to wait before casting. 1000 milliseconds = 1 second</value>
+  </data>
+  <data name="txtWarlockCastWaitTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockCastWaitTime.Name" xml:space="preserve">
+    <value>txtWarlockCastWaitTime</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockCastWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockCastWaitTime.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockCastWaitTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtWarlockSoulshards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 80</value>
+  </data>
+  <data name="txtWarlockSoulshards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txtWarlockSoulshards.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtWarlockSoulshards.ToolTip" xml:space="preserve">
+    <value>Number of soulshards to keep in your bags. When the quantity is below this amount, your warlock will create new ones during combat</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockSoulshards.Name" xml:space="preserve">
+    <value>txtWarlockSoulshards</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockSoulshards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockSoulshards.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockSoulshards.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtWarlockMobHealthDrain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 109</value>
+  </data>
+  <data name="txtWarlockMobHealthDrain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txtWarlockMobHealthDrain.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtWarlockMobHealthDrain.ToolTip" xml:space="preserve">
+    <value>When the mob's health percent is at or below this amount, begin casting Drain Life/Soul</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockMobHealthDrain.Name" xml:space="preserve">
+    <value>txtWarlockMobHealthDrain</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockMobHealthDrain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockMobHealthDrain.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;txtWarlockMobHealthDrain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtDebuffCurse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 80</value>
+  </data>
+  <data name="txtDebuffCurse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="txtDebuffCurse.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtDebuffCurse.ToolTip" xml:space="preserve">
+    <value>Spell to remove Curse debuffs</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffCurse.Name" xml:space="preserve">
+    <value>txtDebuffCurse</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffCurse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffCurse.Parent" xml:space="preserve">
+    <value>grpDebuffs</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffCurse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 83</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Debuff Curse</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>grpDebuffs</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtDebuffDisease.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 51</value>
+  </data>
+  <data name="txtDebuffDisease.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="txtDebuffDisease.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtDebuffDisease.ToolTip" xml:space="preserve">
+    <value>Spell to remove Disease debuffs</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffDisease.Name" xml:space="preserve">
+    <value>txtDebuffDisease</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffDisease.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffDisease.Parent" xml:space="preserve">
+    <value>grpDebuffs</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffDisease.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 54</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Debuff Disease</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>grpDebuffs</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtDebuffPoison.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="txtDebuffPoison.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="txtDebuffPoison.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtDebuffPoison.ToolTip" xml:space="preserve">
+    <value>Spell to cure poison debuffs</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffPoison.Name" xml:space="preserve">
+    <value>txtDebuffPoison</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffPoison.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffPoison.Parent" xml:space="preserve">
+    <value>grpDebuffs</value>
+  </data>
+  <data name="&gt;&gt;txtDebuffPoison.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Debuff Poison</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>grpDebuffs</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpDebuffs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 295</value>
+  </data>
+  <data name="grpDebuffs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 108</value>
+  </data>
+  <data name="grpDebuffs.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="grpDebuffs.Text" xml:space="preserve">
+    <value>Debuffs</value>
+  </data>
+  <data name="grpDebuffs.ToolTip" xml:space="preserve">
+    <value>List of debuffs you can apply to yourself</value>
+  </data>
+  <data name="&gt;&gt;grpDebuffs.Name" xml:space="preserve">
+    <value>grpDebuffs</value>
+  </data>
+  <data name="&gt;&gt;grpDebuffs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDebuffs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpDebuffs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="cmdSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 3</value>
+  </data>
+  <data name="cmdSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 23</value>
+  </data>
+  <data name="cmdSave.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="&gt;&gt;cmdSave.Name" xml:space="preserve">
+    <value>cmdSave</value>
+  </data>
+  <data name="&gt;&gt;cmdSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdSave.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.Name" xml:space="preserve">
+    <value>txtShaman_AirTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.Name" xml:space="preserve">
+    <value>txtShaman_WaterTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.Name" xml:space="preserve">
+    <value>txtShaman_FireTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.Name" xml:space="preserve">
+    <value>txtShaman_EarthTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.Name" xml:space="preserve">
+    <value>txtShaman_OffWeaponBuff</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.Name" xml:space="preserve">
+    <value>txtShaman_MainWeapBuff</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="grpShaman.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 200</value>
+  </data>
+  <data name="grpShaman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 185</value>
+  </data>
+  <data name="grpShaman.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpShaman.Text" xml:space="preserve">
+    <value>Shaman</value>
+  </data>
+  <data name="grpShaman.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpShaman.Name" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;grpShaman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpShaman.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpShaman.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtShaman_AirTotem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 150</value>
+  </data>
+  <data name="txtShaman_AirTotem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtShaman_AirTotem.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.Name" xml:space="preserve">
+    <value>txtShaman_AirTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_AirTotem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtShaman_WaterTotem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 128</value>
+  </data>
+  <data name="txtShaman_WaterTotem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtShaman_WaterTotem.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.Name" xml:space="preserve">
+    <value>txtShaman_WaterTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_WaterTotem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtShaman_FireTotem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 105</value>
+  </data>
+  <data name="txtShaman_FireTotem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtShaman_FireTotem.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.Name" xml:space="preserve">
+    <value>txtShaman_FireTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_FireTotem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtShaman_EarthTotem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 83</value>
+  </data>
+  <data name="txtShaman_EarthTotem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtShaman_EarthTotem.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.Name" xml:space="preserve">
+    <value>txtShaman_EarthTotem</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_EarthTotem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtShaman_OffWeaponBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 48</value>
+  </data>
+  <data name="txtShaman_OffWeaponBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtShaman_OffWeaponBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.Name" xml:space="preserve">
+    <value>txtShaman_OffWeaponBuff</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_OffWeaponBuff.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtShaman_MainWeapBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 20</value>
+  </data>
+  <data name="txtShaman_MainWeapBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="txtShaman_MainWeapBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.Name" xml:space="preserve">
+    <value>txtShaman_MainWeapBuff</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;txtShaman_MainWeapBuff.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 157</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Air Totem</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 135</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Water Totem</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Fire Totem</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 90</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Earth Totem</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Offhand Weapon Buff</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Main Weapon Buff</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpShaman</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;optThrow.Name" xml:space="preserve">
+    <value>optThrow</value>
+  </data>
+  <data name="&gt;&gt;optThrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optThrow.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;optThrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;optShoot.Name" xml:space="preserve">
+    <value>optShoot</value>
+  </data>
+  <data name="&gt;&gt;optShoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShoot.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;optShoot.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;optCharge.Name" xml:space="preserve">
+    <value>optCharge</value>
+  </data>
+  <data name="&gt;&gt;optCharge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optCharge.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;optCharge.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpWarrior.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 391</value>
+  </data>
+  <data name="grpWarrior.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 138</value>
+  </data>
+  <data name="grpWarrior.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="grpWarrior.Text" xml:space="preserve">
+    <value>Warrior</value>
+  </data>
+  <data name="grpWarrior.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpWarrior.Name" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;grpWarrior.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpWarrior.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpWarrior.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="optThrow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optThrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optThrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 32</value>
+  </data>
+  <data name="optThrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="optThrow.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="optThrow.Text" xml:space="preserve">
+    <value>Throw</value>
+  </data>
+  <data name="&gt;&gt;optThrow.Name" xml:space="preserve">
+    <value>optThrow</value>
+  </data>
+  <data name="&gt;&gt;optThrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optThrow.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;optThrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="optShoot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optShoot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optShoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 32</value>
+  </data>
+  <data name="optShoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="optShoot.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="optShoot.Text" xml:space="preserve">
+    <value>Shoot</value>
+  </data>
+  <data name="&gt;&gt;optShoot.Name" xml:space="preserve">
+    <value>optShoot</value>
+  </data>
+  <data name="&gt;&gt;optShoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShoot.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;optShoot.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="optCharge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optCharge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optCharge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 32</value>
+  </data>
+  <data name="optCharge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="optCharge.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optCharge.Text" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="&gt;&gt;optCharge.Name" xml:space="preserve">
+    <value>optCharge</value>
+  </data>
+  <data name="&gt;&gt;optCharge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optCharge.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;optCharge.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Pull Type</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>grpWarrior</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpPaladin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 46</value>
+  </data>
+  <data name="grpPaladin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 148</value>
+  </data>
+  <data name="grpPaladin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grpPaladin.Text" xml:space="preserve">
+    <value>Paladin</value>
+  </data>
+  <data name="grpPaladin.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpPaladin.Name" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;grpPaladin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPaladin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpPaladin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 108</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Seal Two (You)</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 84</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Seal One (Mob)</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>grpPaladin</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblClass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblClass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 13</value>
+  </data>
+  <data name="lblClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblClass.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblClass.Name" xml:space="preserve">
+    <value>lblClass</value>
+  </data>
+  <data name="&gt;&gt;lblClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblClass.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.Name" xml:space="preserve">
+    <value>optMoonkin</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optCat.Name" xml:space="preserve">
+    <value>optCat</value>
+  </data>
+  <data name="&gt;&gt;optCat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optCat.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optCat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.Name" xml:space="preserve">
+    <value>optDireBear</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;optBear.Name" xml:space="preserve">
+    <value>optBear</value>
+  </data>
+  <data name="&gt;&gt;optBear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optBear.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optBear.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.Name" xml:space="preserve">
+    <value>optHumanoid</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpDruid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 50</value>
+  </data>
+  <data name="grpDruid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 184</value>
+  </data>
+  <data name="grpDruid.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="grpDruid.Text" xml:space="preserve">
+    <value>Druid</value>
+  </data>
+  <data name="grpDruid.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpDruid.Name" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;grpDruid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDruid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpDruid.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="optMoonkin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optMoonkin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optMoonkin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 125</value>
+  </data>
+  <data name="optMoonkin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="optMoonkin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="optMoonkin.Text" xml:space="preserve">
+    <value>Moonkin</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.Name" xml:space="preserve">
+    <value>optMoonkin</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optMoonkin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optCat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optCat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 106</value>
+  </data>
+  <data name="optCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 17</value>
+  </data>
+  <data name="optCat.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="optCat.Text" xml:space="preserve">
+    <value>Cat</value>
+  </data>
+  <data name="&gt;&gt;optCat.Name" xml:space="preserve">
+    <value>optCat</value>
+  </data>
+  <data name="&gt;&gt;optCat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optCat.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optCat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optDireBear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optDireBear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optDireBear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 83</value>
+  </data>
+  <data name="optDireBear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="optDireBear.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="optDireBear.Text" xml:space="preserve">
+    <value>Dire Bear</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.Name" xml:space="preserve">
+    <value>optDireBear</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optDireBear.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="optBear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optBear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optBear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 60</value>
+  </data>
+  <data name="optBear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="optBear.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="optBear.Text" xml:space="preserve">
+    <value>Bear</value>
+  </data>
+  <data name="&gt;&gt;optBear.Name" xml:space="preserve">
+    <value>optBear</value>
+  </data>
+  <data name="&gt;&gt;optBear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optBear.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optBear.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Combat Form</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="optHumanoid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optHumanoid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optHumanoid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 37</value>
+  </data>
+  <data name="optHumanoid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="optHumanoid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="optHumanoid.Text" xml:space="preserve">
+    <value>Humanoid</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.Name" xml:space="preserve">
+    <value>optHumanoid</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.Parent" xml:space="preserve">
+    <value>grpDruid</value>
+  </data>
+  <data name="&gt;&gt;optHumanoid.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpHunter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 227</value>
+  </data>
+  <data name="grpHunter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>519, 237</value>
+  </data>
+  <data name="grpHunter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="grpHunter.Text" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="grpHunter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpHunter.Name" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;grpHunter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpHunter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpHunter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 84</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 13</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Feed Pet When Happiness %</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.Name" xml:space="preserve">
+    <value>cmdHunterRefreshBag</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.Name" xml:space="preserve">
+    <value>cmdHunterDelete</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.Name" xml:space="preserve">
+    <value>cmdHunterAdd</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.Name" xml:space="preserve">
+    <value>lstHunterFeedWithThis</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.Name" xml:space="preserve">
+    <value>lstHunterFoodInBag</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 108</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 124</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Pet Foods</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdHunterRefreshBag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdHunterRefreshBag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 90</value>
+  </data>
+  <data name="cmdHunterRefreshBag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmdHunterRefreshBag.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdHunterRefreshBag.Text" xml:space="preserve">
+    <value>Refresh Bag</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.Name" xml:space="preserve">
+    <value>cmdHunterRefreshBag</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterRefreshBag.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdHunterDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdHunterDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 61</value>
+  </data>
+  <data name="cmdHunterDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmdHunterDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdHunterDelete.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.Name" xml:space="preserve">
+    <value>cmdHunterDelete</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdHunterAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdHunterAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 33</value>
+  </data>
+  <data name="cmdHunterAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmdHunterAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdHunterAdd.Text" xml:space="preserve">
+    <value>Add &gt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.Name" xml:space="preserve">
+    <value>cmdHunterAdd</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdHunterAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lstHunterFeedWithThis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 33</value>
+  </data>
+  <data name="lstHunterFeedWithThis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 82</value>
+  </data>
+  <data name="lstHunterFeedWithThis.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.Name" xml:space="preserve">
+    <value>lstHunterFeedWithThis</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFeedWithThis.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 16</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Feed Pet With This Food</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lstHunterFoodInBag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 33</value>
+  </data>
+  <data name="lstHunterFoodInBag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 82</value>
+  </data>
+  <data name="lstHunterFoodInBag.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.Name" xml:space="preserve">
+    <value>lstHunterFoodInBag</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lstHunterFoodInBag.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Food In Bag</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 16</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Ranged Spam Spells</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Ranged DOT Spells</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>grpHunter</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.Name" xml:space="preserve">
+    <value>cmbWarlockPet</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.Name" xml:space="preserve">
+    <value>lblWarlockPullWaitTime</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpWarlock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 43</value>
+  </data>
+  <data name="grpWarlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 171</value>
+  </data>
+  <data name="grpWarlock.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="grpWarlock.Text" xml:space="preserve">
+    <value>Warlock</value>
+  </data>
+  <data name="grpWarlock.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpWarlock.Name" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;grpWarlock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpWarlock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpWarlock.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbWarlockPet.Items" xml:space="preserve">
+    <value>Imp</value>
+  </data>
+  <data name="cmbWarlockPet.Items1" xml:space="preserve">
+    <value>Voidwalker</value>
+  </data>
+  <data name="cmbWarlockPet.Items2" xml:space="preserve">
+    <value>Succubus</value>
+  </data>
+  <data name="cmbWarlockPet.Items3" xml:space="preserve">
+    <value>Felhunter</value>
+  </data>
+  <data name="cmbWarlockPet.Items4" xml:space="preserve">
+    <value>Felguard</value>
+  </data>
+  <data name="cmbWarlockPet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 135</value>
+  </data>
+  <data name="cmbWarlockPet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="cmbWarlockPet.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.Name" xml:space="preserve">
+    <value>cmbWarlockPet</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;cmbWarlockPet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 138</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Pet to Use</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 111</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 13</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Start draining when mob has X health percent</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 82</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Number of Soulshards to Keep</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 53</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 13</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.Text" xml:space="preserve">
+    <value>Time to wait, in millisends, before casting spells</value>
+  </data>
+  <data name="lblWarlockPullWaitTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.Name" xml:space="preserve">
+    <value>lblWarlockPullWaitTime</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.Parent" xml:space="preserve">
+    <value>grpWarlock</value>
+  </data>
+  <data name="&gt;&gt;lblWarlockPullWaitTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="uscStartEndLevel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uscStartEndLevel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="uscStartEndLevel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;uscStartEndLevel1.Name" xml:space="preserve">
+    <value>uscStartEndLevel1</value>
+  </data>
+  <data name="&gt;&gt;uscStartEndLevel1.Type" xml:space="preserve">
+    <value>Rhabot.Controls.uscStartEndLevel, Rhabot, Version=1.0.58.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uscStartEndLevel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uscStartEndLevel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>974, 598</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>uscCombatRoutines</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
