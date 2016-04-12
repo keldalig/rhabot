@@ -1,0 +1,1 @@
+Rhabot is a World of Warcraft Bot, which includes support for Fishing, Questing, Human Like Navigation (AutoNav), Talent Tree Planner, Remote Character Monitoring, an MSN Command Moducle, and much more. (A more detailed list can be found on the Rhabot List of Features page.)
